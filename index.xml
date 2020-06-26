@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SimpleIT Theme on Henry&#39;s Knowledge Base</title>
+    <title>Knowledge Base on Henry&#39;s Knowledge Base</title>
     <link>https://kb.hiy.tw/</link>
-    <description>Recent content in SimpleIT Theme on Henry&#39;s Knowledge Base</description>
+    <description>Recent content in Knowledge Base on Henry&#39;s Knowledge Base</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -11,50 +11,11 @@
     
     
     <item>
-      <title>Page at nested section level</title>
-      <link>https://kb.hiy.tw/foo-first-level-section/foo-second-level/page-at-foo-second-level/</link>
-      <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/foo-first-level-section/foo-second-level/page-at-foo-second-level/</guid>
-      <description>Overview I am an article at /content/foo-first-level-section/foo-second-level/page-at-second-level.md.
-Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, eu eos vitae deseruisse eloquentiam.
-Ex his nemore dolorem incorrupte, vide omnis facete pro an, cum te summo simul.
-An veri sensibus An veri sensibus hendrerit vim, duo omnis expetenda at, error numquam expetendis eum ea. No cum simul iriure sensibus, consequuntur conclusionemque cum an.
-Admodum rationibus percipitur eos an.</description>
-    </item>
-    
-    <item>
-      <title>Page at nested section third level</title>
-      <link>https://kb.hiy.tw/foo-first-level-section/foo-second-level/foo-third-level/page-at-foo-third-level/</link>
-      <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/foo-first-level-section/foo-second-level/foo-third-level/page-at-foo-third-level/</guid>
-      <description>Overview I am an article at /content/foo-first-level-section/foo-second-level/foo-third-level/page-at-foo-third-level.md.
-Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, eu eos vitae deseruisse eloquentiam.
-Ex his nemore dolorem incorrupte, vide omnis facete pro an, cum te summo simul.
-An veri sensibus An veri sensibus hendrerit vim, duo omnis expetenda at, error numquam expetendis eum ea. No cum simul iriure sensibus, consequuntur conclusionemque cum an.
-Admodum rationibus percipitur eos an.</description>
-    </item>
-    
-    <item>
-      <title>Page at section level</title>
-      <link>https://kb.hiy.tw/foo-first-level-section/page-at-section-level/</link>
-      <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/foo-first-level-section/page-at-section-level/</guid>
-      <description>Overview I am an article at /content/foo-first-level-section/page-at-section-level.md.
-Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, eu eos vitae deseruisse eloquentiam.
-Ex his nemore dolorem incorrupte, vide omnis facete pro an, cum te summo simul.
-An veri sensibus An veri sensibus hendrerit vim, duo omnis expetenda at, error numquam expetendis eum ea. No cum simul iriure sensibus, consequuntur conclusionemque cum an.
-Admodum rationibus percipitur eos an.</description>
-    </item>
-    
-    <item>
-      <title>Bar page in section</title>
-      <link>https://kb.hiy.tw/bar-first-level-section/bar-page-in-section/</link>
+      <title>Asia Miles Tips / 亞萬筆記</title>
+      <link>https://kb.hiy.tw/travel/am/</link>
       <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://kb.hiy.tw/bar-first-level-section/bar-page-in-section/</guid>
+      <guid>https://kb.hiy.tw/travel/am/</guid>
       <description>Overview I am an article at /content/bar-first-level-section/bar-page-in-section.md.
 Author box not being shown as hide_author key in front matter is set to true.
 Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, eu eos vitae deseruisse eloquentiam.
@@ -63,11 +24,11 @@ An veri sensibus An veri sensibus hendrerit vim, duo omnis expetenda at, error n
     </item>
     
     <item>
-      <title>旅遊1</title>
-      <link>https://kb.hiy.tw/%E6%97%85%E9%81%8A/l1/</link>
+      <title>Common Sense for Traveler / 旅遊知識</title>
+      <link>https://kb.hiy.tw/travel/command_sense/</link>
       <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://kb.hiy.tw/%E6%97%85%E9%81%8A/l1/</guid>
+      <guid>https://kb.hiy.tw/travel/command_sense/</guid>
       <description>Overview I am an article at /content/bar-first-level-section/bar-page-in-section.md.
 Author box not being shown as hide_author key in front matter is set to true.
 Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, eu eos vitae deseruisse eloquentiam.
@@ -76,37 +37,11 @@ An veri sensibus An veri sensibus hendrerit vim, duo omnis expetenda at, error n
     </item>
     
     <item>
-      <title>旅遊2</title>
-      <link>https://kb.hiy.tw/%E6%97%85%E9%81%8A/l2/</link>
+      <title>Japan Airlines Tips / 日航筆記</title>
+      <link>https://kb.hiy.tw/travel/jl/</link>
       <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://kb.hiy.tw/%E6%97%85%E9%81%8A/l2/</guid>
-      <description>Overview I am an article at /content/bar-first-level-section/bar-page-in-section.md.
-Author box not being shown as hide_author key in front matter is set to true.
-Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, eu eos vitae deseruisse eloquentiam.
-Ex his nemore dolorem incorrupte, vide omnis facete pro an, cum te summo simul.
-An veri sensibus An veri sensibus hendrerit vim, duo omnis expetenda at, error numquam expetendis eum ea. No cum simul iriure sensibus, consequuntur conclusionemque cum an.</description>
-    </item>
-    
-    <item>
-      <title>爽王1</title>
-      <link>https://kb.hiy.tw/%E6%97%85%E9%81%8A/%E5%BA%A6%E5%81%87%E5%8E%BB/l1/</link>
-      <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/%E6%97%85%E9%81%8A/%E5%BA%A6%E5%81%87%E5%8E%BB/l1/</guid>
-      <description>Overview I am an article at /content/bar-first-level-section/bar-page-in-section.md.
-Author box not being shown as hide_author key in front matter is set to true.
-Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, eu eos vitae deseruisse eloquentiam.
-Ex his nemore dolorem incorrupte, vide omnis facete pro an, cum te summo simul.
-An veri sensibus An veri sensibus hendrerit vim, duo omnis expetenda at, error numquam expetendis eum ea. No cum simul iriure sensibus, consequuntur conclusionemque cum an.</description>
-    </item>
-    
-    <item>
-      <title>玩玩2</title>
-      <link>https://kb.hiy.tw/%E6%97%85%E9%81%8A/%E5%BA%A6%E5%81%87%E5%8E%BB/l2/</link>
-      <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/%E6%97%85%E9%81%8A/%E5%BA%A6%E5%81%87%E5%8E%BB/l2/</guid>
+      <guid>https://kb.hiy.tw/travel/jl/</guid>
       <description>Overview I am an article at /content/bar-first-level-section/bar-page-in-section.md.
 Author box not being shown as hide_author key in front matter is set to true.
 Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, eu eos vitae deseruisse eloquentiam.
@@ -116,10 +51,10 @@ An veri sensibus An veri sensibus hendrerit vim, duo omnis expetenda at, error n
     
     <item>
       <title>生活1</title>
-      <link>https://kb.hiy.tw/%E7%94%9F%E6%B4%BB/l1/</link>
+      <link>https://kb.hiy.tw/life/l1/</link>
       <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://kb.hiy.tw/%E7%94%9F%E6%B4%BB/l1/</guid>
+      <guid>https://kb.hiy.tw/life/l1/</guid>
       <description>Overview I am an article at /content/bar-first-level-section/bar-page-in-section.md.
 Author box not being shown as hide_author key in front matter is set to true.
 Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, eu eos vitae deseruisse eloquentiam.
@@ -129,10 +64,10 @@ An veri sensibus An veri sensibus hendrerit vim, duo omnis expetenda at, error n
     
     <item>
       <title>生活2</title>
-      <link>https://kb.hiy.tw/%E7%94%9F%E6%B4%BB/l2/</link>
+      <link>https://kb.hiy.tw/life/l2/</link>
       <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://kb.hiy.tw/%E7%94%9F%E6%B4%BB/l2/</guid>
+      <guid>https://kb.hiy.tw/life/l2/</guid>
       <description>Overview I am an article at /content/bar-first-level-section/bar-page-in-section.md.
 Author box not being shown as hide_author key in front matter is set to true.
 Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, eu eos vitae deseruisse eloquentiam.
