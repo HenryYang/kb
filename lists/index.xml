@@ -10,5 +10,32 @@
 	<atom:link href="https://kb.hiy.tw/lists/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Adguard Home Block List / Adguard Home 廣告封鎖清單</title>
+      <link>https://kb.hiy.tw/lists/ad/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/lists/ad/</guid>
+      <description>我自己在用的清單 </description>
+    </item>
+    
+    <item>
+      <title>ETF &amp; Special Shares List / ETF 特別股 殖利率清單</title>
+      <link>https://kb.hiy.tw/lists/etf/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/lists/etf/</guid>
+      <description>我自己在用的清單 </description>
+    </item>
+    
+    <item>
+      <title>Mobile Payment List / 行動支付的支援清單</title>
+      <link>https://kb.hiy.tw/lists/pay/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/lists/pay/</guid>
+      <description>台灣常見行動支付 </description>
+    </item>
+    
   </channel>
 </rss>
