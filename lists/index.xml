@@ -37,5 +37,14 @@
       <description>台灣常見行動支付 對應表     銀行/支付系統 Apple Pay Google Pay Samsung Pay Garmin Pay Fitbit Pay  支援家數     國泰世華銀行 ✅ ✅ ✅ ✅ ✅  5   國泰世華銀行 - 金融卡 ✅ ✅ ✅ ✅ ✅  5   中國信託銀行 ✅ ✅ ✅ ✅ ✅  5   中國信託銀行 - 金融卡 ✅ ✅ ✅    3   台新國際商業銀行 ✅ ✅ ✅ ✅ ✅  5   台新國際商業銀行 - 金融卡 ✅ ✅ ✅ ✅ ✅  5   聯邦銀行 ✅ ✅ ✅ ✅ ✅  5   聯邦銀行 - 金融卡 ✅      1   玉山商業銀行 ✅ ✅ ✅ ✅ ✅  5   玉山商業銀行 - 金融卡 ✅ ✅ ✅    3   台北富邦商業銀行 ✅ ✅ ✅ ✅ ✅  5   台北富邦商業銀行 - 金融卡 ✅ ✅ ✅ ✅ ✅  5   渣打銀行 ✅ ✅ ✅    3   渣打銀行 - 金融卡 ✅ ✅ ✅    3   第一商業銀行 ✅ ✅     2   滙豐（台灣）銀行 ✅ ✅ ✅    3   華南商業銀行 ✅ ✅     2   新光銀行 ✅ ✅     2   上海商銀  ✅ ✅    2   花旗銀行 ✅  ✅    2   永豐銀行 ✅ ✅ ✅ ✅ ✅  5   永豐銀行 - 金融卡 ✅      1   凱基銀行 ✅ ✅     2   安泰銀行  ✅     1   合作金庫  ✅     1   彰化銀行  ✅     1             支援家數 14 17 11 7 7       ## 備註 Apple Pay 目前支援 JCB 卡的銀行僅有：永豐銀行、中國信託、玉山銀行、第一銀行、華南銀行、聯邦銀行</description>
     </item>
     
+    <item>
+      <title>Taiwan &amp; Japan 4G 5G Band / 台灣與日本 4G 5G 頻段</title>
+      <link>https://kb.hiy.tw/lists/band/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/lists/band/</guid>
+      <description>台灣常見 4G 頻段      B1 (FDD 2100MHz) B3 (FDD 1800MHz) B7 (FDD 2600MHz) B8 (FDD 900MHz) B28 (FDD 700MHz) B38 (TDD 2600MHz)     中華 V V V V     遠傳 V V V  V V   台哥 V V   V    台星 V  V V     亞太    V V V    日本常見 4G 頻段      B1 (FDD 2100MHz) B3 (FDD 1800MHz) B8 (FDD 900MHz) B19 (FDD 800MHz) B21 (FDD 1500MHz) B28 (FDD 700MHz) B41 (TD 2500)      NTT V V  V V V     Softbank V V V    V     台灣常見 5G 頻段     n1 n3 n28 n41 n78 n257     中華 V V   V V   遠傳 V V V V V V   台哥 V V V  V V   台星 V V   V    亞太   V V  V     日本常見 5G 頻段      n77 n78 n79 n257       NTT  V V V     Softbank V   V      </description>
+    </item>
+    
   </channel>
 </rss>
