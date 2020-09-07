@@ -43,7 +43,7 @@
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/software/command/</guid>
-      <description>消費賺點回饋網站 </description>
+      <description></description>
     </item>
     
     <item>
@@ -86,6 +86,17 @@
     </item>
     
     <item>
+      <title> Trivia / 無法歸類的冷知識</title>
+      <link>https://kb.hiy.tw/life/trivia/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/life/trivia/</guid>
+      <description>科技類  關於網址上面的中文與 URL Encode  如果網址內有包含中文（如維基百科頁面）  在 Chrome 中複製時會自動將網址轉為「百分號編碼」 在 Safari 則會保留原本中文字符。   雖然 Chrome 很貼心的轉換了，但現在大部分的服務 (如 Facebook 的轉貼) 都能支援含中文的 URL 轉成百分號編碼後會讓訊息變得很長，而且在一些如 LINE 之類的訊息軟體裡，也不容易一眼看出分享的網頁的內容。   破版文字 (netgraffiti)  https://mobile.twitter.com/nmrmrmrn   Unicode 字元辨識 (用畫的來辨識可能的字元)  https://shapecatcher.com/index.html   Google Docs 文件直接分享副本 把 edit?usp=sharing 換成 copy 就可以讓分享的人直接是拿到文件副本
+ Google Play 更換顯示語言 把 &amp;amp;hl=zh_tw 的等於之後參數換成想要的語言_國家/地區即可，如有清楚的可以參考 ISO 639 相關資訊
+ 日常生活類  Taiwan, Province of China，代碼 TWN 是聯合國標準 ISO 3166-1 的稱呼。 覺得要別人停止用 Taiwan, China 或 Taiwan, Providence of China，自己政府先停止自稱 Republic of China, Taiwan 比較實在。</description>
+    </item>
+    
+    <item>
       <title> Typhoon Check Service / 颱風查詢</title>
       <link>https://kb.hiy.tw/life/typhoon/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
@@ -118,7 +129,10 @@
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/software/tips/</guid>
-      <description>我自己在用的清單 </description>
+      <description>Let&amp;rsquo;s Encrypt 安裝指令
+# For macOS $ brew install letsencrypt # For Ubuntu $ apt install certbot  手動產生憑證（可用於驗證 Private IP 或無法安裝 agent 的主機上）
+$ certbot certonly --manual --config-dir ~/Desktop/letsencrypt --work-dir ~/Desktop/letsencrypt --logs-dir ~/Desktop/letsencrypt --preferred-challenges dns  自動產生憑證（用於外網可以直接連線到 agent 的主機上）
+$ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --preferred-challenges http -d 你的網域  關閉 SSH 密碼登入 # /etc/ssh/sshd_config PasswordAuthentication no ChallengeResponseAuthentication no UsePAM no  ESXi 重起管理服務 /etc/init.d/hostd restart /etc/init.d/vpxa restart  Openssl 相關指令  https://ssorc.</description>
     </item>
     
     <item>
@@ -212,6 +226,15 @@
     </item>
     
     <item>
+      <title>Surge Module List / Surge 模組清單</title>
+      <link>https://kb.hiy.tw/lists/surge/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/lists/surge/</guid>
+      <description>皮樂維護的清單  https://kinta.ma/surge/  </description>
+    </item>
+    
+    <item>
       <title>Taiwan &amp; Japan 4G 5G Band / 台灣與日本 4G 5G 頻段</title>
       <link>https://kb.hiy.tw/lists/band/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
@@ -230,6 +253,15 @@
     </item>
     
     <item>
+      <title>Useful tools / 實用小工具</title>
+      <link>https://kb.hiy.tw/software/useful/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/software/useful/</guid>
+      <description>scrcpy - Display and control of Android devices connected on USB  https://github.com/Genymobile/scrcpy  SikuliX - automates anything you see on the screen  https://igouist.github.io/post/202003-sikulix/  </description>
+    </item>
+    
+    <item>
       <title>VIM Tips / VIM 常用指令</title>
       <link>https://kb.hiy.tw/software/vim/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
@@ -239,12 +271,12 @@
     </item>
     
     <item>
-      <title>Windows Essential App / Windows 安裝與設定</title>
+      <title>Windows Essential App &amp; Tips / Windows 常見軟體與小技巧</title>
       <link>https://kb.hiy.tw/software/windows/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/software/windows/</guid>
-      <description>我自己在用的清單 </description>
+      <description>開啟虛擬化 (WSL2 需要) bcdedit /set hypervisorlaunchtype auto </description>
     </item>
     
     <item>
@@ -274,11 +306,7 @@
       <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/travel/akihabara/</guid>
-      <description>Overview I am an article at /content/bar-first-level-section/bar-page-in-section.md.
-Author box not being shown as hide_author key in front matter is set to true.
-Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, eu eos vitae deseruisse eloquentiam.
-Ex his nemore dolorem incorrupte, vide omnis facete pro an, cum te summo simul.
-An veri sensibus An veri sensibus hendrerit vim, duo omnis expetenda at, error numquam expetendis eum ea. No cum simul iriure sensibus, consequuntur conclusionemque cum an.</description>
+      <description> 秋葉原電器相關資訊  https://akiba-pc.watch.impress.co.jp/  常會貼超值二手電器的店家 Twitter  https://twitter.com/MlcStaff/  二手電器店散佈範圍  https://maps.app.goo.gl/aNct4U9uGkot4VLr6 https://maps.app.goo.gl/hwkePXrh5rwJXr469  某位很愛逛秋葉原二手店的經驗分享噗  https://www.plurk.com/p/nl5wmq  </description>
     </item>
     
     <item>
@@ -295,12 +323,12 @@ An veri sensibus An veri sensibus hendrerit vim, duo omnis expetenda at, error n
     </item>
     
     <item>
-      <title>Check list for Used Mac Device / 2手蘋果電腦驗機方式</title>
+      <title>Check list for Used Mac Device / 二手蘋果電腦驗機方式</title>
       <link>https://kb.hiy.tw/tips/mac_2hand/</link>
       <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/tips/mac_2hand/</guid>
-      <description>你的廣告偏好 用來移除『你的興趣』與移除使用個資來投放廣告的『廣告商』  https://www.facebook.com/ads/preferences/     Facebook 站外動態 清除或是關閉後可以避免商家和組織與 Facebook 分享有關我們與其互動的資訊 但這同時會影響到使用 Facebook 登入的第三方服務  https://www.facebook.com/off_facebook_activity/?entry_point=1  </description>
+      <description>MacuKnow - mac 驗機 步驟，購買全新或二手前都可參考  https://macuknow.com/2019/07/01/2126/   皮樂的買二手機建議驗機方式  https://www.facebook.com/hiraku.tw/posts/3429848490378227  </description>
     </item>
     
     <item>

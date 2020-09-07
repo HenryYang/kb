@@ -16,7 +16,7 @@
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/software/command/</guid>
-      <description>消費賺點回饋網站 </description>
+      <description></description>
     </item>
     
     <item>
@@ -34,7 +34,10 @@
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/software/tips/</guid>
-      <description>我自己在用的清單 </description>
+      <description>Let&amp;rsquo;s Encrypt 安裝指令
+# For macOS $ brew install letsencrypt # For Ubuntu $ apt install certbot  手動產生憑證（可用於驗證 Private IP 或無法安裝 agent 的主機上）
+$ certbot certonly --manual --config-dir ~/Desktop/letsencrypt --work-dir ~/Desktop/letsencrypt --logs-dir ~/Desktop/letsencrypt --preferred-challenges dns  自動產生憑證（用於外網可以直接連線到 agent 的主機上）
+$ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --preferred-challenges http -d 你的網域  關閉 SSH 密碼登入 # /etc/ssh/sshd_config PasswordAuthentication no ChallengeResponseAuthentication no UsePAM no  ESXi 重起管理服務 /etc/init.d/hostd restart /etc/init.d/vpxa restart  Openssl 相關指令  https://ssorc.</description>
     </item>
     
     <item>
@@ -110,6 +113,15 @@
     </item>
     
     <item>
+      <title>Useful tools / 實用小工具</title>
+      <link>https://kb.hiy.tw/software/useful/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/software/useful/</guid>
+      <description>scrcpy - Display and control of Android devices connected on USB  https://github.com/Genymobile/scrcpy  SikuliX - automates anything you see on the screen  https://igouist.github.io/post/202003-sikulix/  </description>
+    </item>
+    
+    <item>
       <title>VIM Tips / VIM 常用指令</title>
       <link>https://kb.hiy.tw/software/vim/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
@@ -119,12 +131,12 @@
     </item>
     
     <item>
-      <title>Windows Essential App / Windows 安裝與設定</title>
+      <title>Windows Essential App &amp; Tips / Windows 常見軟體與小技巧</title>
       <link>https://kb.hiy.tw/software/windows/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/software/windows/</guid>
-      <description>我自己在用的清單 </description>
+      <description>開啟虛擬化 (WSL2 需要) bcdedit /set hypervisorlaunchtype auto </description>
     </item>
     
   </channel>
