@@ -253,6 +253,15 @@ $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --pref
     </item>
     
     <item>
+      <title>Useful Services / 實用網站</title>
+      <link>https://kb.hiy.tw/lists/url/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/lists/url/</guid>
+      <description>超強翻譯網站 DeepL  https://www.deepl.com/translator   隨機產生專案名稱  https://mrsharpoblunto.github.io/foswig.js/  </description>
+    </item>
+    
+    <item>
       <title>Useful tools / 實用小工具</title>
       <link>https://kb.hiy.tw/software/useful/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
