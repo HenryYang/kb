@@ -6,11 +6,7 @@
     <description>Recent content in Tags on Henry&#39;s Knowledge Base</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Jul 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://kb.hiy.tw/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 06 Jul 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://kb.hiy.tw/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>example-tag</title>
       <link>https://kb.hiy.tw/tags/example-tag/</link>

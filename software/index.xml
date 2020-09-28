@@ -5,11 +5,7 @@
     <link>https://kb.hiy.tw/software/</link>
     <description>Recent content in Software/軟體 on Henry&#39;s Knowledge Base</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://kb.hiy.tw/software/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://kb.hiy.tw/software/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title> CLI Shortcut / CLI 快捷鍵</title>
       <link>https://kb.hiy.tw/software/command/</link>
@@ -64,7 +60,7 @@ $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --pref
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/software/macos/</guid>
-      <description>我自己在用的清單 </description>
+      <description>常見 Mac 開機時除錯快捷鍵  預設在 Windows 鍵盤上  Option 就是 Alt Command（⌘） 就是 ⊞ WinKey   執行 Mac 上的「Apple 診斷」  在關機狀態下按下電源鍵，然後立即按住鍵盤上的 D 鍵，持續按住直到出現選擇語言的畫面為止。   重新安裝 macOS  在關機且插上網路線時按下電源鍵，然後立即同時按住鍵盤上的 Command（⌘）與 R 兩個鍵。   手動選擇開機磁碟  在關機時按下電源鍵，然後立即按住鍵盤上的 Option 鍵，持續按住直到出現選擇硬碟的畫面為止。   進入安全模式  在關機狀態下按下電源鍵，然後立即按住鍵盤上的 Shift 鍵，持續按住直到出現登入畫面為止。   驗證是否在安全模式方式  點選 左上方的蘋果圖案 -&amp;gt; 關於這台 Mac -&amp;gt; 系統報告 -&amp;gt; 軟體，然後檢查「開機模式」。 為「安全」表示在安全模式，為「正常」則是正常開機。   以目標磁碟模式啟動( 就是把 Mac 當成 Thunderbolt 外接硬碟用 )  在關機狀態下按下電源鍵，然後立即按住鍵盤上的 T 鍵，持續按住直到出現Thunderbolt 的畫面為止。   進入 Single-User 模式  在關機狀態下按下電源鍵，然後立即按住鍵盤上的 S 鍵，持續按住直到出現登入畫面為止。 僅支援到 High Sierra (10.</description>
     </item>
     
     <item>
@@ -73,7 +69,8 @@ $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --pref
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/software/macos_tips/</guid>
-      <description>我自己在用的清單 </description>
+      <description>顯示從 Keychain 匯出的 .p12 中的公私鑰 openssl pkcs12 -info -in INFILE.p12 -nodes 憑證格式相關資訊
+ 在 CLI 匯入憑證到 Keychain # 解鎖 Keychain security unlock-keychain -p 電腦的密碼 ~/Library/Keychains/login.keychain-db # 匯入公私鑰 security import 要匯入的憑證 -k ~/Library/Keychains/login.keychain-db  手動安裝 Xcode # 去 Apple Developer 網站下載 xip 格式的 Xcode (現在需要登入才能下載) https://developer.apple.com/download/more/ # 使用 xip 指令直接安裝 xip -x ~/Download/Xcode_12.xip  </description>
     </item>
     
     <item>
