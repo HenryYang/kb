@@ -57,7 +57,7 @@
     </item>
     
     <item>
-      <title>Credit Card Currency Converter Calculator / 信用卡貨幣轉換匯率</title>
+      <title>Credit Card Currency Converter / 信用卡貨幣轉換匯率</title>
       <link>https://kb.hiy.tw/lists/currency/</link>
       <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
       
@@ -259,6 +259,15 @@ $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --pref
     </item>
     
     <item>
+      <title>iOS Tips / iOS 小技巧</title>
+      <link>https://kb.hiy.tw/software/ios/ios/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/software/ios/ios/</guid>
+      <description>隨機化 iOS 14 的 Mac Address  https://support.apple.com/zh-tw/HT211227  </description>
+    </item>
+    
+    <item>
       <title>MacOS Essential App / MacOS 安裝與設定</title>
       <link>https://kb.hiy.tw/software/macos/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
@@ -319,7 +328,7 @@ $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --pref
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/lists/url/</guid>
-      <description>超強翻譯網站 DeepL  https://www.deepl.com/translator   隨機產生專案名稱  https://mrsharpoblunto.github.io/foswig.js/   隨機產生高強度密碼  https://1password.com/zh-tw/password-generator/   GitHub 功能小抄  https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.zh-tw.md   資安入門資源  https://gotyour.pw/resources.html   資安入門概論  https://github.com/sakura26/DADA   </description>
+      <description>超強翻譯網站 DeepL  https://www.deepl.com/translator   隨機產生專案名稱  https://mrsharpoblunto.github.io/foswig.js/   隨機產生高強度密碼  https://1password.com/zh-tw/password-generator/   GitHub 功能小抄  https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.zh-tw.md   資安入門資源  https://gotyour.pw/resources.html   資安入門概論  https://github.com/sakura26/DADA   反查目前真實使用的 DNS Server  https://which.nameserve.rs/  </description>
     </item>
     
     <item>
@@ -346,7 +355,7 @@ $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --pref
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/software/windows/</guid>
-      <description>開啟虛擬化 (WSL2 需要) bcdedit /set hypervisorlaunchtype auto 關於靜態路由 # 顯示目前路由表 route print # 刪除全部路由表 route -f </description>
+      <description>開啟虛擬化 (WSL2 需要) bcdedit /set hypervisorlaunchtype auto 關於靜態路由 # 顯示目前路由表 route print # 刪除全部路由表 route -f diskpart 來完整清除分割區 #顯示磁碟清單 list disk #選擇要處理的磁碟 select disk {NO} #清除目前處理磁碟的所有分割區 clean </description>
     </item>
     
     <item>
