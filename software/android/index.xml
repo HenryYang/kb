@@ -5,11 +5,7 @@
     <link>https://kb.hiy.tw/software/android/</link>
     <description>Recent content in Android on Henry&#39;s Knowledge Base</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://kb.hiy.tw/software/android/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://kb.hiy.tw/software/android/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Android adb Tips / Android adb 相關資訊</title>
       <link>https://kb.hiy.tw/software/android/android_adb/</link>

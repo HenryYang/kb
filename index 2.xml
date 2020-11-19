@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Knowledge Base on Henry&#39;s Knowledge Base</title>
+    <link>https://kb.hiy.tw/</link>
+    <description>Recent content in Knowledge Base on Henry&#39;s Knowledge Base</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://kb.hiy.tw/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Android adb Tips / Android adb 相關資訊</title>
+      <link>https://kb.hiy.tw/software/android/android_adb/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/software/android/android_adb/</guid>
+      <description>adb 最新版下載位置  Windows 版本：https://dl.google.com/android/repository/platform-tools-latest-windows.zip Mac 版本：https://dl.google.com/android/repository/platform-tools-latest-darwin.zip Linux 版本：https://dl.google.com/android/repository/platform-tools-latest-linux.zip  常用指令  adb 常用命令大全  </description>
+    </item>
+    
+    <item>
+      <title>Asia Miles Tips / 亞萬筆記</title>
+      <link>https://kb.hiy.tw/travel/am/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/travel/am/</guid>
+      <description>國泰航空（亞洲萬里通）   航班所需點數查詢
+ https://www.asiamiles.com/zh/afr.html    查詢七天該航點所使用機材
+ https://www.cathaypacific.com/cx/zh_TW/book-a-trip/timetable.html    標準賞兌換表格
+ https://www.asiamiles.com/zh/redeem-awards/flight-awards/flight-award-chart.html#AsiaMilesawardschart    環球票（「寰宇一家」聯盟成員獎勵）兌換表格
+ https://www.asiamiles.com/zh/redeem-awards/flight-awards/flight-award-chart.html#oneworldmulti-carrierawardschart    亞萬兌換飛行獎勵之一般條款
+ https://www.asiamiles.com/zh/terms-and-conditions/service/flight-award-redemption-general-conditions.html    亞萬各種服務費
+ https://www.asiamiles.com/zh/terms-and-conditions/service/service-fees.html    國泰自家標準賞放票為前 353 天
+ 銀卡以上可再提前三天訂，馬可波羅會員可提前兩天訂票    亞萬開 CX/KA 里程票，機場有位子即可改簽，不需有 Z/U/X 等里程票相應艙等，收取 40 美金或等值的幣別改簽費用。
+ 航班 Delay 超過五分鐘（以官方公布起飛時間為準）則維持免費改簽。 https://www.facebook.com/d3consulting.org/posts/2368549880071782    名詞解釋
+ Re-Book 只改時間，航空公司、地點、艙等、獎勵類別都 &amp;ldquo;不變&amp;rdquo; 可網路處理，US$25 / 1,000 哩，電話處理，US$40 / 4,000 哩 Re-Issue 當碰到改地點、改艙等、改獎勵類別時就只能選這種 只能電話處理，US$100 / 10,000 哩， Refund 當還碰到改航空公司時，就只能退票重開 只能電話處理，US$120 / 12,000 哩，    網友做的混艙計算表</description>
+    </item>
+    
+    <item>
+      <title>Common Sense for Traveler / 旅遊知識</title>
+      <link>https://kb.hiy.tw/travel/command_sense/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/travel/command_sense/</guid>
+      <description>通用   GCMAP - 用來查飛行距離
+ http://www.gcmap.com/    Traveldoc - 查詢各國護照進出各國是否需要簽證
+ https://www.traveldoc.aero/Passenger/Check?Language=en-US    Expertflyer - 就是那個大家熟知要付錢的服務
+ https://www.expertflyer.com/main.do    外交部領事局 - 查詢中華民國護照進出各國是否需要簽證
+ https://www.boca.gov.tw/sp-foof-countrylp-03-1.html    中國信託里程兌換單（亞萬、長榮、華航、新航）
+ https://www.ctbcbank.com/content/dam/twrbo/pdf/creditcard/applyform/cc_bp_mileage_apply.pdf    寰宇一家直飛/轉機航點查詢 (失效中)
+ http://onw.innosked.com    各聯盟航點查詢
+ https://www.flightconnections.com/    各家子艙等累積比例計算
+ https://www.wheretocredit.com/calculator    查詢飛行的里程累積在各計畫的比例
+ https://www.wheretocredit.com/    查詢機場出發的航線
+ https://www.flightsfrom.com/    離線查詢各航空/聯盟航點軟體</description>
+    </item>
+    
+    <item>
+      <title>Credit Card Currency Converter / 信用卡貨幣轉換匯率</title>
+      <link>https://kb.hiy.tw/lists/currency/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/lists/currency/</guid>
+      <description>三大組織   VISA https://www.visa.com.tw/travel-with-visa/exchange-rate-calculator.html
+  Mastercard https://www.mastercard.us/en-us/personal/get-support/convert-currency.html
+  JCB - JPY https://www.jcb.jp/rate/jpy.html
+  JCB - USD https://www.jcb.jp/rate/usd.html
+  現成的比較網站 https://www.bestxrate.com/
+  </description>
+    </item>
+    
+    <item>
+      <title>Japan Airlines Tips / 日航筆記</title>
+      <link>https://kb.hiy.tw/travel/jl/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/travel/jl/</guid>
+      <description>日本航空   自家與外航累積比例表
+ https://www.tw.jal.co.jp/world/en/jalmile/flight/    國內線與國際線 FOP 計算表
+ https://www.jal.co.jp/cgi-bin/jal/milesearch/save/flt_mile_save.cgi?external=1&amp;amp;language=en    JEP 訂票頁面
+ https://www.world.jal.co.jp/world/zhtw/japan_explorer_pass/tw/reservation/    網友自制 JGC 修行里程計算器
+ https://www.jgcmileagerun.org/trilogy/mrgenerator    華南里程兌換單
+ https://bit.ly/2HYRb6U    匯豐哩程兌換頁面
+ https://ecard.hsbc.com.tw/EXT/travelPlus/redeem https://ecard.hsbc.com.tw/CH/chLogin    網友整理的常見 OW 航空累積到 JAL 的比例
+ https://bit.ly/30OVWXG    二等親關係圖
+ https://www.jal.co.jp/en/jalmile/use/ticket.html    里程票放票為前 360 天
+ https://www.facebook.com/d3consulting.org/posts/2201428096783962    艙等選位資訊</description>
+    </item>
+    
+    <item>
+      <title>Tricky for Mifare Classic / Mifare Classic 的冷知識</title>
+      <link>https://kb.hiy.tw/software/mifare_uid/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/software/mifare_uid/</guid>
+      <description>Tools  MIFARE Classic Tool - 用來讀取與編輯 Mifare Classic 卡 NFC TagInfo - 用來識別 RFID 卡片的類型與 UID 相關資訊 Mifare Calculator - Mifare 卡較驗碼的計算  Servies  XOR Calculator Mifare Classic UID BCC Calculator  Notes  Sector0 Block0 前 4 Byte 放置了該張卡的 UID，第 5 Byte 是校驗碼，為前 4 個 Byte XOR 的結果 假設 UID 為 DDCCBBAA 那這時候要解讀回 10 進位就是變成 (AABBCCDD)hex = 2864434397 (如果長度不足十位則前面補 0 )  參考資料</description>
+    </item>
+    
+    <item>
+      <title>Crypto.com Fiat Wallet notes/ Crypto.com 的 Fiat Wallet 記錄</title>
+      <link>https://kb.hiy.tw/notes/crypto_com/</link>
+      <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/notes/crypto_com/</guid>
+      <description> Fiat Wallet 就是法幣帳戶，可以在支援的國家用銀行系統來存款與提款 在從 Crypto.com Fiat Wallet 提款到銀行帳號前，要先用該銀行帳號存款完成帳號持有人的驗證   提款所耗費時間 (UTC+8)  提款到德國的銀行  8/1 晚上申請提領 100 EUR 8/4 下午銀行推撥通知收到款項   提款到英國的銀行  8/3 晚上申請提領 100 GBP 8/4 晚上銀行推撥通知收到款項    </description>
+    </item>
+    
+    <item>
+      <title>eToro withdraw via Paypal  / eToro 透過 Paypal 記錄</title>
+      <link>https://kb.hiy.tw/notes/etoro/</link>
+      <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/notes/etoro/</guid>
+      <description> 信用卡綁定 PayPal 入金的，出金是給 PayPal 餘額。所以信用卡回饋不用吐回去。 成本：etoro 出金手續費 5 USD + PayPal 提領到玉山銀行的 2.5% 手續費   出金所耗費時間 (UTC+8)  7/23 22:00 Etoro 申請出金 7/24 18:33 Paypal 收到款項 7/24 21:10 Paypal 提款 7/29 16:00 玉山收到款項  </description>
+    </item>
+    
+    <item>
+      <title>Fundamental knowledge for Credit Card / 信用卡的小知識</title>
+      <link>https://kb.hiy.tw/notes/credit/</link>
+      <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/notes/credit/</guid>
+      <description> 一般來說，『國際交易手續費』會出現的原因是『信用卡發卡銀行』與『收單行銀行』屬於不同國家  所以在台灣搭 Uber 雖然是刷台幣，但因為刷卡地在荷蘭所以符合上述規則所以被收國際交易手續費 台灣美國運通特例，只要幣別是台幣不管『收單行銀行』再哪個國家，它就是不收『國際交易手續費』      當交易退刷時，如果當時有被收『國際交易手續費』，是看銀行與卡別來決定會不會退。有些銀行除了不退外可能還會再收一筆退刷的手續費  實際各家銀行的狀態，建議參考網友整理好的表格    </description>
+    </item>
+    
+    <item>
+      <title> CLI Shortcut / CLI 快捷鍵</title>
+      <link>https://kb.hiy.tw/software/command/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/software/command/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Famous Restaurant / 美食清單</title>
+      <link>https://kb.hiy.tw/life/food/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/life/food/</guid>
+      <description>Foursquare 地圖 2018 臺北米其林指南 必比登推介美食 2018 臺北米其林指南 餐盤餐廳 2018 臺北米其林指南 星級餐廳 2019 臺北米其林指南 必比登推介美食 2019 臺北米其林指南 餐盤餐廳 2019 臺北米其林指南 星級餐廳 美國運通 簽帳金卡 美食饗宴 美國運通 信用白金卡 美食饗宴 美國運通 簽帳白金卡 美食饗宴 亞洲萬里通 賺哩餐廳 Henry 的口袋名單  美食部落客 這裡沒有美食 吃的太多而胃太小 </description>
+    </item>
+    
+    <item>
+      <title> Milesback Reward Service / 消費賺哩程回饋網站</title>
+      <link>https://kb.hiy.tw/life/earn_miles/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/life/earn_miles/</guid>
+      <description>Asia Miles iShop  官網：https://shop.asiamiles.com/zh/ 台灣常見商店清單  ANA GLOBAL MILEAGE MALL  官網：https://anaglobalmall.com/hk 台灣常見商店清單  JAL World Marketplace  官網：https://shop.jmbworldmarketplace.com/ 嗯，沒有台灣商店  </description>
+    </item>
+    
+    <item>
+      <title> Sympton   / 符號的英文念法</title>
+      <link>https://kb.hiy.tw/life/eng_spell/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/life/eng_spell/</guid>
+      <description>常見符號英文   / -&amp;gt; slash
+  # -&amp;gt; sharp/hashtag/number
+  - -&amp;gt; hyphen
+  — -&amp;gt; dash
+  _ -&amp;gt; underline
+  &amp;amp; -&amp;gt; ampersand/and
+  ! -&amp;gt; bang or exclamation
+  ? -&amp;gt; question mark
+  \ -&amp;gt; backslash
+  * -&amp;gt; star symbol
+  ~ -&amp;gt; tilde
+  () -&amp;gt; brackets
+  * -&amp;gt; asterisk</description>
+    </item>
+    
+    <item>
+      <title> Trivia / 無法歸類的冷知識</title>
+      <link>https://kb.hiy.tw/life/trivia/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/life/trivia/</guid>
+      <description>科技類  關於網址上面的中文與 URL Encode  如果網址內有包含中文（如維基百科頁面）  在 Chrome 中複製時會自動將網址轉為「百分號編碼」 在 Safari 則會保留原本中文字符。   雖然 Chrome 很貼心的轉換了，但現在大部分的服務 (如 Facebook 的轉貼) 都能支援含中文的 URL 轉成百分號編碼後會讓訊息變得很長，而且在一些如 LINE 之類的訊息軟體裡，也不容易一眼看出分享的網頁的內容。   破版文字 (netgraffiti)  https://mobile.twitter.com/nmrmrmrn   Unicode 字元辨識 (用畫的來辨識可能的字元)  https://shapecatcher.com/index.html   Google Docs 文件直接分享副本 把 edit?usp=sharing 換成 copy 就可以讓分享的人直接是拿到文件副本
+ Google Play 更換顯示語言 把 &amp;amp;hl=zh_tw 的等於之後參數換成想要的語言_國家/地區即可，如有清楚的可以參考 ISO 639 相關資訊
+ 日常生活類  Taiwan, Province of China，代碼 TWN 是聯合國標準 ISO 3166-1 的稱呼。 覺得要別人停止用 Taiwan, China 或 Taiwan, Providence of China，自己政府先停止自稱 Republic of China, Taiwan 比較實在。</description>
+    </item>
+    
+    <item>
+      <title> Typhoon Check Service / 颱風查詢</title>
+      <link>https://kb.hiy.tw/life/typhoon/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/life/typhoon/</guid>
+      <description>全球颱風資訊查詢  https://www.tropicaltidbits.com/storminfo/  日本 氣象廳  https://www.jma.go.jp/jp/typh/  台灣 氣象局  https://www.cwb.gov.tw/V8/C/P/Typhoon/TY_NEWS.html  全球即時氣象圖  https://www.windy.com/  停班停課資訊  https://www.dgpa.gov.tw/typh/daily/nds.html  </description>
+    </item>
+    
+    <item>
+      <title>Adguard Home Block List / Adguard Home 廣告封鎖清單</title>
+      <link>https://kb.hiy.tw/lists/ad/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/lists/ad/</guid>
+      <description>我自己在用的清單  https://gist.github.com/HenryYang/5b7d222d9b1559829ae3e1e442e3b3e2  Futa DNS 所用的清單  https://www.jkg.tw/p3351/  我自己 NextDNS 所用清單  https://i.imgur.com/p88K6hG.png  </description>
+    </item>
+    
+    <item>
+      <title>Android Root Tips / Android Root 相關資訊</title>
+      <link>https://kb.hiy.tw/software/android/android_root/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/software/android/android_root/</guid>
+      <description>我自己在用的清單 </description>
+    </item>
+    
+    <item>
+      <title>Cool Tips for PC  / 各種無法歸類的冷門指令</title>
+      <link>https://kb.hiy.tw/software/tips/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/software/tips/</guid>
+      <description>Let&amp;rsquo;s Encrypt 安裝指令
+# For macOS $ brew install letsencrypt # For Ubuntu $ apt install certbot  手動產生憑證（可用於驗證 Private IP 或無法安裝 agent 的主機上）
+$ certbot certonly --manual --config-dir ~/Desktop/letsencrypt --work-dir ~/Desktop/letsencrypt --logs-dir ~/Desktop/letsencrypt --preferred-challenges dns  自動產生憑證（用於外網可以直接連線到 agent 的主機上）
+$ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --preferred-challenges http -d 你的網域  關閉 SSH 密碼登入 # /etc/ssh/sshd_config PasswordAuthentication no ChallengeResponseAuthentication no UsePAM no  ESXi 重起管理服務 /etc/init.d/hostd restart /etc/init.d/vpxa restart  Docker 清理 $ docker system prune -a $ docker image prune -a  Openssl 相關指令  https://ssorc.</description>
+    </item>
+    
+    <item>
+      <title>DMV Information / 車籍相關資料查詢</title>
+      <link>https://kb.hiy.tw/tips/dmv/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/tips/dmv/</guid>
+      <description>車籍資料查詢（付費）  https://mvdvan.mvdis.gov.tw/mvdvan/  車輛哩程數查詢（免費）  下載監理服務 App 就可以查詢 iOS: https://apps.apple.com/tw/app/%E7%9B%A3%E7%90%86%E6%9C%8D%E5%8B%99/id933737788 Android: https://play.google.com/store/apps/details?id=gov.mvdis.m3.emv.app.phone&amp;amp;hl=zh_TW  合法計程車查詢（免費）  https://www.mvdis.gov.tw/m3-emv-sev/taxi/query  </description>
+    </item>
+    
+    <item>
+      <title>ETF &amp; Special Shares List / ETF 特別股 殖利率清單</title>
+      <link>https://kb.hiy.tw/lists/etf/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/lists/etf/</guid>
+      <description>兆豐可以查詢特別股與 ETF 的地方  https://www.emega.com.tw/emegaAbroad/financialTool.do  元大投信 ETF 資訊查詢  http://www.yuantaetfs.com/#/ProductMap/0  Vanguard 的 ETF 清單  https://investor.vanguard.com/etf/list#/etf/asset-class/month-end-returns  美股配息查詢  https://www.nasdaq.com/market-activity/funds-and-etfs https://www.dividend.com/dividend-etfs/  </description>
+    </item>
+    
+    <item>
+      <title>iOS Jailbreak App / iOS 越獄 App</title>
+      <link>https://kb.hiy.tw/software/ios/iosjb/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/software/ios/iosjb/</guid>
+      <description>我自己在用的清單 </description>
+    </item>
+    
+    <item>
+      <title>iOS System Path / iOS 系統資料結構</title>
+      <link>https://kb.hiy.tw/software/ios/ios_path/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/software/ios/ios_path/</guid>
+      <description>我自己在用的清單 </description>
+    </item>
+    
+    <item>
+      <title>iOS Tips / iOS 小技巧</title>
+      <link>https://kb.hiy.tw/software/ios/ios/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/software/ios/ios/</guid>
+      <description>隨機化 iOS 14 的 Mac Address  https://support.apple.com/zh-tw/HT211227  </description>
+    </item>
+    
+    <item>
+      <title>MacOS Essential App / MacOS 安裝與設定</title>
+      <link>https://kb.hiy.tw/software/macos/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/software/macos/</guid>
+      <description>常見 Mac 開機時除錯快捷鍵  預設在 Windows 鍵盤上  Option 就是 Alt Command（⌘） 就是 ⊞ WinKey   執行 Mac 上的「Apple 診斷」  關機時按下電源鍵，且立即按住鍵盤上的 D 鍵，按住直到出現「選擇語言的畫面」為止。   重新安裝 macOS  關機且插上網路線時按下電源鍵，且立即按住鍵盤上的 Command（⌘）與 R 兩個鍵。   手動選擇開機磁碟  關機時按下電源鍵，且立即按住鍵盤上的 Option 鍵，按住直到出現「選擇硬碟的畫面」為止。   進入安全模式  關機時按下電源鍵，且立即按住鍵盤上的 Shift 鍵，按住直到出現「登入畫面」為止。   驗證是否在安全模式  點選 左上方的蘋果圖案 -&amp;gt; 關於這台 Mac -&amp;gt; 系統報告 -&amp;gt; 軟體，然後檢查「開機模式」。 為「安全」表示在安全模式，為「正常」則是正常開機。   以目標磁碟模式啟動( 把 Mac 當成 Thunderbolt 外接硬碟用 )  關機時按下電源鍵，且立即按住鍵盤上的 T 鍵，按住直到出現『 Thunderbolt 的畫面』為止。   進入 Single-User 模式  關機時按下電源鍵，且立即按住鍵盤上的 S 鍵，持續按住直到出現登入畫面為止。 僅支援到 High Sierra (10.</description>
+    </item>
+    
+    <item>
+      <title>MacOS Tips / MacOS 小技巧</title>
+      <link>https://kb.hiy.tw/software/macos_tips/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/software/macos_tips/</guid>
+      <description>顯示從 Keychain 匯出的 .p12 中的公私鑰 openssl pkcs12 -info -in INFILE.p12 -nodes 憑證格式相關資訊
+ 在 CLI 匯入憑證到 Keychain # 解鎖 Keychain security unlock-keychain -p 電腦的密碼 ~/Library/Keychains/login.keychain-db # 匯入公私鑰 security import 要匯入的憑證 -k ~/Library/Keychains/login.keychain-db  手動安裝 Xcode # 去 Apple Developer 網站下載 xip 格式的 Xcode (現在需要登入才能下載) https://developer.apple.com/download/more/ # 使用 xip 指令直接安裝 xip -x ~/Download/Xcode_12.xip  執行 macOS 取消到期通知指令 sudo defaults write /Library/Preferences/com.apple.loginwindow PasswordExpirationDays 0  手動把帳戶加入 Mobile Account 方法 sudo /System/Library/CoreServices/ManagedClient.app/Contents/Resources/createmobileaccount -P -v -n 使用者帳戶  手動更新 FileVault2 的開機解鎖密碼 sudo diskutil apfs changePassphrase disk1s1 -user $(sudo fdesetup list | grep id -un | awk -F&amp;#39;,&amp;#39; &amp;#39;{print $2}&amp;#39;)  macOS Network Location 設定檔存放位置 /Library/Preferences/SystemConfiguration/preferences.</description>
+    </item>
+    
+    <item>
+      <title>Mobile Payment List / 行動支付的支援清單</title>
+      <link>https://kb.hiy.tw/lists/pay/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/lists/pay/</guid>
+      <description>台灣常見行動支付 對應表     銀行/支付系統 Apple Pay Google Pay Samsung Pay Garmin Pay Fitbit Pay  支援家數     國泰世華銀行 ✅ ✅ ✅ ✅ ✅  5   國泰世華銀行 - 金融卡 ✅ ✅ ✅ ✅ ✅  5   中國信託銀行 ✅ ✅ ✅ ✅ ✅  5   中國信託銀行 - 金融卡 ✅ ✅ ✅    3   台新國際商業銀行 ✅ ✅ ✅ ✅ ✅  5   台新國際商業銀行 - 金融卡 ✅ ✅ ✅ ✅ ✅  5   聯邦銀行 ✅ ✅ ✅ ✅ ✅  5   聯邦銀行 - 金融卡 ✅      1   玉山商業銀行 ✅ ✅ ✅ ✅ ✅  5   玉山商業銀行 - 金融卡 ✅ ✅ ✅    3   台北富邦商業銀行 ✅ ✅ ✅ ✅ ✅  5   台北富邦商業銀行 - 金融卡 ✅ ✅ ✅ ✅ ✅  5   渣打銀行 ✅ ✅ ✅    3   渣打銀行 - 金融卡 ✅ ✅ ✅    3   第一商業銀行 ✅ ✅     2   滙豐（台灣）銀行 ✅ ✅ ✅    3   華南商業銀行 ✅ ✅     2   新光銀行 ✅ ✅     2   上海商銀  ✅ ✅    2   花旗銀行 ✅  ✅    2   永豐銀行 ✅ ✅ ✅ ✅ ✅  5   永豐銀行 - 金融卡 ✅      1   凱基銀行 ✅ ✅     2   安泰銀行  ✅     1   合作金庫  ✅     1   彰化銀行  ✅     1             支援家數 14 17 11 7 7       ## 備註 Apple Pay 目前支援 JCB 卡的銀行僅有：永豐銀行、中國信託、玉山銀行、第一銀行、華南銀行、聯邦銀行</description>
+    </item>
+    
+    <item>
+      <title>Online routing check service/ 線上測試路由服務</title>
+      <link>https://kb.hiy.tw/software/routing/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/software/routing/</guid>
+      <description>我自己在用的清單 </description>
+    </item>
+    
+    <item>
+      <title>Surge Module List / Surge 模組清單</title>
+      <link>https://kb.hiy.tw/lists/surge/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/lists/surge/</guid>
+      <description>皮樂維護的清單  https://kinta.ma/surge/  </description>
+    </item>
+    
+    <item>
+      <title>Taiwan &amp; Japan 4G 5G Band / 台灣與日本 4G 5G 頻段</title>
+      <link>https://kb.hiy.tw/lists/band/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/lists/band/</guid>
+      <description>台灣常見 4G 頻段  日本常見 4G 頻段  台灣常見 5G 頻段  日本常見 5G 頻段  </description>
+    </item>
+    
+    <item>
+      <title>Useful Services / 實用網站</title>
+      <link>https://kb.hiy.tw/lists/url/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/lists/url/</guid>
+      <description>超強翻譯網站 DeepL  https://www.deepl.com/translator   隨機產生專案名稱  https://mrsharpoblunto.github.io/foswig.js/   隨機產生高強度密碼  https://1password.com/zh-tw/password-generator/   GitHub 功能小抄  https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.zh-tw.md   資安入門資源  https://gotyour.pw/resources.html   資安入門概論  https://github.com/sakura26/DADA   反查目前真實使用的 DNS Server  https://which.nameserve.rs/  </description>
+    </item>
+    
+    <item>
+      <title>Useful tools / 實用小工具</title>
+      <link>https://kb.hiy.tw/software/useful/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/software/useful/</guid>
+      <description>scrcpy - Display and control of Android devices connected on USB  https://github.com/Genymobile/scrcpy  SikuliX - automates anything you see on the screen  https://igouist.github.io/post/202003-sikulix/  </description>
+    </item>
+    
+    <item>
+      <title>VIM Tips / VIM 常用指令</title>
+      <link>https://kb.hiy.tw/software/vim/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/software/vim/</guid>
+      <description>我自己在用的清單 </description>
+    </item>
+    
+    <item>
+      <title>Windows Essential App &amp; Tips / Windows 常見軟體與小技巧</title>
+      <link>https://kb.hiy.tw/software/windows/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/software/windows/</guid>
+      <description>開啟虛擬化 (WSL2 需要) bcdedit /set hypervisorlaunchtype auto 關於靜態路由 # 顯示目前路由表 route print # 刪除全部路由表 route -f diskpart 來完整清除分割區 #顯示磁碟清單 list disk #選擇要處理的磁碟 select disk {NO} #清除目前處理磁碟的所有分割區 clean </description>
+    </item>
+    
+    <item>
+      <title>Explanation No 535 tips / 臨檢須知</title>
+      <link>https://kb.hiy.tw/life/explanation_no_535/</link>
+      <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/life/explanation_no_535/</guid>
+      <description> 大法官５３５號釋憲  對人實施之臨檢則須以有相當理由足認其行為已構成或即將發生危害者為限      警察職權行使法第４條  警察行使職權時，應著制服或出示證件表明身份，並應告知事由。警察未依前項規定行使職權者，人民得拒絕之。      警察職權行使法第６條  警察於公共場所或合法進入之場所，得對於下列各款之人查證其身份  一、合理懷疑其有犯罪之嫌疑或有犯罪之虞者。 二、有事實足認其對已發生之犯罪或即將發生之犯罪知情者。 三、有事實足認為防止其本人或他人生命、身體之具體危害，有查證其身分之必要者。 四、滯留於有事實足認有陰謀、預備、著手實施重大犯罪或有人犯藏匿之處所者。 五、滯留於應有停（居）留許可之處所，而無停（居）留許可者。 六、行經指定公共場所、路段及管制站者。  前項第六款之指定，以防止犯罪，或處理重大公共安全或社會秩序事件而有必要者為限。其指定應由警察機關主管長官為之。   警察進入公眾得出入之場所，應於營業時間為之，並不得任意妨礙其營業。         依警察職權行使法第4條與第6條，警察臨檢必須身著制服、表明身分及事由，同時，警察臨檢的前提必須是「懷疑犯罪」或「已犯罪」或是「經指定的公共場所」。
+  若碰上臨檢，並非在指定處所，警察又沒有合理的事由，或是除了「感覺有問題」以外，說不出其他懷疑犯罪的事實，那麼這臨檢就可能違法，當然可以拒絕！
+ 拒絕的後果，依警察職權使法第7條，警察可能會將你帶往附近的派出所進行身分查證，但從攔下你開始，整個查證身分的過程不可以超過3個小時。    選擇依警察職權行使法第29條，當下向警察提出異議，若警察繼續臨檢，你就向警察索取「警察行使職權民眾異議紀錄表」，日後提起訴願、訴訟！
+ 記下臨檢的警察編號、時間地點，甚至是錄影蒐證也可以，    </description>
+    </item>
+    
+    <item>
+      <title>Referral Links / 各種推廣連結</title>
+      <link>https://kb.hiy.tw/life/referral_link/</link>
+      <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/life/referral_link/</guid>
+      <description>玉山銀行 - Only 信用卡  https://s.hiy.tw/only  玉山銀行 - Ubear 信用卡  https://s.hiy.tw/ubear  中國信託 - ANA 極致/無限 信用卡  https://s.hiy.tw/ana  台新銀行 - Richart 數位帳戶  https://s.hiy.tw/richart  Etoro - CFD/美股 線上投資/交易平台  https://s.hiy.tw/etoro  Crypto.com - MCO VISA Debit Card  https://s.hiy.tw/mco  匯豐銀行 - 旅人/現金回饋 信用卡  請私訊問我最新的推廣連結  Shopback 網路購物返利+現金回饋平台  https://s.hiy.tw/shopback  Line TAXI - 使用 Line 就可以叫計程車  https://s.hiy.tw/linetaxi  Uber &amp;amp; Uber Eats  Uber：請直接點選連結 https://s.</description>
+    </item>
+    
+    <item>
+      <title>Akihabara Second-hand shop/ 秋業原二手電器店資訊</title>
+      <link>https://kb.hiy.tw/travel/akihabara/</link>
+      <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/travel/akihabara/</guid>
+      <description> 秋葉原電器相關資訊  https://akiba-pc.watch.impress.co.jp/  常會貼超值二手電器的店家 Twitter  https://twitter.com/MlcStaff/ https://twitter.com/kandasoubi  二手電器店散佈範圍  https://maps.app.goo.gl/aNct4U9uGkot4VLr6 https://maps.app.goo.gl/hwkePXrh5rwJXr469  某位很愛逛秋葉原二手店的經驗分享噗  https://www.plurk.com/p/nl5wmq  </description>
+    </item>
+    
+    <item>
+      <title>Check list for Used Mac Device / 二手蘋果電腦驗機方式</title>
+      <link>https://kb.hiy.tw/tips/mac_2hand/</link>
+      <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/tips/mac_2hand/</guid>
+      <description>MacuKnow - mac 驗機 步驟，購買全新或二手前都可參考  https://macuknow.com/2019/07/01/2126/   皮樂的買二手機建議驗機方式  https://www.facebook.com/hiraku.tw/posts/3429848490378227  </description>
+    </item>
+    
+    <item>
+      <title>Reset Facebook AD tracking / 重設 Facebbook 廣告追蹤</title>
+      <link>https://kb.hiy.tw/tips/fb/</link>
+      <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/tips/fb/</guid>
+      <description>你的廣告偏好 用來移除『你的興趣』與移除使用個資來投放廣告的『廣告商』  https://www.facebook.com/ads/preferences/     Facebook 站外動態 清除或是關閉後可以避免商家和組織與 Facebook 分享有關我們與其互動的資訊 但這同時會影響到使用 Facebook 登入的第三方服務  https://www.facebook.com/off_facebook_activity/?entry_point=1  </description>
+    </item>
+    
+  </channel>
+</rss>

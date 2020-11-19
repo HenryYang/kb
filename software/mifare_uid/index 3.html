@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en" itemscope="" itemtype="http://schema.org/WebPage">
+    <head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta property="og:title" content="Tricky for Mifare Classic / Mifare Classic 的冷知識" />
+<meta property="og:description" content="Tools  MIFARE Classic Tool - 用來讀取與編輯 Mifare Classic 卡 NFC TagInfo - 用來識別 RFID 卡片的類型與 UID 相關資訊 Mifare Calculator - Mifare 卡較驗碼的計算  Servies  XOR Calculator Mifare Classic UID BCC Calculator  Notes  Sector0 Block0 前 4 Byte 放置了該張卡的 UID，第 5 Byte 是校驗碼，為前 4 個 Byte XOR 的結果 假設 UID 為 DDCCBBAA 那這時候要解讀回 10 進位就是變成 (AABBCCDD)hex = 2864434397 (如果長度不足十位則前面補 0 )  參考資料" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kb.hiy.tw/software/mifare_uid/" />
+<meta property="article:published_time" content="2020-10-27T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-10-27T21:23:59+08:00" />
+<meta itemprop="name" content="Tricky for Mifare Classic / Mifare Classic 的冷知識">
+<meta itemprop="description" content="Tools  MIFARE Classic Tool - 用來讀取與編輯 Mifare Classic 卡 NFC TagInfo - 用來識別 RFID 卡片的類型與 UID 相關資訊 Mifare Calculator - Mifare 卡較驗碼的計算  Servies  XOR Calculator Mifare Classic UID BCC Calculator  Notes  Sector0 Block0 前 4 Byte 放置了該張卡的 UID，第 5 Byte 是校驗碼，為前 4 個 Byte XOR 的結果 假設 UID 為 DDCCBBAA 那這時候要解讀回 10 進位就是變成 (AABBCCDD)hex = 2864434397 (如果長度不足十位則前面補 0 )  參考資料">
+<meta itemprop="datePublished" content="2020-10-27T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-10-27T21:23:59+08:00" />
+<meta itemprop="wordCount" content="60">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Tricky for Mifare Classic / Mifare Classic 的冷知識"/>
+<meta name="twitter:description" content="Tools  MIFARE Classic Tool - 用來讀取與編輯 Mifare Classic 卡 NFC TagInfo - 用來識別 RFID 卡片的類型與 UID 相關資訊 Mifare Calculator - Mifare 卡較驗碼的計算  Servies  XOR Calculator Mifare Classic UID BCC Calculator  Notes  Sector0 Block0 前 4 Byte 放置了該張卡的 UID，第 5 Byte 是校驗碼，為前 4 個 Byte XOR 的結果 假設 UID 為 DDCCBBAA 那這時候要解讀回 10 進位就是變成 (AABBCCDD)hex = 2864434397 (如果長度不足十位則前面補 0 )  參考資料"/>
+
+
+<meta property="description" content='Tools  MIFARE Classic Tool - 用來讀取與編輯 Mifare Classic 卡 NFC TagInfo - 用來識別 RFID 卡片的類型與 UID 相關資訊 Mifare Calculator - Mifare 卡較驗碼的計算  Servies  XOR Calculator Mifare Classic UID BCC Calculator  Notes  Sector0 Block0 前 4 Byte 放置了該張卡的 UID，第 5 Byte 是校驗碼，為前 4 個 Byte XOR 的結果 假設 UID 為 DDCCBBAA 那這時候要解讀回 10 進位就是變成 (AABBCCDD)hex = 2864434397 (如果長度不足十位則前面補 0 )  參考資料' /><meta name="author" content="Henry Yang">
+
+
+
+<title>Tricky for Mifare Classic / Mifare Classic 的冷知識 | Henry&#39;s Knowledge Base</title>
+
+<link rel="canonical" href="https://kb.hiy.tw/software/mifare_uid/">
+
+
+
+
+ 
+
+
+
+<link rel="stylesheet" href="https://kb.hiy.tw/css/all.min.4a45a7ed7d7dd5b16e4cd2f3bf71a6acb00b4c69bdbb1516f431bbfdf6629067.css" integrity="sha256-SkWn7X191bFuTNLzv3GmrLALTGm9uxUW9DG7/fZikGc=">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+    <body>
+	<meta itemprop="url" content="https://kb.hiy.tw/software/mifare_uid/" /><nav class="navbar navbar-dark fixed-top bg-danger flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-sm-3 col-md-3 mr-0 text-center " href="https://kb.hiy.tw/">Henry&#39;s Knowledge Base</a>
+</nav>
+
+
+<div class="container-fluid mt-3">
+    <div class="row">
+
+	
+
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-9 px-4">
+            
+	    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Tricky for Mifare Classic / Mifare Classic 的冷知識</h1>
+</div>
+
+
+
+<div class="text-center">
+    
+    
+    <div class="d-flex justify-content-center text-muted">
+	<small>
+	    <i class="fas fa-clock"></i> <strong>Published:</strong>
+	    
+	    <time datetime="2020-10-27T00:00:00&#43;00:00">27 Oct, 2020</time>
+	    
+	    </small>
+	<small class="mx-3">
+	    
+	</small>
+	
+    </div>
+    
+</div>
+
+
+	    
+	    <h2 id="tools">Tools</h2>
+<ul>
+<li><a href="https://play.google.com/store/apps/details?id=de.syss.MifareClassicTool">MIFARE Classic Tool</a> - 用來讀取與編輯 Mifare Classic 卡</li>
+<li><a href="https://play.google.com/store/apps/details?id=at.mroland.android.apps.nfctaginfo">NFC TagInfo</a> - 用來識別 RFID 卡片的類型與 UID 相關資訊</li>
+<li><a href="https://play.google.com/store/apps/details?id=cc.yuyeye.mcalc">Mifare Calculator</a> - Mifare 卡較驗碼的計算</li>
+</ul>
+<h2 id="servies">Servies</h2>
+<ul>
+<li><a href="https://toolslick.com/math/bitwise/xor-calculator">XOR Calculator</a></li>
+<li><a href="https://nric.biz/mifare-bcc-calculator.html">Mifare Classic UID BCC Calculator</a></li>
+</ul>
+<h2 id="notes">Notes</h2>
+<ul>
+<li>Sector0 Block0 前 4 Byte 放置了該張卡的 UID，第 5 Byte 是校驗碼，為前 4 個 Byte XOR 的結果</li>
+<li>假設 UID 為 DDCCBBAA 那這時候要解讀回 10 進位就是變成 (AABBCCDD)hex = 2864434397 (如果長度不足十位則前面補 0 )</li>
+</ul>
+<p><a href="https://notes.andywu.tw/2018/%E8%A4%87%E8%A3%BD%E4%B8%80%E5%BC%B5%E5%AE%BF%E8%88%8D%E9%96%80%E7%A6%81%E5%8D%A1%E4%BA%8C-mifare-one-%E5%84%B2%E5%AD%98%E7%B5%90%E6%A7%8B/">參考資料</a></p>
+
+	    
+
+	    
+	    <div class="comments">
+		
+	    </div>
+
+	    
+<hr>
+<div>
+    <nav aria-label="Article quick navigation">
+	<ul class="pagination justify-content-center">
+	    
+	    <li class="page-item">
+		<a class="page-link" href="https://kb.hiy.tw/software/command/" title=" CLI Shortcut / CLI 快捷鍵">Previous</a>
+	    </li>
+	    
+
+	    
+	    <li class="page-item disabled">
+		<a class="page-link" href="" tabindex="-1" aria-disabled="true">Next</a>
+	    </li>
+	    
+	</ul>
+    </nav>
+</div>
+<hr>
+
+
+
+	    <div class="top-border p-3 mb-2 bg-light">
+		<div>
+    <ul>
+	
+	<h4>Articles</h4>
+	
+<ul>
+    
+    
+    <li>Tricky for Mifare Classic / Mifare Classic 的冷知識</li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/software/command/"> CLI Shortcut / CLI 快捷鍵</a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/software/tips/">Cool Tips for PC  / 各種無法歸類的冷門指令</a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/software/macos/">MacOS Essential App / MacOS 安裝與設定</a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/software/macos_tips/">MacOS Tips / MacOS 小技巧</a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/software/routing/">Online routing check service/ 線上測試路由服務</a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/software/useful/">Useful tools / 實用小工具</a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/software/vim/">VIM Tips / VIM 常用指令</a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/software/windows/">Windows Essential App &amp; Tips / Windows 常見軟體與小技巧</a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+</ul>
+
+	
+	<hr>
+	
+	<h4>Subcategories</h4>
+	
+
+<li><h5><a href="https://kb.hiy.tw/software/android/">Android</a></h5></li>
+
+<ul>
+    
+    
+    <li><a href="https://kb.hiy.tw/software/android/android_adb/">Android adb Tips / Android adb 相關資訊</a><span><small class="mx-1 text-muted">October 27, 2020</small></span></li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/software/android/android_root/">Android Root Tips / Android Root 相關資訊</a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+</ul>
+ 
+<ul>
+    
+
+
+</ul>
+
+<li><h5><a href="https://kb.hiy.tw/software/ios/">iOS</a></h5></li>
+
+<ul>
+    
+    
+    <li><a href="https://kb.hiy.tw/software/ios/iosjb/">iOS Jailbreak App / iOS 越獄 App</a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/software/ios/ios_path/">iOS System Path / iOS 系統資料結構</a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/software/ios/ios/">iOS Tips / iOS 小技巧</a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+</ul>
+ 
+<ul>
+    
+
+
+</ul>
+
+
+	
+	
+	
+    </ul>
+</div>
+
+
+
+
+
+	    </div>
+	    
+	    
+
+
+
+
+
+
+
+
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb border border-secondary" itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+	
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item "
+    
+    itemprop="itemListElement" itemscope
+      itemtype="http://schema.org/ListItem">
+    
+    <a href="https://kb.hiy.tw/"
+       itemprop="item">
+	<span itemprop="name">Knowledge Base</span>
+    </a>
+    
+    <meta itemprop="position" content="1" />
+</li>
+
+
+<li class="breadcrumb-item "
+    
+    itemprop="itemListElement" itemscope
+      itemtype="http://schema.org/ListItem">
+    
+    <a href="https://kb.hiy.tw/software/"
+       itemprop="item">
+	<span itemprop="name">Software/軟體</span>
+    </a>
+    
+    <meta itemprop="position" content="2" />
+</li>
+
+
+<li class="breadcrumb-item  active"
+    aria-current="page"
+    itemprop="itemListElement" itemscope
+      itemtype="http://schema.org/ListItem">
+    
+	<span itemprop="name">Tricky for Mifare Classic / Mifare Classic 的冷知識</span>
+    
+    <meta itemprop="position" content="3" />
+</li>
+
+  </ol>
+</nav>
+
+
+
+
+	    <div class="mt-3"><footer class="container-fluid site-footer py-3">
+
+</footer>
+<div class="si-license">
+  <div class="text-muted text-sm-center">
+	Henry Yang<small>© 2020</small> &middot; 
+  </div>
+</div>
+
+
+</div>
+	    
+        </main>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<script async src="/js/bundle.min.58c1a372888b06db260026e21bb373955061138b81181b5248eb0a5f94e82b5f1f500a5d40ffa85135bb4ef838a53013ca6d3f85ee39c023de90e6149aac4d6b.js" integrity="sha512-WMGjcoiLBtsmACbiG7NzlVBhE4uBGBtSSOsKX5ToK18fUApdQP&#43;oUTW7Tvg4pTATym0/he45wCPekOYUmqxNaw=="></script>
+
+</body>
+</html>
