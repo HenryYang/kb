@@ -8,10 +8,10 @@
     <language>en-us</language><atom:link href="https://kb.hiy.tw/software/ios/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>iOS Jailbreak App / iOS 越獄 App</title>
-      <link>https://kb.hiy.tw/software/ios/iosjb/</link>
+      <link>https://kb.hiy.tw/software/ios/ios_jb/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://kb.hiy.tw/software/ios/iosjb/</guid>
+      <guid>https://kb.hiy.tw/software/ios/ios_jb/</guid>
       <description>我自己在用的清單 </description>
     </item>
     
@@ -26,11 +26,11 @@
     
     <item>
       <title>iOS Tips / iOS 小技巧</title>
-      <link>https://kb.hiy.tw/software/ios/ios/</link>
+      <link>https://kb.hiy.tw/software/ios/ios_tips/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://kb.hiy.tw/software/ios/ios/</guid>
-      <description>隨機化 iOS 14 的 Mac Address  https://support.apple.com/zh-tw/HT211227  </description>
+      <guid>https://kb.hiy.tw/software/ios/ios_tips/</guid>
+      <description>隨機化 iOS 14 的 Mac Address  https://support.apple.com/zh-tw/HT211227   停用 Finder 提示通知的 iOS Update # 雖然 10.15 後沒有 iTunes 但還是用這服務來看設定值 （要重開機） defaults write com.apple.itunes disableCheckForDeviceUpdates -bool YES </description>
     </item>
     
   </channel>
