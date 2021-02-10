@@ -90,7 +90,7 @@
       <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/software/mifare_uid/</guid>
-      <description>Tools  MIFARE Classic Tool - 用來讀取與編輯 Mifare Classic 卡 NFC TagInfo - 用來識別 RFID 卡片的類型與 UID 相關資訊 Mifare Calculator - Mifare 卡較驗碼的計算  Servies  XOR Calculator Mifare Classic UID BCC Calculator  Notes  Sector0 Block0 前 4 Byte 放置了該張卡的 UID，第 5 Byte 是校驗碼，為前 4 個 Byte XOR 的結果 假設 UID 為 DDCCBBAA 那這時候要解讀回 10 進位就是變成 (AABBCCDD)hex = 2864434397 (如果長度不足十位則前面補 0 )  參考資料</description>
+      <description>Tools  MIFARE Classic Tool - 用來讀取與編輯 Mifare Classic 卡  可以編輯 CUID 卡的 Block 0   NFC TagInfo - 用來識別 RFID 卡片的類型與 UID 相關資訊 Mifare Calculator - Mifare 卡較驗碼的計算  Servies  XOR Calculator Mifare Classic UID BCC Calculator  Notes  Sector0 Block0 前 4 Byte 放置了該張卡的 UID，第 5 Byte 是校驗碼，為前 4 個 Byte XOR 的結果 假設 UID 為 DDCCBBAA 那這時候要解讀回 10 進位就是變成 (AABBCCDD)hex = 2864434397 (如果長度不足十位則前面補 0 )  參考資料</description>
     </item>
     
     <item>
@@ -324,8 +324,7 @@ $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --pref
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/lists/url/</guid>
-      <description>超強翻譯網站 DeepL  https://www.deepl.com/translator   隨機產生專案名稱  https://mrsharpoblunto.github.io/foswig.js/   隨機產生高強度密碼  https://1password.com/zh-tw/password-generator/   GitHub 功能小抄  https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.zh-tw.md   資安入門資源  https://gotyour.pw/resources.html   資安入門概論  https://github.com/sakura26/DADA   反查目前真實使用的 DNS Server  https://which.nameserve.rs/   Google 剩餘空間查詢  Google Drive -&amp;gt; https://one.google.com/storage/management Google Photo -&amp;gt; https://photos.google.com/storage   查詢 Amazon US 等網站的真實評價  https://www.fakespot.com/   台灣電商的歷史價格查詢  https://twbuyer.info/   常見 MIME 類型列表 https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types
- iOS App 版本號對應 ID 查詢 https://tools.</description>
+      <description>超強翻譯網站 DeepL  https://www.deepl.com/translator   隨機產生專案名稱  https://mrsharpoblunto.github.io/foswig.js/   隨機產生高強度密碼  https://1password.com/zh-tw/password-generator/   GitHub 功能小抄  https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.zh-tw.md   資安入門資源  https://gotyour.pw/resources.html   資安入門概論  https://github.com/sakura26/DADA   反查目前真實使用的 DNS Server  https://which.nameserve.rs/   Google 剩餘空間查詢  Google Drive -&amp;gt; https://one.google.com/storage/management Google Photo -&amp;gt; https://photos.google.com/storage   查詢 Amazon US 等網站的真實評價  https://www.fakespot.com/   台灣電商的歷史價格查詢  https://twbuyer.info/   查詢使用哪個台灣開店電商  https://24h.cc/   常見 MIME 類型列表 https://developer.</description>
     </item>
     
     <item>
