@@ -88,7 +88,7 @@ $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --pref
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/software/windows/</guid>
-      <description>開啟虛擬化 (WSL2 需要) bcdedit /set hypervisorlaunchtype auto 關於靜態路由 # 顯示目前路由表 route print # 刪除全部路由表 route -f diskpart 來完整清除分割區 #顯示磁碟清單 list disk #選擇要處理的磁碟 select disk {NO} #清除目前處理磁碟的所有分割區 clean 關閉 Microsoft Compatibility Appraiser 工作排程器 -&amp;gt; 工作排程器程式庫 -&amp;gt; Microsoft -&amp;gt; Windows -&amp;gt; Application Experience 對 Microsoft Compatibility Appraiser 按右鍵選停用 </description>
+      <description>開啟虛擬化 (WSL2 需要) bcdedit /set hypervisorlaunchtype auto  關於靜態路由 # 顯示目前路由表 route print # 刪除全部路由表 route -f  diskpart 來完整清除分割區 #顯示磁碟清單 list disk #選擇要處理的磁碟 select disk {NO} #清除目前處理磁碟的所有分割區 clean  關閉 Microsoft Compatibility Appraiser 工作排程器 -&amp;gt; 工作排程器程式庫 -&amp;gt; Microsoft -&amp;gt; Windows -&amp;gt; Application Experience 對 Microsoft Compatibility Appraiser 按右鍵選停用 </description>
     </item>
     
   </channel>

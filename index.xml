@@ -12,7 +12,7 @@
       <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/software/android/android_adb/</guid>
-      <description>adb 最新版下載位置  Windows 版本：https://dl.google.com/android/repository/platform-tools-latest-windows.zip Mac 版本：https://dl.google.com/android/repository/platform-tools-latest-darwin.zip Linux 版本：https://dl.google.com/android/repository/platform-tools-latest-linux.zip  常用指令  adb 常用命令大全  </description>
+      <description>adb 最新版下載位置  Windows 版本：https://dl.google.com/android/repository/platform-tools-latest-windows.zip Mac 版本：https://dl.google.com/android/repository/platform-tools-latest-darwin.zip Linux 版本：https://dl.google.com/android/repository/platform-tools-latest-linux.zip   常用指令  adb 常用命令大全  </description>
     </item>
     
     <item>
@@ -224,7 +224,7 @@ $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --pref
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/tips/dmv/</guid>
-      <description>車籍資料查詢（付費）  https://mvdvan.mvdis.gov.tw/mvdvan/  車輛哩程數查詢（免費）  下載監理服務 App 就可以查詢 iOS: https://apps.apple.com/tw/app/%E7%9B%A3%E7%90%86%E6%9C%8D%E5%8B%99/id933737788 Android: https://play.google.com/store/apps/details?id=gov.mvdis.m3.emv.app.phone&amp;amp;hl=zh_TW  合法計程車查詢（免費）  https://www.mvdis.gov.tw/m3-emv-sev/taxi/query  </description>
+      <description>車籍資料查詢（付費）  https://mvdvan.mvdis.gov.tw/mvdvan/   車輛哩程數查詢（免費）  下載監理服務 App 就可以查詢 iOS: https://apps.apple.com/tw/app/%E7%9B%A3%E7%90%86%E6%9C%8D%E5%8B%99/id933737788 Android: https://play.google.com/store/apps/details?id=gov.mvdis.m3.emv.app.phone&amp;amp;hl=zh_TW   合法計程車查詢（免費）  https://www.mvdis.gov.tw/m3-emv-sev/taxi/query  </description>
     </item>
     
     <item>
@@ -315,7 +315,7 @@ $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --pref
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/lists/band/</guid>
-      <description>台灣常見 4G 頻段  日本常見 4G 頻段  台灣常見 5G 頻段  日本常見 5G 頻段  </description>
+      <description>台灣常見 4G 頻段  日本常見 4G 頻段  台灣常見 5G 頻段  日本常見 5G 頻段 </description>
     </item>
     
     <item>
@@ -352,7 +352,7 @@ $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --pref
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/software/windows/</guid>
-      <description>開啟虛擬化 (WSL2 需要) bcdedit /set hypervisorlaunchtype auto 關於靜態路由 # 顯示目前路由表 route print # 刪除全部路由表 route -f diskpart 來完整清除分割區 #顯示磁碟清單 list disk #選擇要處理的磁碟 select disk {NO} #清除目前處理磁碟的所有分割區 clean 關閉 Microsoft Compatibility Appraiser 工作排程器 -&amp;gt; 工作排程器程式庫 -&amp;gt; Microsoft -&amp;gt; Windows -&amp;gt; Application Experience 對 Microsoft Compatibility Appraiser 按右鍵選停用 </description>
+      <description>開啟虛擬化 (WSL2 需要) bcdedit /set hypervisorlaunchtype auto  關於靜態路由 # 顯示目前路由表 route print # 刪除全部路由表 route -f  diskpart 來完整清除分割區 #顯示磁碟清單 list disk #選擇要處理的磁碟 select disk {NO} #清除目前處理磁碟的所有分割區 clean  關閉 Microsoft Compatibility Appraiser 工作排程器 -&amp;gt; 工作排程器程式庫 -&amp;gt; Microsoft -&amp;gt; Windows -&amp;gt; Application Experience 對 Microsoft Compatibility Appraiser 按右鍵選停用 </description>
     </item>
     
     <item>
@@ -361,10 +361,7 @@ $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --pref
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/life/explanation_no_535/</guid>
-      <description> 大法官５３５號釋憲  對人實施之臨檢則須以有相當理由足認其行為已構成或即將發生危害者為限      警察職權行使法第４條  警察行使職權時，應著制服或出示證件表明身份，並應告知事由。警察未依前項規定行使職權者，人民得拒絕之。      警察職權行使法第６條  警察於公共場所或合法進入之場所，得對於下列各款之人查證其身份  一、合理懷疑其有犯罪之嫌疑或有犯罪之虞者。 二、有事實足認其對已發生之犯罪或即將發生之犯罪知情者。 三、有事實足認為防止其本人或他人生命、身體之具體危害，有查證其身分之必要者。 四、滯留於有事實足認有陰謀、預備、著手實施重大犯罪或有人犯藏匿之處所者。 五、滯留於應有停（居）留許可之處所，而無停（居）留許可者。 六、行經指定公共場所、路段及管制站者。  前項第六款之指定，以防止犯罪，或處理重大公共安全或社會秩序事件而有必要者為限。其指定應由警察機關主管長官為之。   警察進入公眾得出入之場所，應於營業時間為之，並不得任意妨礙其營業。         依警察職權行使法第4條與第6條，警察臨檢必須身著制服、表明身分及事由，同時，警察臨檢的前提必須是「懷疑犯罪」或「已犯罪」或是「經指定的公共場所」。
-  若碰上臨檢，並非在指定處所，警察又沒有合理的事由，或是除了「感覺有問題」以外，說不出其他懷疑犯罪的事實，那麼這臨檢就可能違法，當然可以拒絕！
- 拒絕的後果，依警察職權使法第7條，警察可能會將你帶往附近的派出所進行身分查證，但從攔下你開始，整個查證身分的過程不可以超過3個小時。    選擇依警察職權行使法第29條，當下向警察提出異議，若警察繼續臨檢，你就向警察索取「警察行使職權民眾異議紀錄表」，日後提起訴願、訴訟！
- 記下臨檢的警察編號、時間地點，甚至是錄影蒐證也可以，    </description>
+      <description>大法官５３５號釋憲  對人實施之臨檢則須以有相當理由足認其行為已構成或即將發生危害者為限   警察職權行使法第４條  警察行使職權時，應著制服或出示證件表明身份，並應告知事由。警察未依前項規定行使職權者，人民得拒絕之。   警察職權行使法第６條  警察於公共場所或合法進入之場所，得對於下列各款之人查證其身份  一、合理懷疑其有犯罪之嫌疑或有犯罪之虞者。 二、有事實足認其對已發生之犯罪或即將發生之犯罪知情者。 三、有事實足認為防止其本人或他人生命、身體之具體危害，有查證其身分之必要者。 四、滯留於有事實足認有陰謀、預備、著手實施重大犯罪或有人犯藏匿之處所者。 五、滯留於應有停（居）留許可之處所，而無停（居）留許可者。 六、行經指定公共場所、路段及管制站者。  前項第六款之指定，以防止犯罪，或處理重大公共安全或社會秩序事件而有必要者為限。其指定應由警察機關主管長官為之。   警察進入公眾得出入之場所，應於營業時間為之，並不得任意妨礙其營業。      依警察職權行使法第4條與第6條，警察臨檢必須身著制服、表明身分及事由，同時，警察臨檢的前提必須是「懷疑犯罪」或「已犯罪」或是「經指定的公共場所」。 若碰上臨檢，並非在指定處所，警察又沒有合理的事由，或是除了「感覺有問題」以外，說不出其他懷疑犯罪的事實，那麼這臨檢就可能違法，當然可以拒絕！ 拒絕的後果，依警察職權使法第7條，警察可能會將你帶往附近的派出所進行身分查證，但從攔下你開始，整個查證身分的過程不可以超過3個小時。 選擇依警察職權行使法第29條，當下向警察提出異議，若警察繼續臨檢，你就向警察索取「警察行使職權民眾異議紀錄表」，日後提起訴願、訴訟！ 記下臨檢的警察編號、時間地點，甚至是錄影蒐證也可以，  </description>
     </item>
     
     <item>
@@ -400,7 +397,7 @@ $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --pref
       <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/tips/fb/</guid>
-      <description>你的廣告偏好 用來移除『你的興趣』與移除使用個資來投放廣告的『廣告商』  https://www.facebook.com/ads/preferences/     Facebook 站外動態 清除或是關閉後可以避免商家和組織與 Facebook 分享有關我們與其互動的資訊 但這同時會影響到使用 Facebook 登入的第三方服務  https://www.facebook.com/off_facebook_activity/?entry_point=1  </description>
+      <description>你的廣告偏好  用來移除『你的興趣』與移除使用個資來投放廣告的『廣告商』 https://www.facebook.com/ads/preferences/   Facebook 站外動態  清除或是關閉後可以避免商家和組織與 Facebook 分享有關我們與其互動的資訊 但這同時會影響到使用 Facebook 登入的第三方服務 https://www.facebook.com/off_facebook_activity/?entry_point=1  </description>
     </item>
     
   </channel>

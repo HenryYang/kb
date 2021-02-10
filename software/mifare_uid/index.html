@@ -6,11 +6,11 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://kb.hiy.tw/software/mifare_uid/" />
 <meta property="article:published_time" content="2020-10-27T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-10-27T21:23:59+08:00" />
+<meta property="article:modified_time" content="2021-02-10T21:20:13+08:00" />
 <meta itemprop="name" content="Tricky for Mifare Classic / Mifare Classic 的冷知識">
 <meta itemprop="description" content="Tools  MIFARE Classic Tool - 用來讀取與編輯 Mifare Classic 卡 NFC TagInfo - 用來識別 RFID 卡片的類型與 UID 相關資訊 Mifare Calculator - Mifare 卡較驗碼的計算  Servies  XOR Calculator Mifare Classic UID BCC Calculator  Notes  Sector0 Block0 前 4 Byte 放置了該張卡的 UID，第 5 Byte 是校驗碼，為前 4 個 Byte XOR 的結果 假設 UID 為 DDCCBBAA 那這時候要解讀回 10 進位就是變成 (AABBCCDD)hex = 2864434397 (如果長度不足十位則前面補 0 )  參考資料">
 <meta itemprop="datePublished" content="2020-10-27T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2020-10-27T21:23:59+08:00" />
+<meta itemprop="dateModified" content="2021-02-10T21:20:13+08:00" />
 <meta itemprop="wordCount" content="60">
 
 
@@ -82,6 +82,10 @@
 	    </small>
 	<small class="mx-3">
 	    
+	    <div class="ml-2">
+		<i class="fas fa-edit"></i> <strong>Last modified:</strong> <time datetime="2021-02-10T21:20:13&#43;08:00">February 10, 2021</time>
+	    </div>
+	    
 	</small>
 	
     </div>
@@ -90,18 +94,18 @@
 
 
 	    
-	    <h2 id="tools">Tools</h2>
+	    <h5 id="tools">Tools</h5>
 <ul>
 <li><a href="https://play.google.com/store/apps/details?id=de.syss.MifareClassicTool">MIFARE Classic Tool</a> - 用來讀取與編輯 Mifare Classic 卡</li>
 <li><a href="https://play.google.com/store/apps/details?id=at.mroland.android.apps.nfctaginfo">NFC TagInfo</a> - 用來識別 RFID 卡片的類型與 UID 相關資訊</li>
 <li><a href="https://play.google.com/store/apps/details?id=cc.yuyeye.mcalc">Mifare Calculator</a> - Mifare 卡較驗碼的計算</li>
 </ul>
-<h2 id="servies">Servies</h2>
+<h5 id="servies">Servies</h5>
 <ul>
 <li><a href="https://toolslick.com/math/bitwise/xor-calculator">XOR Calculator</a></li>
 <li><a href="https://nric.biz/mifare-bcc-calculator.html">Mifare Classic UID BCC Calculator</a></li>
 </ul>
-<h2 id="notes">Notes</h2>
+<h5 id="notes">Notes</h5>
 <ul>
 <li>Sector0 Block0 前 4 Byte 放置了該張卡的 UID，第 5 Byte 是校驗碼，為前 4 個 Byte XOR 的結果</li>
 <li>假設 UID 為 DDCCBBAA 那這時候要解讀回 10 進位就是變成 (AABBCCDD)hex = 2864434397 (如果長度不足十位則前面補 0 )</li>

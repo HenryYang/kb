@@ -9,14 +9,14 @@ $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --pref
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://kb.hiy.tw/software/cli/" />
 <meta property="article:published_time" content="2020-07-07T00:00:00+00:00" />
-<meta property="article:modified_time" content="2021-02-05T00:01:05+08:00" />
+<meta property="article:modified_time" content="2021-02-10T21:20:13+08:00" />
 <meta itemprop="name" content="CLI command / 常見 CLI 指令 ">
 <meta itemprop="description" content="Let&rsquo;s Encrypt 安裝指令
 # For macOS $ brew install letsencrypt # For Ubuntu $ apt install certbot  手動產生憑證（可用於驗證 Private IP 或無法安裝 agent 的主機上）
 $ certbot certonly --manual --config-dir ~/Desktop/letsencrypt --work-dir ~/Desktop/letsencrypt --logs-dir ~/Desktop/letsencrypt --preferred-challenges dns  自動產生憑證（用於外網可以直接連線到 agent 的主機上）
 $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --preferred-challenges http -d 你的網域  關閉 SSH 密碼登入 # /etc/ssh/sshd_config PasswordAuthentication no ChallengeResponseAuthentication no UsePAM no  ESXi 重起管理服務 /etc/init.d/hostd restart /etc/init.d/vpxa restart  Docker 清理 $ docker system prune -a $ docker image prune -a  Openssl 相關指令  https://ssorc.">
 <meta itemprop="datePublished" content="2020-07-07T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2021-02-05T00:01:05+08:00" />
+<meta itemprop="dateModified" content="2021-02-10T21:20:13+08:00" />
 <meta itemprop="wordCount" content="173">
 
 
@@ -95,7 +95,7 @@ $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --pref
 	<small class="mx-3">
 	    
 	    <div class="ml-2">
-		<i class="fas fa-edit"></i> <strong>Last modified:</strong> <time datetime="2021-02-05T00:01:05&#43;08:00">February 5, 2021</time>
+		<i class="fas fa-edit"></i> <strong>Last modified:</strong> <time datetime="2021-02-10T21:20:13&#43;08:00">February 10, 2021</time>
 	    </div>
 	    
 	</small>
@@ -106,7 +106,7 @@ $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --pref
 
 
 	    
-	    <h3 id="lets-encrypt">Let&rsquo;s Encrypt</h3>
+	    <h5 id="lets-encrypt">Let&rsquo;s Encrypt</h5>
 <p>安裝指令</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># For macOS</span>
 $ brew install letsencrypt
@@ -120,46 +120,46 @@ $ apt install certbot
 <p>自動產生憑證（用於外網可以直接連線到 agent 的主機上）</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --preferred-challenges http -d 你的網域
 </code></pre></div></br>
-<h3 id="關閉-ssh-密碼登入">關閉 SSH 密碼登入</h3>
+<h5 id="關閉-ssh-密碼登入">關閉 SSH 密碼登入</h5>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># /etc/ssh/sshd_config</span>
 
 PasswordAuthentication no
 ChallengeResponseAuthentication no
 UsePAM no
 </code></pre></div></br>
-<h3 id="esxi-重起管理服務">ESXi 重起管理服務</h3>
+<h5 id="esxi-重起管理服務">ESXi 重起管理服務</h5>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">/etc/init.d/hostd restart
 /etc/init.d/vpxa restart
 </code></pre></div></br>
-<h3 id="docker-清理">Docker 清理</h3>
+<h5 id="docker-清理">Docker 清理</h5>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ docker system prune -a
 $ docker image prune -a
 </code></pre></div></br>
-<h3 id="openssl-相關指令">Openssl 相關指令</h3>
+<h5 id="openssl-相關指令">Openssl 相關指令</h5>
 <ul>
 <li><a href="https://ssorc.tw/42/">https://ssorc.tw/42/</a></li>
 </ul>
 </br>
-<h3 id="用-ffmpeg-合併影片">用 ffmpeg 合併影片</h3>
+<h5 id="用-ffmpeg-合併影片">用 ffmpeg 合併影片</h5>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e">#clips.txt</span>
 file <span style="color:#e6db74">&#39;first.mp4&#39;</span>
 file <span style="color:#e6db74">&#39;second.mp4&#39;</span>
 ...
 </code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">ffmpeg -f concat -i clips.txt -c copy output.mp4
 </code></pre></div></br>
-<h3 id="掛載-nfs-磁碟">掛載 NFS 磁碟</h3>
+<h5 id="掛載-nfs-磁碟">掛載 NFS 磁碟</h5>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e">#掛載</span>
 sudo mount -t nfs 192.168.1.21:/DATA   /Users/henryyang/Desktop/NAS_DATA
 <span style="color:#75715e">#ESXi 掛載</span>
 esxcfg-nas -a -o 1192.168.1.21 -s /DATA NAS_DATA
 </code></pre></div></br>
-<h3 id="用-wget-砍站">用 wget 砍站</h3>
+<h5 id="用-wget-砍站">用 wget 砍站</h5>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e">#完整指令</span>
 wget --mirror --page-requisites --convert-links --directory-prefix ./  https://example.com/
 <span style="color:#75715e">#簡寫指令</span>
 wget -mpkP ./  https://example.com/
 </code></pre></div></br>
-<h3 id="刪除-gitlab-rack-attack-ban-的-ip">刪除 Gitlab Rack Attack Ban 的 IP</h3>
+<h5 id="刪除-gitlab-rack-attack-ban-的-ip">刪除 Gitlab Rack Attack Ban 的 IP</h5>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e">#查目前所被 Ban 的 IP</span>
 grep <span style="color:#e6db74">&#34;Rack_Attack&#34;</span> /var/log/gitlab/gitlab-rails/auth.log
 
@@ -168,7 +168,7 @@ grep <span style="color:#e6db74">&#34;Rack_Attack&#34;</span> /var/log/gitlab/gi
 del cache:gitlab:rack::attack:allow2ban:ban:&lt;ip&gt;
 </code></pre></div><p>參考資料：https://docs.gitlab.com/ee/security/rack_attack.html</p>
 </br>
-<h3 id="firefox-開啟強制-https-模式">Firefox 開啟強制 https 模式</h3>
+<h5 id="firefox-開啟強制-https-模式">Firefox 開啟強制 https 模式</h5>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">偏好設定 -&gt; 隱私權與安全性 -&gt; 純 HTTPS 模式 -&gt; 在所有視窗都開啟純 HTTPS 模式
 </code></pre></div>
 	    
