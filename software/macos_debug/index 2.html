@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en" itemscope="" itemtype="http://schema.org/WebPage">
+    <head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta property="og:title" content="MacOS Debug / MacOS 除錯設定" />
+<meta property="og:description" content="常見 Mac 開機時除錯快捷鍵  預設在 Windows 鍵盤上  Option 就是 Alt Command（⌘） 就是 ⊞ WinKey   執行 Mac 上的「Apple 診斷」  關機時按下電源鍵，且立即按住鍵盤上的 D 鍵，按住直到出現「選擇語言的畫面」為止。   重新安裝 macOS  關機且插上網路線時按下電源鍵，且立即按住鍵盤上的 Command（⌘）與 R 兩個鍵。   手動選擇開機磁碟  關機時按下電源鍵，且立即按住鍵盤上的 Option 鍵，按住直到出現「選擇硬碟的畫面」為止。   進入安全模式  關機時按下電源鍵，且立即按住鍵盤上的 Shift 鍵，按住直到出現「登入畫面」為止。   驗證是否在安全模式  點選 左上方的蘋果圖案 -&gt; 關於這台 Mac -&gt; 系統報告 -&gt; 軟體，然後檢查「開機模式」。 為「安全」表示在安全模式，為「正常」則是正常開機。   以目標磁碟模式啟動( 把 Mac 當成 Thunderbolt 外接硬碟用 )  關機時按下電源鍵，且立即按住鍵盤上的 T 鍵，按住直到出現『 Thunderbolt 的畫面』為止。   進入 Single-User 模式  關機時按下電源鍵，且立即按住鍵盤上的 S 鍵，持續按住直到出現登入畫面為止。 僅支援到 High Sierra (10." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kb.hiy.tw/software/macos_debug/" />
+<meta property="article:published_time" content="2020-07-07T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-02-10T21:30:08+08:00" />
+<meta itemprop="name" content="MacOS Debug / MacOS 除錯設定">
+<meta itemprop="description" content="常見 Mac 開機時除錯快捷鍵  預設在 Windows 鍵盤上  Option 就是 Alt Command（⌘） 就是 ⊞ WinKey   執行 Mac 上的「Apple 診斷」  關機時按下電源鍵，且立即按住鍵盤上的 D 鍵，按住直到出現「選擇語言的畫面」為止。   重新安裝 macOS  關機且插上網路線時按下電源鍵，且立即按住鍵盤上的 Command（⌘）與 R 兩個鍵。   手動選擇開機磁碟  關機時按下電源鍵，且立即按住鍵盤上的 Option 鍵，按住直到出現「選擇硬碟的畫面」為止。   進入安全模式  關機時按下電源鍵，且立即按住鍵盤上的 Shift 鍵，按住直到出現「登入畫面」為止。   驗證是否在安全模式  點選 左上方的蘋果圖案 -&gt; 關於這台 Mac -&gt; 系統報告 -&gt; 軟體，然後檢查「開機模式」。 為「安全」表示在安全模式，為「正常」則是正常開機。   以目標磁碟模式啟動( 把 Mac 當成 Thunderbolt 外接硬碟用 )  關機時按下電源鍵，且立即按住鍵盤上的 T 鍵，按住直到出現『 Thunderbolt 的畫面』為止。   進入 Single-User 模式  關機時按下電源鍵，且立即按住鍵盤上的 S 鍵，持續按住直到出現登入畫面為止。 僅支援到 High Sierra (10.">
+<meta itemprop="datePublished" content="2020-07-07T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2021-02-10T21:30:08+08:00" />
+<meta itemprop="wordCount" content="180">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="MacOS Debug / MacOS 除錯設定"/>
+<meta name="twitter:description" content="常見 Mac 開機時除錯快捷鍵  預設在 Windows 鍵盤上  Option 就是 Alt Command（⌘） 就是 ⊞ WinKey   執行 Mac 上的「Apple 診斷」  關機時按下電源鍵，且立即按住鍵盤上的 D 鍵，按住直到出現「選擇語言的畫面」為止。   重新安裝 macOS  關機且插上網路線時按下電源鍵，且立即按住鍵盤上的 Command（⌘）與 R 兩個鍵。   手動選擇開機磁碟  關機時按下電源鍵，且立即按住鍵盤上的 Option 鍵，按住直到出現「選擇硬碟的畫面」為止。   進入安全模式  關機時按下電源鍵，且立即按住鍵盤上的 Shift 鍵，按住直到出現「登入畫面」為止。   驗證是否在安全模式  點選 左上方的蘋果圖案 -&gt; 關於這台 Mac -&gt; 系統報告 -&gt; 軟體，然後檢查「開機模式」。 為「安全」表示在安全模式，為「正常」則是正常開機。   以目標磁碟模式啟動( 把 Mac 當成 Thunderbolt 外接硬碟用 )  關機時按下電源鍵，且立即按住鍵盤上的 T 鍵，按住直到出現『 Thunderbolt 的畫面』為止。   進入 Single-User 模式  關機時按下電源鍵，且立即按住鍵盤上的 S 鍵，持續按住直到出現登入畫面為止。 僅支援到 High Sierra (10."/>
+
+
+<meta property="description" content='常見 Mac 開機時除錯快捷鍵  預設在 Windows 鍵盤上  Option 就是 Alt Command（⌘） 就是 ⊞ WinKey   執行 Mac 上的「Apple 診斷」  關機時按下電源鍵，且立即按住鍵盤上的 D 鍵，按住直到出現「選擇語言的畫面」為止。   重新安裝 macOS  關機且插上網路線時按下電源鍵，且立即按住鍵盤上的 Command（⌘）與 R 兩個鍵。   手動選擇開機磁碟  關機時按下電源鍵，且立即按住鍵盤上的 Option 鍵，按住直到出現「選擇硬碟的畫面」為止。   進入安全模式  關機時按下電源鍵，且立即按住鍵盤上的 Shift 鍵，按住直到出現「登入畫面」為止。   驗證是否在安全模式  點選 左上方的蘋果圖案 -&gt; 關於這台 Mac -&gt; 系統報告 -&gt; 軟體，然後檢查「開機模式」。 為「安全」表示在安全模式，為「正常」則是正常開機。   以目標磁碟模式啟動( 把 Mac 當成 Thunderbolt 外接硬碟用 )  關機時按下電源鍵，且立即按住鍵盤上的 T 鍵，按住直到出現『 Thunderbolt 的畫面』為止。   進入 Single-User 模式  關機時按下電源鍵，且立即按住鍵盤上的 S 鍵，持續按住直到出現登入畫面為止。 僅支援到 High Sierra (10.' /><meta name="author" content="Henry Yang">
+
+
+
+<title>MacOS Debug / MacOS 除錯設定 | Henry&#39;s Knowledge Base</title>
+
+<link rel="canonical" href="https://kb.hiy.tw/software/macos_debug/">
+
+
+
+
+ 
+
+
+
+<link rel="stylesheet" href="https://kb.hiy.tw/css/all.min.35684cf242accef848cdf30784a2677d12eae65e78e882a8d045000abf3276e0.css" integrity="sha256-NWhM8kKszvhIzfMHhKJnfRLq5l546IKo0EUACr8yduA=">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+    <body>
+	<meta itemprop="url" content="https://kb.hiy.tw/software/macos_debug/" /><nav class="navbar navbar-dark fixed-top bg-danger flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-sm-3 col-md-3 mr-0 text-center " href="https://kb.hiy.tw/">Henry&#39;s Knowledge Base</a>
+</nav>
+
+
+<div class="container-fluid mt-3">
+    <div class="row">
+
+	
+
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-9 px-4">
+            
+	    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">MacOS Debug / MacOS 除錯設定</h1>
+</div>
+
+
+
+<div class="text-center">
+    
+    
+    <div class="d-flex justify-content-center text-muted">
+	<small>
+	    <i class="fas fa-clock"></i> <strong>Published:</strong>
+	    
+	    <time datetime="2020-07-07T00:00:00&#43;00:00">7 Jul, 2020</time>
+	    
+	    </small>
+	<small class="mx-3">
+	    
+	    <div class="ml-2">
+		<i class="fas fa-edit"></i> <strong>Last modified:</strong> <time datetime="2021-02-10T21:30:08&#43;08:00">February 10, 2021</time>
+	    </div>
+	    
+	</small>
+	
+    </div>
+    
+</div>
+
+
+	    
+	    <h5 id="常見-mac-開機時除錯快捷鍵">常見 Mac 開機時除錯快捷鍵</h5>
+<ul>
+<li>預設在 Windows 鍵盤上
+<ul>
+<li>Option 就是 Alt</li>
+<li>Command（⌘） 就是 ⊞ WinKey</li>
+</ul>
+</li>
+<li>執行 Mac 上的「Apple 診斷」
+<ul>
+<li>關機時按下電源鍵，且立即按住鍵盤上的 D 鍵，按住直到出現「選擇語言的畫面」為止。</li>
+</ul>
+</li>
+<li>重新安裝 macOS
+<ul>
+<li>關機且插上網路線時按下電源鍵，且立即按住鍵盤上的 Command（⌘）與 R 兩個鍵。</li>
+</ul>
+</li>
+<li>手動選擇開機磁碟
+<ul>
+<li>關機時按下電源鍵，且立即按住鍵盤上的 Option 鍵，按住直到出現「選擇硬碟的畫面」為止。</li>
+</ul>
+</li>
+<li>進入安全模式
+<ul>
+<li>關機時按下電源鍵，且立即按住鍵盤上的 Shift 鍵，按住直到出現「登入畫面」為止。</li>
+</ul>
+</li>
+<li>驗證是否在安全模式
+<ul>
+<li>點選 左上方的蘋果圖案 -&gt; 關於這台 Mac -&gt; 系統報告 -&gt; 軟體，然後檢查「開機模式」。</li>
+<li>為「安全」表示在安全模式，為「正常」則是正常開機。</li>
+</ul>
+</li>
+<li>以目標磁碟模式啟動( 把 Mac 當成 Thunderbolt 外接硬碟用 )
+<ul>
+<li>關機時按下電源鍵，且立即按住鍵盤上的 T 鍵，按住直到出現『 Thunderbolt 的畫面』為止。</li>
+</ul>
+</li>
+<li>進入 Single-User 模式
+<ul>
+<li>關機時按下電源鍵，且立即按住鍵盤上的 S 鍵，持續按住直到出現登入畫面為止。</li>
+<li>僅支援到 High Sierra (10.13) 版本，目前最新的 Mojave (10.14) 不支援。</li>
+</ul>
+</li>
+<li>重置 Mac 上的 NVRAM 或 PRAM (通常用於電腦操作有非預期的反應但又不像整台壞掉)
+<ul>
+<li>關機時按下電源鍵，且立即按住 Option、Command、P 和 R 不放。</li>
+<li>放手時機為「按住超過 30 秒」或是「螢幕閃爍超過三次」或是「電腦發出開機聲超過三次」。</li>
+</ul>
+</li>
+<li>重置 Mac 上的系統管理控制器（SMC）(通常用於外接各種設備異常時或是異常燙、異常耗電這種非直觀的異常)
+<ul>
+<li>請直接參考<a href="https://support.apple.com/zh-tw/HT201295">官方最新版文件</a>，因為每款機型操作方式都不同。</li>
+</ul>
+</li>
+</ul>
+</br>
+<h5 id="實用經驗">實用經驗</h5>
+<ul>
+<li>手動下載 macOS 更新方式
+<ul>
+<li><a href="https://support.apple.com/downloads/macos">https://support.apple.com/downloads/macos</a></li>
+<li>遇到要重新安裝更新、更新韌體、下載離線更新包都可以在這找到各種 masOS 的更新。</li>
+</ul>
+</li>
+</ul>
+</br>
+<ul>
+<li>個人推薦的系統清理工具 - <a href="https://www.titanium-software.fr/en/onyx.html">OnyX</a>
+<ul>
+<li>用於把系統各種快取與設定清除並且驗證系統檔案的工具。它清除完後第一次重開因為系統會重新建立一些快取所以前一小時電腦會很慢是正常狀況。</li>
+</ul>
+</li>
+</ul>
+</br>
+<ul>
+<li>處理鬼打牆的 Mac 設備通則
+<ul>
+<li>重開機 -&gt; 「磁碟工具程式」修復磁碟 -&gt; 重置 Mac 上的 NVRAM 或 PRAM -&gt;  重置 Mac 上的系統管理控制器（SMC）-&gt; 執行 OnyX</li>
+</ul>
+</li>
+</ul>
+</br>
+<ul>
+<li>登入電腦版的 iCloud App 跳出 this is valid account but not icloud account 錯誤
+<ul>
+<li>這代表這組 Apple ID 是透過網頁註冊出來的。所以沒有 iCloud 帳戶的功能。</li>
+<li>解法就是拿一台最新版的 iOS 設備，登入後照流程走就會開通 iCloud 功能，之後再登入電腦版就會正常了</li>
+<li>P.S. 確認的方式就是登入 <a href="https://www.icloud.com/">https://www.icloud.com/</a> 然後看看這帳戶有沒有 Find My friends 來判定。</li>
+</ul>
+</li>
+</ul>
+</br>
+<ul>
+<li>無法開啟系統偏好設定內的使用者群組處置方法
+<ul>
+<li>這會發生於為網域帳戶且沒有 Mobile Account 與管理權權限時，解法就是在該網域帳戶下打開終端機用 <code>su</code> 指令切換成本機的任意帳戶。
+* 這時候把『啟系統偏好設定』整個關掉再打開就會可以進入 使用者群組 了。當進去後請記得給該網域帳戶 Mobile Account 的權限。</li>
+</ul>
+</li>
+</ul>
+</br>
+<ul>
+<li>檢查自己目前安裝的 macOS 軟體是不是 intel only
+<ul>
+<li><a href="https://github.com/DigiDNA/Silicon">https://github.com/DigiDNA/Silicon</a></li>
+</ul>
+</li>
+</ul>
+</br>
+<ul>
+<li>在 macOS 上重建損壞的分割區 （請看 Method 2）
+<ul>
+<li><a href="https://www.macgasm.net/data-recovery/mac-partition-recovery/">https://www.macgasm.net/data-recovery/mac-partition-recovery/</a></li>
+</ul>
+</li>
+</ul>
+
+	    
+
+	    
+	    <div class="comments">
+		
+	    </div>
+
+	    
+<hr>
+<div>
+    <nav aria-label="Article quick navigation">
+	<ul class="pagination justify-content-center">
+	    
+	    <li class="page-item">
+		<a class="page-link" href="https://kb.hiy.tw/software/routing/" title="Online routing check service/ 線上測試路由服務">Previous</a>
+	    </li>
+	    
+
+	    
+	    <li class="page-item">
+		<a class="page-link" href="https://kb.hiy.tw/software/macos_cli/" title="macOS CLI / macOS 指令">Next</a>
+	    </li>
+	    
+	</ul>
+    </nav>
+</div>
+<hr>
+
+
+
+	    <div class="top-border p-3 mb-2 bg-light">
+		<div>
+    <ul>
+	
+	<h4>Articles</h4>
+	
+<ul>
+    
+    
+    <li><a href="https://kb.hiy.tw/software/mifare_uid/">Tricky for Mifare Classic / Mifare Classic 的冷知識</a><span><small class="mx-1 text-muted">October 27, 2020</small></span></li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/software/terminal_command/"> Terminal Shortcut / Terminal 快捷鍵</a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/software/cli/">CLI command / 常見 CLI 指令 </a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/software/macos_cli/">macOS CLI / macOS 指令</a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+    
+    <li>MacOS Debug / MacOS 除錯設定</li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/software/routing/">Online routing check service/ 線上測試路由服務</a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/software/useful/">Useful tools / 實用小工具</a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/software/vim/">VIM Tips / VIM 常用指令</a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/software/windows/">Windows Essential App &amp; Tips / Windows 常見軟體與小技巧</a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+</ul>
+
+	
+	<hr>
+	
+	<h4>Subcategories</h4>
+	
+
+<li><h5><a href="https://kb.hiy.tw/software/android/">Android</a></h5></li>
+
+<ul>
+    
+    
+    <li><a href="https://kb.hiy.tw/software/android/android_adb/">Android adb Tips / Android adb 相關資訊</a><span><small class="mx-1 text-muted">October 27, 2020</small></span></li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/software/android/android_root/">Android Root Tips / Android Root 相關資訊</a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+</ul>
+ 
+<ul>
+    
+
+
+</ul>
+
+<li><h5><a href="https://kb.hiy.tw/software/ios/">iOS</a></h5></li>
+
+<ul>
+    
+    
+    <li><a href="https://kb.hiy.tw/software/ios/ios_jb/">iOS Jailbreak App / iOS 越獄 App</a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/software/ios/ios_path/">iOS System Path / iOS 系統資料結構</a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/software/ios/ios_tips/">iOS Tips / iOS 小技巧</a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+</ul>
+ 
+<ul>
+    
+
+
+</ul>
+
+
+	
+	
+	
+    </ul>
+</div>
+
+
+
+
+
+	    </div>
+	    
+	    
+
+
+
+
+
+
+
+
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb border border-secondary" itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+	
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item "
+    
+    itemprop="itemListElement" itemscope
+      itemtype="http://schema.org/ListItem">
+    
+    <a href="https://kb.hiy.tw/"
+       itemprop="item">
+	<span itemprop="name">Knowledge Base</span>
+    </a>
+    
+    <meta itemprop="position" content="1" />
+</li>
+
+
+<li class="breadcrumb-item "
+    
+    itemprop="itemListElement" itemscope
+      itemtype="http://schema.org/ListItem">
+    
+    <a href="https://kb.hiy.tw/software/"
+       itemprop="item">
+	<span itemprop="name">Software/軟體</span>
+    </a>
+    
+    <meta itemprop="position" content="2" />
+</li>
+
+
+<li class="breadcrumb-item  active"
+    aria-current="page"
+    itemprop="itemListElement" itemscope
+      itemtype="http://schema.org/ListItem">
+    
+	<span itemprop="name">MacOS Debug / MacOS 除錯設定</span>
+    
+    <meta itemprop="position" content="3" />
+</li>
+
+  </ol>
+</nav>
+
+
+
+
+	    <div class="mt-3"><footer class="container-fluid site-footer py-3">
+
+</footer>
+<div class="si-license">
+  <div class="text-muted text-sm-center">
+	Henry Yang<small>© 2020</small> &middot; 
+  </div>
+</div>
+
+
+</div>
+	    
+        </main>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<script async src="/js/bundle.min.58c1a372888b06db260026e21bb373955061138b81181b5248eb0a5f94e82b5f1f500a5d40ffa85135bb4ef838a53013ca6d3f85ee39c023de90e6149aac4d6b.js" integrity="sha512-WMGjcoiLBtsmACbiG7NzlVBhE4uBGBtSSOsKX5ToK18fUApdQP&#43;oUTW7Tvg4pTATym0/he45wCPekOYUmqxNaw=="></script>
+
+</body>
+</html>
