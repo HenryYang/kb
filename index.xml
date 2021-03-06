@@ -75,13 +75,13 @@
       <description>日本航空   自家與外航累積比例表
  https://www.tw.jal.co.jp/world/en/jalmile/flight/    國內線與國際線 FOP 計算表
  https://www.jal.co.jp/cgi-bin/jal/milesearch/save/flt_mile_save.cgi?external=1&amp;amp;language=en    JEP 訂票頁面
- https://www.world.jal.co.jp/world/zhtw/japan_explorer_pass/tw/reservation/    網友自制 JGC 修行里程計算器
+ https://www.world.jal.co.jp/world/zhtw/japan_explorer_pass/tw/reservation/    手動申請實體會員卡
+ https://www.jal.co.jp/jp/en/jalmile/flyon/application-flow/    網友自制 JGC 修行里程計算器
  https://www.jgcmileagerun.org/trilogy/mrgenerator    華南里程兌換單
  https://bit.ly/2HYRb6U    匯豐哩程兌換頁面
  https://ecard.hsbc.com.tw/EXT/travelPlus/redeem https://ecard.hsbc.com.tw/CH/chLogin    網友整理的常見 OW 航空累積到 JAL 的比例
  https://bit.ly/30OVWXG    二等親關係圖
- https://www.jal.co.jp/en/jalmile/use/ticket.html    里程票放票為前 360 天
- https://www.facebook.com/d3consulting.org/posts/2201428096783962    艙等選位資訊</description>
+ https://www.jal.co.jp/en/jalmile/use/ticket.html    里程票放票為前 360 天</description>
     </item>
     
     <item>
@@ -324,7 +324,7 @@ $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --pref
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/lists/url/</guid>
-      <description>超強翻譯網站 DeepL  https://www.deepl.com/translator   隨機產生專案名稱  https://mrsharpoblunto.github.io/foswig.js/   隨機產生高強度密碼  https://1password.com/zh-tw/password-generator/   GitHub 功能小抄  https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.zh-tw.md   資安入門資源  https://gotyour.pw/resources.html   資安入門概論  https://github.com/sakura26/DADA   反查目前真實使用的 DNS Server  https://which.nameserve.rs/   Google 剩餘空間查詢  Google Drive -&amp;gt; https://one.google.com/storage/management Google Photo -&amp;gt; https://photos.google.com/storage   查詢信用卡帳單上的 Google 費用說明  https://support.google.com/pay/answer/7644142?hl=zh-Hant   查詢 Amazon US 等網站的真實評價  https://www.fakespot.com/   台灣電商的歷史價格查詢  https://twbuyer.info/   查詢使用哪個台灣開店電商  https://24h.</description>
+      <description>超強翻譯網站 DeepL  https://www.deepl.com/translator   隨機產生專案名稱  https://mrsharpoblunto.github.io/foswig.js/   隨機產生高強度密碼  https://1password.com/zh-tw/password-generator/   GitHub 功能小抄  https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.zh-tw.md   資安入門資源  https://gotyour.pw/resources.html   資安入門概論  https://github.com/sakura26/DADA   反查目前真實使用的 DNS Server  https://which.nameserve.rs/   查詢 DNS 更新到各地狀態  https://www.whatsmydns.net   Google 剩餘空間查詢  Google Drive -&amp;gt; https://one.google.com/storage/management Google Photo -&amp;gt; https://photos.google.com/storage   查詢信用卡帳單上的 Google 費用說明  https://support.google.com/pay/answer/7644142?hl=zh-Hant   查詢 Amazon US 等網站的真實評價  https://www.</description>
     </item>
     
     <item>
@@ -370,6 +370,15 @@ $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --pref
       
       <guid>https://kb.hiy.tw/life/referral_link/</guid>
       <description>玉山銀行 - Only 信用卡  https://s.hiy.tw/only  玉山銀行 - Ubear 信用卡  https://s.hiy.tw/ubear  中國信託 - LOL 英雄聯盟聯名卡  https://ctbc.tw/YBv16q  台新銀行 - Richart 數位帳戶  https://s.hiy.tw/richart  Etoro - CFD/美股 線上投資/交易平台  https://s.hiy.tw/etoro  Crypto.com - MCO VISA Debit Card  https://s.hiy.tw/mco  匯豐銀行 - 旅人/現金回饋 信用卡  請私訊問我最新的推廣連結  Shopback 網路購物返利+現金回饋平台  https://s.hiy.tw/shopback  Line TAXI - 使用 Line 就可以叫計程車  https://s.hiy.tw/linetaxi  Uber &amp;amp; Uber Eats  Uber：請直接點選連結 https://s.</description>
+    </item>
+    
+    <item>
+      <title>Useful Goods / 實用商品</title>
+      <link>https://kb.hiy.tw/life/useful_tools/</link>
+      <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/life/useful_tools/</guid>
+      <description>u </description>
     </item>
     
     <item>
