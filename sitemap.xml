@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://kb.hiy.tw/notes/template/</loc>
+    <lastmod>2021-03-25T18:24:28+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kb.hiy.tw/software/android/android_adb/</loc>
     <lastmod>2021-02-10T21:20:13+08:00</lastmod>
   </url>

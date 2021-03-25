@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en" itemscope="" itemtype="http://schema.org/WebPage">
+    <head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta property="og:title" content="Hugo template script / Hugo 主題常用指令" />
+<meta property="og:description" content="/var/log/apache2/$ grep POST access.log XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:03 &#43;0000] &#34;POST /wp-content/themes/method/lib/scripts/dl-skin.php HTTP/1.1&#34; 500 363 &#34;-&#34; &#34;Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0&#34; XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:14 &#43;0000] &#34;POST /wp-content/themes/modular/lib/scripts/dl-skin.php HTTP/1.1&#34; 500 363 &#34;-&#34; &#34;Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0&#34; XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:25 &#43;0000] &#34;POST /wp-content/themes/myriad/lib/scripts/dl-skin.php HTTP/1.1&#34; 500 363 &#34;-&#34; &#34;Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0&#34; XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:56 &#43;0000] &#34;POST /wp-content/themes/persuasion/lib/scripts/dl-skin.php HTTP/1." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kb.hiy.tw/notes/template/" />
+<meta property="article:published_time" content="2021-03-25T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-03-25T18:24:28+08:00" />
+<meta itemprop="name" content="Hugo template script / Hugo 主題常用指令">
+<meta itemprop="description" content="/var/log/apache2/$ grep POST access.log XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:03 &#43;0000] &#34;POST /wp-content/themes/method/lib/scripts/dl-skin.php HTTP/1.1&#34; 500 363 &#34;-&#34; &#34;Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0&#34; XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:14 &#43;0000] &#34;POST /wp-content/themes/modular/lib/scripts/dl-skin.php HTTP/1.1&#34; 500 363 &#34;-&#34; &#34;Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0&#34; XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:25 &#43;0000] &#34;POST /wp-content/themes/myriad/lib/scripts/dl-skin.php HTTP/1.1&#34; 500 363 &#34;-&#34; &#34;Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0&#34; XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:56 &#43;0000] &#34;POST /wp-content/themes/persuasion/lib/scripts/dl-skin.php HTTP/1.">
+<meta itemprop="datePublished" content="2021-03-25T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2021-03-25T18:24:28+08:00" />
+<meta itemprop="wordCount" content="326">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Hugo template script / Hugo 主題常用指令"/>
+<meta name="twitter:description" content="/var/log/apache2/$ grep POST access.log XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:03 &#43;0000] &#34;POST /wp-content/themes/method/lib/scripts/dl-skin.php HTTP/1.1&#34; 500 363 &#34;-&#34; &#34;Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0&#34; XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:14 &#43;0000] &#34;POST /wp-content/themes/modular/lib/scripts/dl-skin.php HTTP/1.1&#34; 500 363 &#34;-&#34; &#34;Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0&#34; XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:25 &#43;0000] &#34;POST /wp-content/themes/myriad/lib/scripts/dl-skin.php HTTP/1.1&#34; 500 363 &#34;-&#34; &#34;Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0&#34; XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:56 &#43;0000] &#34;POST /wp-content/themes/persuasion/lib/scripts/dl-skin.php HTTP/1."/>
+
+
+<meta property="description" content='/var/log/apache2/$ grep POST access.log XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:03 &#43;0000] &#34;POST /wp-content/themes/method/lib/scripts/dl-skin.php HTTP/1.1&#34; 500 363 &#34;-&#34; &#34;Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0&#34; XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:14 &#43;0000] &#34;POST /wp-content/themes/modular/lib/scripts/dl-skin.php HTTP/1.1&#34; 500 363 &#34;-&#34; &#34;Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0&#34; XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:25 &#43;0000] &#34;POST /wp-content/themes/myriad/lib/scripts/dl-skin.php HTTP/1.1&#34; 500 363 &#34;-&#34; &#34;Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0&#34; XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:56 &#43;0000] &#34;POST /wp-content/themes/persuasion/lib/scripts/dl-skin.php HTTP/1.' /><meta name="author" content="Henry Yang">
+
+
+
+<title>Hugo template script / Hugo 主題常用指令 | Henry&#39;s Knowledge Base</title>
+
+<link rel="canonical" href="https://kb.hiy.tw/notes/template/">
+
+
+
+
+ 
+
+
+
+<link rel="stylesheet" href="https://kb.hiy.tw/css/all.min.35684cf242accef848cdf30784a2677d12eae65e78e882a8d045000abf3276e0.css" integrity="sha256-NWhM8kKszvhIzfMHhKJnfRLq5l546IKo0EUACr8yduA=">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+    <body>
+	<meta itemprop="url" content="https://kb.hiy.tw/notes/template/" /><nav class="navbar navbar-dark fixed-top bg-danger flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-sm-3 col-md-3 mr-0 text-center " href="https://kb.hiy.tw/">Henry&#39;s Knowledge Base</a>
+</nav>
+
+
+<div class="container-fluid mt-3">
+    <div class="row">
+
+	
+
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-9 px-4">
+            
+	    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Hugo template script / Hugo 主題常用指令</h1>
+</div>
+
+
+
+<div class="text-center">
+    
+    
+    <div class="d-flex justify-content-center text-muted">
+	<small>
+	    <i class="fas fa-clock"></i> <strong>Published:</strong>
+	    
+	    <time datetime="2021-03-25T00:00:00&#43;00:00">25 Mar, 2021</time>
+	    
+	    </small>
+	<small class="mx-3">
+	    
+	</small>
+	
+    </div>
+    
+</div>
+
+
+	    
+	    <pre class="shell">
+<samp>
+<span class="shell-prompt">/var/log/apache2/$</span> <kbd>grep POST access.log</kbd>
+XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:03 +0000] "POST /wp-content/themes/method/lib/scripts/dl-skin.php HTTP/1.1" 500 363 "-" "Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0"
+XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:14 +0000] "POST /wp-content/themes/modular/lib/scripts/dl-skin.php HTTP/1.1" 500 363 "-" "Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0"
+XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:25 +0000] "POST /wp-content/themes/myriad/lib/scripts/dl-skin.php HTTP/1.1" 500 363 "-" "Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0"
+XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:56 +0000] "POST /wp-content/themes/persuasion/lib/scripts/dl-skin.php HTTP/1.1" 500 363 "-" "Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0"
+</samp>
+</pre>
+<blockquote>
+<p>To make authorized calls to Twitter’s APIs, your application must
+first obtain an OAuth access token on behalf of a Twitter user (or,
+you could issue Application-only authenticated requests, when user
+context is not required).</p>
+</blockquote>
+<pre class="shell">
+<samp>
+<span class="shell-prompt">$</span> <kbd>git config --global core.excludesfile ~/.gitignore_global</kbd>
+
+</samp>
+</pre>
+<p>This command will automatically set the following configuration in
+your <a href="https://git-scm.com/docs/git-config#git-config-gitconfig"><code>~/.gitconfig_global</code></a> file.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">[core]
+        excludesfile = /home/user/.gitignore_global
+</code></pre></div><blockquote>
+<p>Patterns which a user wants Git to ignore in all situations (e.g.,
+backup or temporary files generated by the user’s editor of choice)
+generally go into a file specified by core.excludesFile in the user’s
+~/.gitconfig. Its default value is $XDG_CONFIG_HOME/git/ignore. If
+$XDG_CONFIG_HOME is either not set or empty, $HOME/.config/git/ignore
+is used instead.</p>
+<footer class="blockquote-footer"> <cite>gitignore in <a href="https://git-scm.com/docs/gitignore">git documentation</a></cite></footer>
+</blockquote>
+<div class="mermaid">
+graph TB
+    subgraph GitServer
+      server["Git"]==>bare["the Git directory"]
+    end
+    subgraph DeveloperRepo
+      git["Git"]
+      git==>dir["the Git directory <br /> .git"]
+      git==>stage["Staging Area"]
+      git==>work["Working Directory"]
+    end
+</div>
+<div class="mermaid text-sm-center">
+graph TB
+      git["Git Project Sections"]
+      git==>dir["the Git directory <br /> .git"]
+      git==>stage["Staging Area"]
+      git==>work["Working Directory"]
+</div>
+<div class="mermaid">
+sequenceDiagram
+    Untracked ->> Staged: Add the file
+    Unmodified ->> Modified: Edit the file
+   	Modified ->> Staged: Stage the file
+    Unmodified ->> Untracked: Remove the file
+    Staged ->> Unmodified: Commit
+</div>
+<p>ET should be used to <strong>retrieve data</strong> from a specified resource and
+sending <strong>non-sensitive</strong> data.
+{: class=&ldquo;alert alert-danger&rdquo;}</p>
+<p>POST is the preferred way for sending <strong>form data</strong>.
+{: class=&ldquo;alert alert-danger&rdquo;}</p>
+<p>|&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;|</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align:center">GET</th>
+<th style="text-align:center">POST</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Can be <strong>cached</strong></td>
+<td style="text-align:center"><i class="fa fa-check" aria-hidden="true"></i></td>
+<td style="text-align:center"><i class="fa fa-times" aria-hidden="true"></i></td>
+</tr>
+<tr>
+<td>Remain in the <strong>browser history</strong></td>
+<td style="text-align:center"><i class="fa fa-check" aria-hidden="true"></i></td>
+<td style="text-align:center"><i class="fa fa-times" aria-hidden="true"></i></td>
+</tr>
+<tr>
+<td>Can be <strong>bookmarked</strong></td>
+<td style="text-align:center"><i class="fa fa-check" aria-hidden="true"></i></td>
+<td style="text-align:center"><i class="fa fa-times" aria-hidden="true"></i></td>
+</tr>
+<tr>
+<td>Data visible in URL</td>
+<td style="text-align:center"><i class="fa fa-times" aria-hidden="true"></i></td>
+<td style="text-align:center"><i class="fa fa-check" aria-hidden="true"></i></td>
+</tr>
+<tr>
+<td>Used with <strong>sensitive data</strong></td>
+<td style="text-align:center"><i class="fa fa-times" aria-hidden="true"></i></td>
+<td style="text-align:center"><i class="fa fa-check" aria-hidden="true"></i></td>
+</tr>
+<tr>
+<td><strong>Data length</strong> restrictions</td>
+<td style="text-align:center"><i class="fa fa-check" aria-hidden="true"></i></td>
+<td style="text-align:center"><i class="fa fa-times" aria-hidden="true"></i></td>
+</tr>
+<tr>
+<td>ASCII data type allowed</td>
+<td style="text-align:center"><i class="fa fa-check" aria-hidden="true"></i></td>
+<td style="text-align:center"><i class="fa fa-check" aria-hidden="true"></i></td>
+</tr>
+<tr>
+<td>Binary data type allowed</td>
+<td style="text-align:center"><i class="fa fa-times" aria-hidden="true"></i></td>
+<td style="text-align:center"><i class="fa fa-check" aria-hidden="true"></i></td>
+</tr>
+<tr>
+<td>Content-Type <em><a href="https://www.w3.org/TR/html401/interact/forms.html#h-17.13.4">application/x-www-form-urlencoded</a></em></td>
+<td style="text-align:center"><i class="fa fa-check" aria-hidden="true"></i></td>
+<td style="text-align:center"><i class="fa fa-check" aria-hidden="true"></i></td>
+</tr>
+<tr>
+<td>Content-Type <em><a href="https://www.ietf.org/rfc/rfc2388.txt">multipart/form-data</a></em></td>
+<td style="text-align:center"><i class="fa fa-times" aria-hidden="true"></i></td>
+<td style="text-align:center"><i class="fa fa-check" aria-hidden="true"></i></td>
+</tr>
+<tr>
+<td>&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>{: class=&ldquo;table&rdquo;}</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><a href="http://www.w3schools.com/tags/ref_httpmethods.asp">Source</a></p>
+
+	    
+
+	    
+	    <div class="comments">
+		
+	    </div>
+
+	    
+<hr>
+<div>
+    <nav aria-label="Article quick navigation">
+	<ul class="pagination justify-content-center">
+	    
+	    <li class="page-item">
+		<a class="page-link" href="https://kb.hiy.tw/notes/crypto_com/" title="Crypto.com Fiat Wallet notes/ Crypto.com 的 Fiat Wallet 記錄">Previous</a>
+	    </li>
+	    
+
+	    
+	    <li class="page-item disabled">
+		<a class="page-link" href="" tabindex="-1" aria-disabled="true">Next</a>
+	    </li>
+	    
+	</ul>
+    </nav>
+</div>
+<hr>
+
+
+
+	    <div class="top-border p-3 mb-2 bg-light">
+		<div>
+    <ul>
+	
+	<h4>Articles</h4>
+	
+<ul>
+    
+    
+    <li>Hugo template script / Hugo 主題常用指令</li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/notes/crypto_com/">Crypto.com Fiat Wallet notes/ Crypto.com 的 Fiat Wallet 記錄</a><span><small class="mx-1 text-muted">August 16, 2020</small></span></li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/notes/etoro/">eToro withdraw via Paypal  / eToro 透過 Paypal 記錄</a><span><small class="mx-1 text-muted">August 16, 2020</small></span></li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/notes/credit/">Fundamental knowledge for Credit Card / 信用卡的小知識</a><span><small class="mx-1 text-muted">August 16, 2020</small></span></li>
+    
+    
+</ul>
+
+	
+	<hr>
+	
+	
+	
+    </ul>
+</div>
+
+
+
+
+
+	    </div>
+	    
+	    
+
+
+
+
+
+
+
+
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb border border-secondary" itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+	
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item "
+    
+    itemprop="itemListElement" itemscope
+      itemtype="http://schema.org/ListItem">
+    
+    <a href="https://kb.hiy.tw/"
+       itemprop="item">
+	<span itemprop="name">Knowledge Base</span>
+    </a>
+    
+    <meta itemprop="position" content="1" />
+</li>
+
+
+<li class="breadcrumb-item "
+    
+    itemprop="itemListElement" itemscope
+      itemtype="http://schema.org/ListItem">
+    
+    <a href="https://kb.hiy.tw/notes/"
+       itemprop="item">
+	<span itemprop="name">Notes/筆記</span>
+    </a>
+    
+    <meta itemprop="position" content="2" />
+</li>
+
+
+<li class="breadcrumb-item  active"
+    aria-current="page"
+    itemprop="itemListElement" itemscope
+      itemtype="http://schema.org/ListItem">
+    
+	<span itemprop="name">Hugo template script / Hugo 主題常用指令</span>
+    
+    <meta itemprop="position" content="3" />
+</li>
+
+  </ol>
+</nav>
+
+
+
+
+	    <div class="mt-3"><footer class="container-fluid site-footer py-3">
+
+</footer>
+<div class="si-license">
+  <div class="text-muted text-sm-center">
+	Henry Yang<small>© 2020</small> &middot; 
+  </div>
+</div>
+
+
+</div>
+	    
+        </main>
+    </div>
+</div>
+
+
+
+<div class="mermaid">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0-rc.8/mermaid.min.js"></script>
+</div>
+
+
+
+
+
+
+
+<script async src="/js/bundle.min.58c1a372888b06db260026e21bb373955061138b81181b5248eb0a5f94e82b5f1f500a5d40ffa85135bb4ef838a53013ca6d3f85ee39c023de90e6149aac4d6b.js" integrity="sha512-WMGjcoiLBtsmACbiG7NzlVBhE4uBGBtSSOsKX5ToK18fUApdQP&#43;oUTW7Tvg4pTATym0/he45wCPekOYUmqxNaw=="></script>
+
+</body>
+</html>
