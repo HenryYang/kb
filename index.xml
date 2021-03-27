@@ -7,6 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://kb.hiy.tw/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Useful Goods / 實用商品</title>
+      <link>https://kb.hiy.tw/life/useful_tools/</link>
+      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/life/useful_tools/</guid>
+      <description>出國小物 — 醫藥包 https://medium.com/亨利的科技美食旅遊/出國小物-醫藥包-fb13c33e9062
+日常物品 — 每日出門所帶設備 https://medium.com/亨利的科技美食旅遊/日常物品-每日出門所帶設備-f83b5e254f05
+出遠門額外會帶的東西  備用眼鏡 MOGICS Power Donut 圓形排插 j5create 4 Port 100W 雙PD＋雙QC 變壓器(JUP44100)  </description>
+    </item>
+    
+    <item>
+      <title>VMware info &amp; notes / VMware 相關資訊筆記 </title>
+      <link>https://kb.hiy.tw/software/vmware/</link>
+      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/software/vmware/</guid>
+      <description>VMwave 虛擬磁碟格式   完整佈建消極式歸零 Thick Provision Lazy Zeroed (zeroedthick)
+ 在建立虛擬硬碟時會一次給足所設定的硬碟大小，虛擬硬碟一開始時只會將目前所使用到的部分先進行初始化，其它的部分只是當有用到時才會做初始化的動作。    完整佈建積極性歸零 Thick Provision Eager Zeroed (eagerzeroedthick)
+ 在建立虛擬硬碟時會一次給足所設定的硬碟大小，虛擬硬碟一開始時就會將所有的部分先行初始化，所以開始時會耗費一些時間，但後續使用時，不用在做初始化，所以效能會稍微好一些。    精簡佈建 Thin Provision
+ 會隨著虛擬硬碟的使用量而增加硬碟的大小，直到達到當時建立的磁碟空間上限為止     </description>
+    </item>
+    
+    <item>
       <title>Hugo template script / Hugo 主題常用指令</title>
       <link>https://kb.hiy.tw/notes/template/</link>
       <pubDate>Thu, 25 Mar 2021 00:00:00 +0000</pubDate>
@@ -246,12 +269,12 @@ $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --pref
     </item>
     
     <item>
-      <title>iOS Jailbreak App / iOS 越獄 App</title>
+      <title>iOS Jailbreak / iOS 越獄</title>
       <link>https://kb.hiy.tw/software/ios/ios_jb/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/software/ios/ios_jb/</guid>
-      <description>我自己在用的清單 </description>
+      <description> </description>
     </item>
     
     <item>
@@ -269,7 +292,7 @@ $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --pref
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/software/ios/ios_tips/</guid>
-      <description>隨機化 iOS 14 的 Mac Address  https://support.apple.com/zh-tw/HT211227   停用 Finder 提示通知的 iOS Update # 雖然 10.15 後沒有 iTunes 但還是用這服務來看設定值 （要重開機） defaults write com.apple.itunes disableCheckForDeviceUpdates -bool YES </description>
+      <description>隨機化 iOS 14 的 Mac Address  https://support.apple.com/zh-tw/HT211227   舊版 iTunes 12.6.5 下載（還可以載 .ipa 的版本）  https://support.apple.com/en-us/HT208079   iOS App 版本號對應 ID 查詢  https://tools.lancely.tech/apple/app-search   停用 Finder 提示通知的 iOS Update # 雖然 10.15 後沒有 iTunes 但還是用這服務來看設定值 （要重開機） defaults write com.apple.itunes disableCheckForDeviceUpdates -bool YES </description>
     </item>
     
     <item>
@@ -379,15 +402,6 @@ $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --pref
       
       <guid>https://kb.hiy.tw/life/referral_link/</guid>
       <description>玉山銀行 - Only 信用卡  https://s.hiy.tw/only  玉山銀行 - Ubear 信用卡  https://s.hiy.tw/ubear  中國信託 - LOL 英雄聯盟聯名卡  https://ctbc.tw/YBv16q  台新銀行 - Richart 數位帳戶  https://s.hiy.tw/richart  Etoro - CFD/美股 線上投資/交易平台  https://s.hiy.tw/etoro  Crypto.com - MCO VISA Debit Card  https://s.hiy.tw/mco  匯豐銀行 - 旅人/現金回饋 信用卡  請私訊問我最新的推廣連結  Shopback 網路購物返利+現金回饋平台  https://s.hiy.tw/shopback  Line TAXI - 使用 Line 就可以叫計程車  https://s.hiy.tw/linetaxi  Uber &amp;amp; Uber Eats  Uber：請直接點選連結 https://s.</description>
-    </item>
-    
-    <item>
-      <title>Useful Goods / 實用商品</title>
-      <link>https://kb.hiy.tw/life/useful_tools/</link>
-      <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/life/useful_tools/</guid>
-      <description>u </description>
     </item>
     
     <item>
