@@ -7,6 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://kb.hiy.tw/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title> Tech Trivia / 科技類的冷知識</title>
+      <link>https://kb.hiy.tw/life/tech_trivia/</link>
+      <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/life/tech_trivia/</guid>
+      <description>科技類  關於網址上面的中文與 URL Encode  如果網址內有包含中文（如維基百科頁面）  在 Chrome 中複製時會自動將網址轉為「百分號編碼」 在 Safari 則會保留原本中文字符。   雖然 Chrome 很貼心的轉換了，但現在大部分的服務 (如 Facebook 的轉貼) 都能支援含中文的 URL 轉成百分號編碼後會讓訊息變得很長，而且在一些如 LINE 之類的訊息軟體裡，也不容易一眼看出分享的網頁的內容。   Google Docs 文件直接分享副本 把 edit?usp=sharing 換成 copy 就可以讓分享的人直接是拿到文件副本
+ Google Play 更換顯示語言 把 &amp;amp;hl=zh_tw 的等於之後參數換成想要的語言_國家/地區即可，如有清楚的可以參考 ISO 639 相關資訊
+ 買 SSD 要注意的兩個數值 TBW (Terabytes Written) 就是一個 SSD 的一輩子總共可以寫入多少 TB 的資料量
+DWPD (Drive Writes Per Day) 就是一個 SSD &amp;ldquo;平均下來&amp;rdquo; 一天可以把該 SSD 本身的容量寫入幾次</description>
+    </item>
+    
+    <item>
+      <title>Useful Services / 實用網站</title>
+      <link>https://kb.hiy.tw/lists/url/</link>
+      <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/lists/url/</guid>
+      <description>資源類 資安入門資源 - https://gotyour.pw/resources.html
+GitHub 功能小抄 - https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.zh-tw.md
+資安入門概論 - https://github.com/sakura26/DADA
+常見 MIME 類型列表 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types
+破版文字 (netgraffiti) - https://mobile.twitter.com/nmrmrmrn
+
+線上服務類 隨機產生高強度密碼 - https://1password.com/zh-tw/password-generator/
+超強翻譯網站 DeepL - https://www.deepl.com/translator
+隨機產生專案名稱 - https://mrsharpoblunto.github.io/foswig.js/
+反查目前真實使用的 DNS Server - https://which.nameserve.rs/
+查詢 DNS 更新到各地狀態 - https://www.whatsmydns.net
+Adobe 的線上編輯 PDF 服務 - https://www.adobe.com/tw/acrobat/online.html
+Unicode 字元辨識 (用畫的來辨識可能的字元) - https://shapecatcher.com/index.html
+ 日常生活類 查詢 Amazon US 等網站的真實評價 - https://www.fakespot.com/
+台灣電商的歷史價格查詢 - https://twbuyer.info/
+查詢使用哪個台灣開店電商 - https://24h.cc/
+ Google 類 查詢信用卡帳單上的 Google 費用說明 - https://support.</description>
+    </item>
+    
+    <item>
       <title>Useful Goods / 實用商品</title>
       <link>https://kb.hiy.tw/life/useful_tools/</link>
       <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
@@ -217,9 +254,8 @@
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/life/trivia/</guid>
-      <description>科技類  關於網址上面的中文與 URL Encode  如果網址內有包含中文（如維基百科頁面）  在 Chrome 中複製時會自動將網址轉為「百分號編碼」 在 Safari 則會保留原本中文字符。   雖然 Chrome 很貼心的轉換了，但現在大部分的服務 (如 Facebook 的轉貼) 都能支援含中文的 URL 轉成百分號編碼後會讓訊息變得很長，而且在一些如 LINE 之類的訊息軟體裡，也不容易一眼看出分享的網頁的內容。   破版文字 (netgraffiti)  https://mobile.twitter.com/nmrmrmrn   Unicode 字元辨識 (用畫的來辨識可能的字元)  https://shapecatcher.com/index.html   Google Docs 文件直接分享副本 把 edit?usp=sharing 換成 copy 就可以讓分享的人直接是拿到文件副本
- Google Play 更換顯示語言 把 &amp;amp;hl=zh_tw 的等於之後參數換成想要的語言_國家/地區即可，如有清楚的可以參考 ISO 639 相關資訊
- 日常生活類  Taiwan, Province of China，代碼 TWN 是聯合國標準 ISO 3166-1 的稱呼。 覺得要別人停止用 Taiwan, China 或 Taiwan, Providence of China，自己政府先停止自稱 Republic of China, Taiwan 比較實在。</description>
+      <description>日常生活類  Taiwan, Province of China，代碼 TWN 是聯合國標準 ISO 3166-1 的稱呼。 覺得要別人停止用 Taiwan, China 或 Taiwan, Providence of China，自己政府先停止自稱 Republic of China, Taiwan 比較實在。
+ 常見縮寫 i18n = internationalization l10n = localization a11y = accessibility k8s = Kubernetes i14y = interoperability o16n = Operationalization m11y = measurability o11y = observability </description>
     </item>
     
     <item>
@@ -359,15 +395,6 @@ $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --pref
       
       <guid>https://kb.hiy.tw/lists/band/</guid>
       <description>台灣常見 4G 頻段  日本常見 4G 頻段  台灣常見 5G 頻段  日本常見 5G 頻段 </description>
-    </item>
-    
-    <item>
-      <title>Useful Services / 實用網站</title>
-      <link>https://kb.hiy.tw/lists/url/</link>
-      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/lists/url/</guid>
-      <description>超強翻譯網站 DeepL  https://www.deepl.com/translator   隨機產生專案名稱  https://mrsharpoblunto.github.io/foswig.js/   隨機產生高強度密碼  https://1password.com/zh-tw/password-generator/   GitHub 功能小抄  https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.zh-tw.md   資安入門資源  https://gotyour.pw/resources.html   資安入門概論  https://github.com/sakura26/DADA   反查目前真實使用的 DNS Server  https://which.nameserve.rs/   查詢 DNS 更新到各地狀態  https://www.whatsmydns.net   Google 剩餘空間查詢  Google Drive -&amp;gt; https://one.google.com/storage/management Google Photo -&amp;gt; https://photos.google.com/storage   查詢信用卡帳單上的 Google 費用說明  https://support.google.com/pay/answer/7644142?hl=zh-Hant   查詢 Amazon US 等網站的真實評價  https://www.</description>
     </item>
     
     <item>
