@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Finance on Henry&#39;s Knowledge Base</title>
+    <link>https://kb.hiy.tw/lists/finance/</link>
+    <description>Recent content in Finance on Henry&#39;s Knowledge Base</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://kb.hiy.tw/lists/finance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Credit Card Currency Converter / 信用卡貨幣轉換匯率</title>
+      <link>https://kb.hiy.tw/lists/finance/currency/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/lists/finance/currency/</guid>
+      <description>三大組織   VISA https://www.visa.com.tw/travel-with-visa/exchange-rate-calculator.html
+  Mastercard https://www.mastercard.us/en-us/personal/get-support/convert-currency.html
+  JCB - JPY https://www.jcb.jp/rate/jpy.html
+  JCB - USD https://www.jcb.jp/rate/usd.html
+  現成的比較網站 https://www.bestxrate.com/
+  </description>
+    </item>
+    
+    <item>
+      <title>ETF &amp; Special Shares List / ETF 特別股 殖利率清單</title>
+      <link>https://kb.hiy.tw/lists/finance/etf/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/lists/finance/etf/</guid>
+      <description>兆豐可以查詢特別股與 ETF 的地方  https://www.emega.com.tw/emegaAbroad/financialTool.do  元大投信 ETF 資訊查詢  http://www.yuantaetfs.com/#/ProductMap/0  Vanguard 的 ETF 清單  https://investor.vanguard.com/etf/list#/etf/asset-class/month-end-returns  美股配息查詢  https://www.nasdaq.com/market-activity/funds-and-etfs https://www.dividend.com/dividend-etfs/  </description>
+    </item>
+    
+    <item>
+      <title>Mobile Payment List / 行動支付的支援清單</title>
+      <link>https://kb.hiy.tw/lists/finance/pay/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/lists/finance/pay/</guid>
+      <description>台灣常見行動支付 對應表     銀行/支付系統 Apple Pay Google Pay Samsung Pay Garmin Pay Fitbit Pay  支援家數     國泰世華銀行 ✅ ✅ ✅ ✅ ✅  5   國泰世華銀行 - 金融卡 ✅ ✅ ✅ ✅ ✅  5   中國信託銀行 ✅ ✅ ✅ ✅ ✅  5   中國信託銀行 - 金融卡 ✅ ✅ ✅    3   台新國際商業銀行 ✅ ✅ ✅ ✅ ✅  5   台新國際商業銀行 - 金融卡 ✅ ✅ ✅ ✅ ✅  5   聯邦銀行 ✅ ✅ ✅ ✅ ✅  5   聯邦銀行 - 金融卡 ✅      1   玉山商業銀行 ✅ ✅ ✅ ✅ ✅  5   玉山商業銀行 - 金融卡 ✅ ✅ ✅    3   台北富邦商業銀行 ✅ ✅ ✅ ✅ ✅  5   台北富邦商業銀行 - 金融卡 ✅ ✅ ✅ ✅ ✅  5   渣打銀行 ✅ ✅ ✅    3   渣打銀行 - 金融卡 ✅ ✅ ✅    3   第一商業銀行 ✅ ✅     2   滙豐（台灣）銀行 ✅ ✅ ✅    3   華南商業銀行 ✅ ✅     2   新光銀行 ✅ ✅     2   上海商銀  ✅ ✅    2   花旗銀行 ✅  ✅    2   永豐銀行 ✅ ✅ ✅ ✅ ✅  5   永豐銀行 - 金融卡 ✅      1   凱基銀行 ✅ ✅     2   安泰銀行  ✅     1   合作金庫  ✅     1   彰化銀行  ✅     1             支援家數 14 17 11 7 7       ## 備註 Apple Pay 目前支援 JCB 卡的銀行僅有：永豐銀行、中國信託、玉山銀行、第一銀行、華南銀行、聯邦銀行</description>
+    </item>
+    
+  </channel>
+</rss>
