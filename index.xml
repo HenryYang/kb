@@ -7,6 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://kb.hiy.tw/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title> Trivia / 無法歸類的冷知識</title>
+      <link>https://kb.hiy.tw/life/trivia/</link>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/life/trivia/</guid>
+      <description>日常生活類  Taiwan, Province of China，代碼 TWN 是聯合國標準 ISO 3166-1 的稱呼。 覺得要別人停止用 Taiwan, China 或 Taiwan, Providence of China，自己政府先停止自稱 Republic of China, Taiwan 比較實在。
+ 常見縮寫 i18n = internationalization l10n = localization a11y = accessibility k8s = Kubernetes i14y = interoperability o16n = Operationalization m11y = measurability o11y = observability </description>
+    </item>
+    
+    <item>
+      <title>Useful Goods / 實用商品</title>
+      <link>https://kb.hiy.tw/life/useful_tools/</link>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/life/useful_tools/</guid>
+      <description>出國小物 — 醫藥包 https://medium.com/亨利的科技美食旅遊/出國小物-醫藥包-fb13c33e9062
+日常物品 — 每日出門所帶設備 https://medium.com/亨利的科技美食旅遊/日常物品-每日出門所帶設備-f83b5e254f05
+出遠門額外會帶的東西  備用眼鏡 MOGICS Power Donut 圓形排插 j5create 4 Port 100W 雙PD＋雙QC 變壓器(JUP44100)  推薦小物 讀卡機 ACR38U-N1
+Aibo AB21
+Esense CR9
+充電器 / 傳輸線 小米GaN充電器 Type-C 65W
+Innergie 60C Pro
+OWC 0.8M Thunderbolt 4 線 USB-C 40Gb/s
+小米Type-C轉Lightning傳輸線(1m)
+隨身碟 / 外接盒 SanDisk Ultra Luxe USB Type-C 雙用隨身碟
+CARD CS0 Pro SIM 轉接卡
+綠聯 M.2 SSD外接盒 6Gbps版
+雜物類 ELECOM 液晶螢幕擦拭巾
+小林製藥 眼鏡速乾擦拭布
+W.P.C. 世界最輕的雨傘 76g</description>
+    </item>
+    
+    <item>
       <title> Tech Trivia / 科技類的冷知識</title>
       <link>https://kb.hiy.tw/life/tech_trivia/</link>
       <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
@@ -41,17 +74,6 @@ Unicode 字元辨識 (用畫的來辨識可能的字元) - https://shapecatcher.
 台灣電商的歷史價格查詢 - https://twbuyer.info/
 查詢使用哪個台灣開店電商 - https://24h.cc/
  Google 類 查詢信用卡帳單上的 Google 費用說明 - https://support.</description>
-    </item>
-    
-    <item>
-      <title>Useful Goods / 實用商品</title>
-      <link>https://kb.hiy.tw/life/useful_tools/</link>
-      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/life/useful_tools/</guid>
-      <description>出國小物 — 醫藥包 https://medium.com/亨利的科技美食旅遊/出國小物-醫藥包-fb13c33e9062
-日常物品 — 每日出門所帶設備 https://medium.com/亨利的科技美食旅遊/日常物品-每日出門所帶設備-f83b5e254f05
-出遠門額外會帶的東西  備用眼鏡 MOGICS Power Donut 圓形排插 j5create 4 Port 100W 雙PD＋雙QC 變壓器(JUP44100)  </description>
     </item>
     
     <item>
