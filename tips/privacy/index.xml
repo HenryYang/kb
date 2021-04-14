@@ -7,14 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://kb.hiy.tw/tips/privacy/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Disable LINE personal AD identifier  / 停用 LINE 的個人化廣告偏好</title>
+      <link>https://kb.hiy.tw/tips/privacy/line/</link>
+      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/tips/privacy/line/</guid>
+      <description>關閉 Siri 的『從此 App 學習』與『跟 Siri 對話』 打開 LINE 後選擇最左邊的『主頁』然後點選右上方『齒輪的圖案』，這時候選擇『隱私設定』
+然後再點選『廣告相關設定』，把『使用 Cookie 接收個人化廣告』、『使用 LINE 內部識別碼接收個人化廣告』</description>
+    </item>
+    
+    <item>
       <title>Disable Siri &#39;Learn from App&#39; &amp; Delete request history / 限制 Siri 從其他 App 學習功能與刪除聽寫紀錄</title>
       <link>https://kb.hiy.tw/tips/privacy/siri/</link>
       <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/tips/privacy/siri/</guid>
-      <description>關閉 Siri 的『從此 App 學習』與『跟 Siri 對話』 打開 iOS 設備的「設定」選擇「Siri與搜尋」
+      <description>關閉 Siri 的『從此 App 學習』與『跟 Siri 對話』 打開 iOS 設備的『設定』選擇『iri與搜尋』
 這時候往下滑對每一個安裝的 App 點進去，都把『從此 App 學習』與 『跟 Siri 對話搭配使用』都給關閉
- 刪除 Siri 的聽寫紀錄 打開 iOS 設備的「設定」&amp;gt;「Siri與搜尋」點選「刪除 Siri與聽寫紀錄」</description>
+ 刪除 Siri 的聽寫紀錄 打開 iOS 設備的『設定』&amp;gt;『Siri 與搜尋』點選『刪除 Siri 與聽寫紀錄』</description>
     </item>
     
     <item>

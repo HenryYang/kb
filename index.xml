@@ -7,14 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://kb.hiy.tw/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Disable LINE personal AD identifier  / 停用 LINE 的個人化廣告偏好</title>
+      <link>https://kb.hiy.tw/tips/privacy/line/</link>
+      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/tips/privacy/line/</guid>
+      <description>關閉 Siri 的『從此 App 學習』與『跟 Siri 對話』 打開 LINE 後選擇最左邊的『主頁』然後點選右上方『齒輪的圖案』，這時候選擇『隱私設定』
+然後再點選『廣告相關設定』，把『使用 Cookie 接收個人化廣告』、『使用 LINE 內部識別碼接收個人化廣告』</description>
+    </item>
+    
+    <item>
       <title>Disable Siri &#39;Learn from App&#39; &amp; Delete request history / 限制 Siri 從其他 App 學習功能與刪除聽寫紀錄</title>
       <link>https://kb.hiy.tw/tips/privacy/siri/</link>
       <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/tips/privacy/siri/</guid>
-      <description>關閉 Siri 的『從此 App 學習』與『跟 Siri 對話』 打開 iOS 設備的「設定」選擇「Siri與搜尋」
+      <description>關閉 Siri 的『從此 App 學習』與『跟 Siri 對話』 打開 iOS 設備的『設定』選擇『iri與搜尋』
 這時候往下滑對每一個安裝的 App 點進去，都把『從此 App 學習』與 『跟 Siri 對話搭配使用』都給關閉
- 刪除 Siri 的聽寫紀錄 打開 iOS 設備的「設定」&amp;gt;「Siri與搜尋」點選「刪除 Siri與聽寫紀錄」</description>
+ 刪除 Siri 的聽寫紀錄 打開 iOS 設備的『設定』&amp;gt;『Siri 與搜尋』點選『刪除 Siri 與聽寫紀錄』</description>
     </item>
     
     <item>
@@ -483,15 +493,6 @@ $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --pref
       
       <guid>https://kb.hiy.tw/tips/mac_2hand/</guid>
       <description>MacuKnow - mac 驗機 步驟，購買全新或二手前都可參考  https://macuknow.com/2019/07/01/2126/   皮樂的買二手機建議驗機方式  https://www.facebook.com/hiraku.tw/posts/3429848490378227  </description>
-    </item>
-    
-    <item>
-      <title>Reset Facebook AD tracking / 重設 Facebbook 廣告追蹤</title>
-      <link>https://kb.hiy.tw/tips/fb/</link>
-      <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/tips/fb/</guid>
-      <description>你的廣告偏好  用來移除『你的興趣』與移除使用個資來投放廣告的『廣告商』 https://www.facebook.com/ads/preferences/   Facebook 站外動態  清除或是關閉後可以避免商家和組織與 Facebook 分享有關我們與其互動的資訊 但這同時會影響到使用 Facebook 登入的第三方服務 https://www.facebook.com/off_facebook_activity/?entry_point=1  </description>
     </item>
     
     <item>
