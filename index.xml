@@ -327,9 +327,7 @@ Unicode 字元辨識 (用畫的來辨識可能的字元) - https://shapecatcher.
       
       <guid>https://kb.hiy.tw/software/cli/</guid>
       <description>Let&amp;rsquo;s Encrypt 安裝指令
-# For macOS $ brew install letsencrypt # For Ubuntu $ apt install certbot  手動產生憑證（可用於驗證 Private IP 或無法安裝 agent 的主機上）
-$ certbot certonly --manual --config-dir ~/Desktop/letsencrypt --work-dir ~/Desktop/letsencrypt --logs-dir ~/Desktop/letsencrypt --preferred-challenges dns  自動產生憑證（用於外網可以直接連線到 agent 的主機上）
-$ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --preferred-challenges http -d 你的網域  關閉 SSH 密碼登入 # /etc/ssh/sshd_config PasswordAuthentication no ChallengeResponseAuthentication no UsePAM no  ESXi 重起管理服務 /etc/init.d/hostd restart /etc/init.d/vpxa restart  Docker 清理 $ docker system prune -a $ docker image prune -a  Openssl 相關指令  https://ssorc.</description>
+# For macOS $ brew install letsencrypt # For Ubuntu $ apt install certbot  手動產生憑證（可用於驗證 Private IP 或無法安裝 agent 的主機上） $ certbot certonly --manual --config-dir ~/Desktop/letsencrypt --work-dir ~/Desktop/letsencrypt --logs-dir ~/Desktop/letsencrypt --preferred-challenges dns  自動產生憑證（用於外網可以直接連線到 agent 的主機上） $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --preferred-challenges http -d 你的網域  關閉 SSH 密碼登入 # /etc/ssh/sshd_config PasswordAuthentication no ChallengeResponseAuthentication no UsePAM no 產生 ed25519 公私鑰 ssh-keygen -t ed25519 -C &amp;#34;hi@hiy.</description>
     </item>
     
     <item>
