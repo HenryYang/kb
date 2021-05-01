@@ -33,7 +33,7 @@
       <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/tips/privacy/fb/</guid>
-      <description>你的廣告偏好  用來移除『你的興趣』與移除使用個資來投放廣告的『廣告商』 https://www.facebook.com/ads/preferences/   Facebook 站外動態  清除或是關閉後可以避免商家和組織與 Facebook 分享有關我們與其互動的資訊 但這同時會影響到使用 Facebook 登入的第三方服務 https://www.facebook.com/off_facebook_activity/?entry_point=1  </description>
+      <description>你的廣告偏好  用來移除『你近期最常查看的廣告商』 https://www.facebook.com/adpreferences/advertisers/   你的廣告偏好  用來移除『你的興趣』 https://www.facebook.com/adpreferences/?entry_product=waist&amp;amp;section=interests  // 在瀏覽器的 Console 中執行以下指令可以一次把『你的興趣』全數移除。記得 Facebook 要是使用繁體中文版 document.querySelectorAll(&amp;#34;[aria-label=移除]&amp;#34;).forEach((e, idx)=&amp;gt;{setTimeout(()=&amp;gt;e.click(), idx*1000)})  Facebook 站外動態  清除或是關閉後可以避免商家和組織與 Facebook 分享有關我們與其互動的資訊 但這同時會影響到使用 Facebook 登入的第三方服務 https://www.facebook.com/off_facebook_activity/?entry_point=1  </description>
     </item>
     
   </channel>
