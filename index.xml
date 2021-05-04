@@ -453,7 +453,7 @@ Unicode 字元辨識 (用畫的來辨識可能的字元) - https://shapecatcher.
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/software/windows/</guid>
-      <description>開啟虛擬化 (WSL2 需要) bcdedit /set hypervisorlaunchtype auto  關於靜態路由 # 顯示目前路由表 route print # 刪除全部路由表 route -f  diskpart 來完整清除分割區 #顯示磁碟清單 list disk #選擇要處理的磁碟 select disk {NO} #清除目前處理磁碟的所有分割區 clean  關閉 Microsoft Compatibility Appraiser 工作排程器 -&amp;gt; 工作排程器程式庫 -&amp;gt; Microsoft -&amp;gt; Windows -&amp;gt; Application Experience 對 Microsoft Compatibility Appraiser 按右鍵選停用  快捷鍵重置 Windows 10 的繪圖驅動程式 𝚆𝚒𝚗+𝙲𝚝𝚛𝚕+𝚂𝚑𝚒𝚏𝚝+𝙱 </description>
+      <description>開啟虛擬化 (WSL2 需要) bcdedit /set hypervisorlaunchtype auto  關於靜態路由 # 顯示目前路由表 route print # 刪除全部路由表 route -f  diskpart 來完整清除分割區 #顯示磁碟清單 list disk #選擇要處理的磁碟 select disk {NO} #清除目前處理磁碟的所有分割區 clean  關閉 Microsoft Compatibility Appraiser 工作排程器 -&amp;gt; 工作排程器程式庫 -&amp;gt; Microsoft -&amp;gt; Windows -&amp;gt; Application Experience 對 Microsoft Compatibility Appraiser 按右鍵選停用  快捷鍵重置 Windows 10 的繪圖驅動程式 𝚆𝚒𝚗+𝙲𝚝𝚛𝚕+𝚂𝚑𝚒𝚏𝚝+𝙱  當 WSL 的顯示語系異常時 控制台 -&amp;gt; 時鐘與區域 -&amp;gt; 地區 -&amp;gt; 系統管理 -&amp;gt; 更變系統地區設定，把這選成自己常用的語言  </description>
     </item>
     
     <item>
