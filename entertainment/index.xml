@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Entertainment/娛樂 on Henry&#39;s Knowledge Base</title>
+    <title>G. Entertainment/娛樂 on Henry&#39;s Knowledge Base</title>
     <link>https://kb.hiy.tw/entertainment/</link>
-    <description>Recent content in Entertainment/娛樂 on Henry&#39;s Knowledge Base</description>
+    <description>Recent content in G. Entertainment/娛樂 on Henry&#39;s Knowledge Base</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://kb.hiy.tw/entertainment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> Famous Restaurant / 美食清單</title>
+      <link>https://kb.hiy.tw/entertainment/food/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/entertainment/food/</guid>
+      <description>Foursquare 地圖 2018 臺北米其林指南 必比登推介美食 2018 臺北米其林指南 餐盤餐廳 2018 臺北米其林指南 星級餐廳 2019 臺北米其林指南 必比登推介美食 2019 臺北米其林指南 餐盤餐廳 2019 臺北米其林指南 星級餐廳 （舊的）美國運通 簽帳金卡 美食饗宴 （舊的）美國運通 信用白金卡 美食饗宴 2021 美國運通 簽帳白金卡 美食饗宴 2021 美國運通 簽帳白金卡 住宿優惠 亞洲萬里通 賺哩餐廳 Henry 的口袋名單  美食部落客 這裡沒有美食 吃的太多而胃太小 </description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A. OS/作業系統 on Henry&#39;s Knowledge Base</title>
+    <link>https://kb.hiy.tw/os/</link>
+    <description>Recent content in A. OS/作業系統 on Henry&#39;s Knowledge Base</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://kb.hiy.tw/os/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VMware info &amp; notes / VMware 相關資訊筆記 </title>
+      <link>https://kb.hiy.tw/os/vmware/</link>
+      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/os/vmware/</guid>
+      <description>VMwave 虛擬磁碟格式 完整佈建消極式歸零 Thick Provision Lazy Zeroed (zeroedthick)
+在建立虛擬硬碟時會一次給足所設定的硬碟大小，虛擬硬碟一開始時只會將目前所使用到的部分先進行初始化，其它的部分只是當有用到時才會做初始化的動作。
+ 完整佈建積極性歸零 Thick Provision Eager Zeroed (eagerzeroedthick)
+在建立虛擬硬碟時會一次給足所設定的硬碟大小，虛擬硬碟一開始時就會將所有的部分先行初始化，所以開始時會耗費一些時間，但後續使用時，不用在做初始化，所以效能會稍微好一些。
+ 精簡佈建 Thin Provision
+會隨著虛擬硬碟的使用量而增加硬碟的大小，直到達到當時建立的磁碟空間上限為止
+ 重新啟動 ESXi Web Client Service $ /etc/init.d/hostd restart $ /etc/init.d/vpxa restart  </description>
+    </item>
+    
+    <item>
+      <title>Tricky for Mifare Classic / Mifare Classic 的冷知識</title>
+      <link>https://kb.hiy.tw/os/mifare_uid/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/os/mifare_uid/</guid>
+      <description>Tools  MIFARE Classic Tool - 用來讀取與編輯 Mifare Classic 卡  可以編輯 CUID 卡的 Block 0   NFC TagInfo - 用來識別 RFID 卡片的類型與 UID 相關資訊 Mifare Calculator - Mifare 卡較驗碼的計算  Servies  XOR Calculator Mifare Classic UID BCC Calculator  Notes  Sector0 Block0 前 4 Byte 放置了該張卡的 UID，第 5 Byte 是校驗碼，為前 4 個 Byte XOR 的結果 假設 UID 為 DDCCBBAA 那這時候要解讀回 10 進位就是變成 (AABBCCDD)hex = 2864434397 (如果長度不足十位則前面補 0 )  參考資料</description>
+    </item>
+    
+    <item>
+      <title>Online routing check service/ 線上測試路由服務</title>
+      <link>https://kb.hiy.tw/os/routing/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/os/routing/</guid>
+      <description>我自己在用的清單 </description>
+    </item>
+    
+    <item>
+      <title>Windows Essential App &amp; Tips / Windows 常見軟體與小技巧</title>
+      <link>https://kb.hiy.tw/os/windows/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/os/windows/</guid>
+      <description>開啟虛擬化 (WSL2 需要) bcdedit /set hypervisorlaunchtype auto  關於靜態路由 # 顯示目前路由表 route print # 刪除全部路由表 route -f  diskpart 來完整清除分割區 #顯示磁碟清單 list disk #選擇要處理的磁碟 select disk {NO} #清除目前處理磁碟的所有分割區 clean  關閉 Microsoft Compatibility Appraiser 工作排程器 -&amp;gt; 工作排程器程式庫 -&amp;gt; Microsoft -&amp;gt; Windows -&amp;gt; Application Experience 對 Microsoft Compatibility Appraiser 按右鍵選停用  快捷鍵重置 Windows 10 的繪圖驅動程式 𝚆𝚒𝚗+𝙲𝚝𝚛𝚕+𝚂𝚑𝚒𝚏𝚝+𝙱  當 WSL 的顯示語系異常時 控制台 -&amp;gt; 時鐘與區域 -&amp;gt; 地區 -&amp;gt; 系統管理 -&amp;gt; 更變系統地區設定，把這選成自己常用的語言  </description>
+    </item>
+    
+  </channel>
+</rss>

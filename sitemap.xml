@@ -33,8 +33,8 @@
   </url>
   
   <url>
-    <loc>https://kb.hiy.tw/software/vmware/</loc>
-    <lastmod>2021-04-13T00:21:11+08:00</lastmod>
+    <loc>https://kb.hiy.tw/os/vmware/</loc>
+    <lastmod>2021-06-29T20:05:12+08:00</lastmod>
   </url>
   
   <url>
@@ -43,8 +43,8 @@
   </url>
   
   <url>
-    <loc>https://kb.hiy.tw/software/android/android_adb/</loc>
-    <lastmod>2021-02-10T21:20:13+08:00</lastmod>
+    <loc>https://kb.hiy.tw/os/android/android_adb/</loc>
+    <lastmod>2021-06-29T20:05:12+08:00</lastmod>
   </url>
   
   <url>
@@ -68,18 +68,18 @@
   </url>
   
   <url>
-    <loc>https://kb.hiy.tw/software/mifare_uid/</loc>
-    <lastmod>2021-02-10T21:30:08+08:00</lastmod>
+    <loc>https://kb.hiy.tw/os/mifare_uid/</loc>
+    <lastmod>2021-06-29T20:05:12+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kb.hiy.tw/notes/credit/</loc>
-    <lastmod>2021-04-12T23:38:26+08:00</lastmod>
+    <loc>https://kb.hiy.tw/lists/finance/credit/</loc>
+    <lastmod>2021-06-29T20:05:12+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kb.hiy.tw/notes/mobile_payment/</loc>
-    <lastmod>2021-04-12T23:38:26+08:00</lastmod>
+    <loc>https://kb.hiy.tw/lists/finance/mobile_payment/</loc>
+    <lastmod>2021-06-29T20:05:12+08:00</lastmod>
   </url>
   
   <url>
@@ -93,13 +93,13 @@
   </url>
   
   <url>
-    <loc>https://kb.hiy.tw/life/food/</loc>
-    <lastmod>2021-03-31T00:11:45+08:00</lastmod>
+    <loc>https://kb.hiy.tw/entertainment/food/</loc>
+    <lastmod>2021-06-29T20:05:12+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kb.hiy.tw/life/earn_miles/</loc>
-    <lastmod>2021-02-10T21:20:13+08:00</lastmod>
+    <loc>https://kb.hiy.tw/travel/earn_miles/</loc>
+    <lastmod>2021-06-29T20:05:12+08:00</lastmod>
   </url>
   
   <url>
@@ -108,8 +108,8 @@
   </url>
   
   <url>
-    <loc>https://kb.hiy.tw/software/terminal_command/</loc>
-    <lastmod>2021-02-10T21:20:13+08:00</lastmod>
+    <loc>https://kb.hiy.tw/os/unix/terminal_command/</loc>
+    <lastmod>2021-06-29T20:05:12+08:00</lastmod>
   </url>
   
   <url>
@@ -123,13 +123,13 @@
   </url>
   
   <url>
-    <loc>https://kb.hiy.tw/software/android/android_root/</loc>
-    <lastmod>2020-10-27T21:23:59+08:00</lastmod>
+    <loc>https://kb.hiy.tw/os/android/android_root/</loc>
+    <lastmod>2021-06-29T20:05:12+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kb.hiy.tw/software/cli/</loc>
-    <lastmod>2021-04-24T21:12:02+08:00</lastmod>
+    <loc>https://kb.hiy.tw/os/unix/cli/</loc>
+    <lastmod>2021-06-29T20:05:12+08:00</lastmod>
   </url>
   
   <url>
@@ -143,28 +143,28 @@
   </url>
   
   <url>
-    <loc>https://kb.hiy.tw/software/ios/ios_jb/</loc>
-    <lastmod>2021-03-27T14:29:41+08:00</lastmod>
+    <loc>https://kb.hiy.tw/os/ios/ios_jb/</loc>
+    <lastmod>2021-06-29T20:05:12+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kb.hiy.tw/software/ios/ios_path/</loc>
-    <lastmod>2020-10-27T21:23:59+08:00</lastmod>
+    <loc>https://kb.hiy.tw/os/ios/ios_path/</loc>
+    <lastmod>2021-06-29T20:05:12+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kb.hiy.tw/software/ios/ios_tips/</loc>
-    <lastmod>2021-03-27T14:29:41+08:00</lastmod>
+    <loc>https://kb.hiy.tw/os/ios/ios_tips/</loc>
+    <lastmod>2021-06-29T20:05:12+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kb.hiy.tw/software/macos_cli/</loc>
-    <lastmod>2021-06-03T22:23:45+08:00</lastmod>
+    <loc>https://kb.hiy.tw/os/mac/macos_cli/</loc>
+    <lastmod>2021-06-29T20:05:12+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kb.hiy.tw/software/macos_debug/</loc>
-    <lastmod>2021-02-10T21:30:08+08:00</lastmod>
+    <loc>https://kb.hiy.tw/os/mac/macos_debug/</loc>
+    <lastmod>2021-06-29T20:05:12+08:00</lastmod>
   </url>
   
   <url>
@@ -173,8 +173,8 @@
   </url>
   
   <url>
-    <loc>https://kb.hiy.tw/software/routing/</loc>
-    <lastmod>2020-07-07T23:15:07+08:00</lastmod>
+    <loc>https://kb.hiy.tw/os/routing/</loc>
+    <lastmod>2021-06-29T20:05:12+08:00</lastmod>
   </url>
   
   <url>
@@ -188,18 +188,13 @@
   </url>
   
   <url>
-    <loc>https://kb.hiy.tw/software/useful/</loc>
-    <lastmod>2021-02-10T21:20:13+08:00</lastmod>
+    <loc>https://kb.hiy.tw/os/unix/vim/</loc>
+    <lastmod>2021-06-29T20:05:12+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kb.hiy.tw/software/vim/</loc>
-    <lastmod>2020-07-07T23:15:07+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kb.hiy.tw/software/windows/</loc>
-    <lastmod>2021-05-04T18:11:48+08:00</lastmod>
+    <loc>https://kb.hiy.tw/os/windows/</loc>
+    <lastmod>2021-06-29T20:05:12+08:00</lastmod>
   </url>
   
   <url>
@@ -218,8 +213,8 @@
   </url>
   
   <url>
-    <loc>https://kb.hiy.tw/tips/mac_2hand/</loc>
-    <lastmod>2021-02-24T17:57:04+08:00</lastmod>
+    <loc>https://kb.hiy.tw/os/mac/mac_2hand/</loc>
+    <lastmod>2021-06-29T20:05:12+08:00</lastmod>
   </url>
   
   <url>
@@ -228,8 +223,23 @@
   </url>
   
   <url>
-    <loc>https://kb.hiy.tw/software/android/</loc>
-    <lastmod>2020-10-27T21:23:59+08:00</lastmod>
+    <loc>https://kb.hiy.tw/os/</loc>
+    <lastmod>2021-06-29T20:05:12+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kb.hiy.tw/os/android/</loc>
+    <lastmod>2021-06-29T20:05:12+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kb.hiy.tw/lists/</loc>
+    <lastmod>2021-06-29T20:05:12+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kb.hiy.tw/life/</loc>
+    <lastmod>2021-06-29T20:05:12+08:00</lastmod>
   </url>
   
   <url>
@@ -237,8 +247,18 @@
   </url>
   
   <url>
-    <loc>https://kb.hiy.tw/entertainment/</loc>
-    <lastmod>2020-07-07T08:37:40+08:00</lastmod>
+    <loc>https://kb.hiy.tw/tips/</loc>
+    <lastmod>2021-06-29T20:05:12+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kb.hiy.tw/notes/</loc>
+    <lastmod>2021-06-29T20:05:12+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kb.hiy.tw/travel/</loc>
+    <lastmod>2021-06-29T20:05:12+08:00</lastmod>
   </url>
   
   <url>
@@ -247,8 +267,13 @@
   </url>
   
   <url>
-    <loc>https://kb.hiy.tw/software/ios/</loc>
-    <lastmod>2020-10-27T21:23:59+08:00</lastmod>
+    <loc>https://kb.hiy.tw/entertainment/</loc>
+    <lastmod>2021-06-29T20:05:12+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kb.hiy.tw/os/ios/</loc>
+    <lastmod>2021-06-29T20:05:12+08:00</lastmod>
   </url>
   
   <url>
@@ -257,18 +282,8 @@
   </url>
   
   <url>
-    <loc>https://kb.hiy.tw/life/</loc>
-    <lastmod>2020-07-07T08:37:40+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kb.hiy.tw/lists/</loc>
-    <lastmod>2020-07-07T08:37:40+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kb.hiy.tw/notes/</loc>
-    <lastmod>2020-08-16T14:28:12+08:00</lastmod>
+    <loc>https://kb.hiy.tw/os/mac/</loc>
+    <lastmod>2021-06-29T20:05:12+08:00</lastmod>
   </url>
   
   <url>
@@ -282,22 +297,12 @@
   </url>
   
   <url>
-    <loc>https://kb.hiy.tw/software/</loc>
-    <lastmod>2020-07-07T08:37:40+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kb.hiy.tw/tags/</loc>
   </url>
   
   <url>
-    <loc>https://kb.hiy.tw/tips/</loc>
-    <lastmod>2020-07-07T08:37:40+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kb.hiy.tw/travel/</loc>
-    <lastmod>2021-04-13T00:23:22+08:00</lastmod>
+    <loc>https://kb.hiy.tw/os/unix/</loc>
+    <lastmod>2021-06-29T20:05:12+08:00</lastmod>
   </url>
   
 </urlset>

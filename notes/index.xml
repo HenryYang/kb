@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Notes/筆記 on Henry&#39;s Knowledge Base</title>
+    <title>E. Notes/筆記 on Henry&#39;s Knowledge Base</title>
     <link>https://kb.hiy.tw/notes/</link>
-    <description>Recent content in Notes/筆記 on Henry&#39;s Knowledge Base</description>
+    <description>Recent content in E. Notes/筆記 on Henry&#39;s Knowledge Base</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://kb.hiy.tw/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,26 +13,6 @@
       
       <guid>https://kb.hiy.tw/notes/template/</guid>
       <description>/var/log/apache2/$ grep POST access.log XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:03 +0000] &#34;POST /wp-content/themes/method/lib/scripts/dl-skin.php HTTP/1.1&#34; 500 363 &#34;-&#34; &#34;Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0&#34; XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:14 +0000] &#34;POST /wp-content/themes/modular/lib/scripts/dl-skin.php HTTP/1.1&#34; 500 363 &#34;-&#34; &#34;Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0&#34; XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:25 +0000] &#34;POST /wp-content/themes/myriad/lib/scripts/dl-skin.php HTTP/1.1&#34; 500 363 &#34;-&#34; &#34;Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0&#34; XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:56 +0000] &#34;POST /wp-content/themes/persuasion/lib/scripts/dl-skin.php HTTP/1.</description>
-    </item>
-    
-    <item>
-      <title>Cool things for Credit Cards / 信用卡的小知識</title>
-      <link>https://kb.hiy.tw/notes/credit/</link>
-      <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/notes/credit/</guid>
-      <description> 一般來說，『國際交易手續費』會出現的原因是『信用卡發卡銀行』與『收單行銀行』屬於不同國家  所以在台灣搭 Uber 雖然是刷台幣，但因為刷卡地在荷蘭所以符合上述規則所以被收國際交易手續費 台灣美國運通特例，只要幣別是台幣不管『收單行銀行』再哪個國家，它就是不收『國際交易手續費』      當交易退刷時，如果當時有被收『國際交易手續費』，是看銀行與卡別來決定會不會退。有些銀行除了不退外可能還會再收一筆退刷的手續費  實際各家銀行的狀態，建議參考網友整理好的表格       交易分期預設不給回饋的銀行（ e.g. 在 PChome24hr 選擇 12 期 0 利率分期結帳）
- 中信 凱基 花旗 渣打 星展 匯豐    聯卡中心 - 小額支付平台 (白話文，不給回饋的消費)
- https://www.nccc.com.tw/wps/wcm/connect/zh/home/BusinessOperations/CardBusiness/MicroPayment    </description>
-    </item>
-    
-    <item>
-      <title>Cool things for Mobile Payments / 行動支付的小知識</title>
-      <link>https://kb.hiy.tw/notes/mobile_payment/</link>
-      <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/notes/mobile_payment/</guid>
-      <description> 橘子支付 - 唯一可以在 7-11 支付繳費的行動支付，且有信用卡回饋  可以收的  路邊停車費 監理規費(交通罰鍰、汽機車汽燃費、強制險罰鍰) 水費、電費、瓦斯費 7-ELEVEN 電信費 技術士檢定費 國民年金、勞工保費、勞工退休金、健保費、國稅(如綜所稅等)、地方稅(如牌照、房屋、地價稅等)   P.S. 值得注意的是『公會的健保費』是不能用橘子支付繳納的 https://www.gamapay.com.tw/news_a151-3.html    </description>
     </item>
     
     <item>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UNIX on Henry&#39;s Knowledge Base</title>
+    <link>https://kb.hiy.tw/os/unix/</link>
+    <description>Recent content in UNIX on Henry&#39;s Knowledge Base</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://kb.hiy.tw/os/unix/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> Terminal Shortcut / Terminal 快捷鍵</title>
+      <link>https://kb.hiy.tw/os/unix/terminal_command/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/os/unix/terminal_command/</guid>
+      <description>Terminal 快速前後 Ctrl a 回到最前面 Ctrl e 回到最後面 Ctrl w 刪一整個單詞 Alt b 往回上一個單詞 Alt f 往後下一個單詞 </description>
+    </item>
+    
+    <item>
+      <title>CLI command / 常見 CLI 指令 </title>
+      <link>https://kb.hiy.tw/os/unix/cli/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/os/unix/cli/</guid>
+      <description>Let&amp;rsquo;s Encrypt 安裝指令
+# For macOS $ brew install letsencrypt # For Ubuntu $ apt install certbot  手動產生憑證（可用於驗證 Private IP 或無法安裝 agent 的主機上） $ certbot certonly --manual --config-dir ~/Desktop/letsencrypt --work-dir ~/Desktop/letsencrypt --logs-dir ~/Desktop/letsencrypt --preferred-challenges dns  自動產生憑證（用於外網可以直接連線到 agent 的主機上） $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --preferred-challenges http -d 你的網域  關閉 SSH 密碼登入 # /etc/ssh/sshd_config PasswordAuthentication no ChallengeResponseAuthentication no UsePAM no 產生 SSH key # Ed25519 algorithm ssh-keygen -t ed25519 -C &amp;#34;hi@hiy.</description>
+    </item>
+    
+    <item>
+      <title>VIM Tips / VIM 常用指令</title>
+      <link>https://kb.hiy.tw/os/unix/vim/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/os/unix/vim/</guid>
+      <description>我自己在用的清單 </description>
+    </item>
+    
+  </channel>
+</rss>

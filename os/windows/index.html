@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en" itemscope="" itemtype="http://schema.org/WebPage">
+    <head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta property="og:title" content="Windows Essential App &amp; Tips / Windows 常見軟體與小技巧" />
+<meta property="og:description" content="開啟虛擬化 (WSL2 需要) bcdedit /set hypervisorlaunchtype auto  關於靜態路由 # 顯示目前路由表 route print # 刪除全部路由表 route -f  diskpart 來完整清除分割區 #顯示磁碟清單 list disk #選擇要處理的磁碟 select disk {NO} #清除目前處理磁碟的所有分割區 clean  關閉 Microsoft Compatibility Appraiser 工作排程器 -&gt; 工作排程器程式庫 -&gt; Microsoft -&gt; Windows -&gt; Application Experience 對 Microsoft Compatibility Appraiser 按右鍵選停用  快捷鍵重置 Windows 10 的繪圖驅動程式 𝚆𝚒𝚗&#43;𝙲𝚝𝚛𝚕&#43;𝚂𝚑𝚒𝚏𝚝&#43;𝙱  當 WSL 的顯示語系異常時 控制台 -&gt; 時鐘與區域 -&gt; 地區 -&gt; 系統管理 -&gt; 更變系統地區設定，把這選成自己常用的語言  " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kb.hiy.tw/os/windows/" />
+<meta property="article:published_time" content="2020-07-07T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-06-29T20:05:12+08:00" />
+<meta itemprop="name" content="Windows Essential App &amp; Tips / Windows 常見軟體與小技巧">
+<meta itemprop="description" content="開啟虛擬化 (WSL2 需要) bcdedit /set hypervisorlaunchtype auto  關於靜態路由 # 顯示目前路由表 route print # 刪除全部路由表 route -f  diskpart 來完整清除分割區 #顯示磁碟清單 list disk #選擇要處理的磁碟 select disk {NO} #清除目前處理磁碟的所有分割區 clean  關閉 Microsoft Compatibility Appraiser 工作排程器 -&gt; 工作排程器程式庫 -&gt; Microsoft -&gt; Windows -&gt; Application Experience 對 Microsoft Compatibility Appraiser 按右鍵選停用  快捷鍵重置 Windows 10 的繪圖驅動程式 𝚆𝚒𝚗&#43;𝙲𝚝𝚛𝚕&#43;𝚂𝚑𝚒𝚏𝚝&#43;𝙱  當 WSL 的顯示語系異常時 控制台 -&gt; 時鐘與區域 -&gt; 地區 -&gt; 系統管理 -&gt; 更變系統地區設定，把這選成自己常用的語言  ">
+<meta itemprop="datePublished" content="2020-07-07T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2021-06-29T20:05:12+08:00" />
+<meta itemprop="wordCount" content="63">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Windows Essential App &amp; Tips / Windows 常見軟體與小技巧"/>
+<meta name="twitter:description" content="開啟虛擬化 (WSL2 需要) bcdedit /set hypervisorlaunchtype auto  關於靜態路由 # 顯示目前路由表 route print # 刪除全部路由表 route -f  diskpart 來完整清除分割區 #顯示磁碟清單 list disk #選擇要處理的磁碟 select disk {NO} #清除目前處理磁碟的所有分割區 clean  關閉 Microsoft Compatibility Appraiser 工作排程器 -&gt; 工作排程器程式庫 -&gt; Microsoft -&gt; Windows -&gt; Application Experience 對 Microsoft Compatibility Appraiser 按右鍵選停用  快捷鍵重置 Windows 10 的繪圖驅動程式 𝚆𝚒𝚗&#43;𝙲𝚝𝚛𝚕&#43;𝚂𝚑𝚒𝚏𝚝&#43;𝙱  當 WSL 的顯示語系異常時 控制台 -&gt; 時鐘與區域 -&gt; 地區 -&gt; 系統管理 -&gt; 更變系統地區設定，把這選成自己常用的語言  "/>
+
+
+<meta property="description" content='開啟虛擬化 (WSL2 需要) bcdedit /set hypervisorlaunchtype auto  關於靜態路由 # 顯示目前路由表 route print # 刪除全部路由表 route -f  diskpart 來完整清除分割區 #顯示磁碟清單 list disk #選擇要處理的磁碟 select disk {NO} #清除目前處理磁碟的所有分割區 clean  關閉 Microsoft Compatibility Appraiser 工作排程器 -&gt; 工作排程器程式庫 -&gt; Microsoft -&gt; Windows -&gt; Application Experience 對 Microsoft Compatibility Appraiser 按右鍵選停用  快捷鍵重置 Windows 10 的繪圖驅動程式 𝚆𝚒𝚗&#43;𝙲𝚝𝚛𝚕&#43;𝚂𝚑𝚒𝚏𝚝&#43;𝙱  當 WSL 的顯示語系異常時 控制台 -&gt; 時鐘與區域 -&gt; 地區 -&gt; 系統管理 -&gt; 更變系統地區設定，把這選成自己常用的語言  ' /><meta name="author" content="Henry Yang">
+
+
+
+<title>Windows Essential App &amp; Tips / Windows 常見軟體與小技巧 | Henry&#39;s Knowledge Base</title>
+
+<link rel="canonical" href="https://kb.hiy.tw/os/windows/">
+
+
+
+
+ 
+
+
+
+<link rel="stylesheet" href="https://kb.hiy.tw/css/all.min.35684cf242accef848cdf30784a2677d12eae65e78e882a8d045000abf3276e0.css" integrity="sha256-NWhM8kKszvhIzfMHhKJnfRLq5l546IKo0EUACr8yduA=">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+    <body>
+	<meta itemprop="url" content="https://kb.hiy.tw/os/windows/" /><nav class="navbar navbar-dark fixed-top bg-danger flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-sm-3 col-md-3 mr-0 text-center " href="https://kb.hiy.tw/">Henry&#39;s Knowledge Base</a>
+</nav>
+
+
+<div class="container-fluid mt-3">
+    <div class="row">
+
+	
+
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-9 px-4">
+            
+	    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Windows Essential App &amp; Tips / Windows 常見軟體與小技巧</h1>
+</div>
+
+
+
+<div class="text-center">
+    
+    
+    <div class="d-flex justify-content-center text-muted">
+	<small>
+	    <i class="fas fa-clock"></i> <strong>Published:</strong>
+	    
+	    <time datetime="2020-07-07T00:00:00&#43;00:00">7 Jul, 2020</time>
+	    
+	    </small>
+	<small class="mx-3">
+	    
+	    <div class="ml-2">
+		<i class="fas fa-edit"></i> <strong>Last modified:</strong> <time datetime="2021-06-29T20:05:12&#43;08:00">June 29, 2021</time>
+	    </div>
+	    
+	</small>
+	
+    </div>
+    
+</div>
+
+
+	    
+	    <h5 id="開啟虛擬化-wsl2-需要">開啟虛擬化 (WSL2 需要)</h5>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">bcdedit /set hypervisorlaunchtype auto
+</code></pre></div></br>
+<h5 id="關於靜態路由">關於靜態路由</h5>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># 顯示目前路由表</span>
+route print
+
+<span style="color:#75715e"># 刪除全部路由表</span>
+route -f
+</code></pre></div></br>
+<h5 id="diskpart-來完整清除分割區">diskpart 來完整清除分割區</h5>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e">#顯示磁碟清單</span>
+list disk
+
+<span style="color:#75715e">#選擇要處理的磁碟</span>
+<span style="color:#66d9ef">select</span> disk <span style="color:#f92672">{</span>NO<span style="color:#f92672">}</span>
+
+<span style="color:#75715e">#清除目前處理磁碟的所有分割區</span>
+clean
+</code></pre></div></br>
+<h5 id="關閉-microsoft-compatibility-appraiser">關閉 Microsoft Compatibility Appraiser</h5>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">工作排程器 -&gt; 工作排程器程式庫 -&gt; Microsoft -&gt; Windows -&gt; Application Experience 對 Microsoft Compatibility Appraiser 按右鍵選停用
+</code></pre></div></br>
+<h5 id="快捷鍵重置-windows-10-的繪圖驅動程式">快捷鍵重置 Windows 10 的繪圖驅動程式</h5>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">𝚆𝚒𝚗+𝙲𝚝𝚛𝚕+𝚂𝚑𝚒𝚏𝚝+𝙱
+</code></pre></div></br>
+<h5 id="當-wsl-的顯示語系異常時">當 WSL 的顯示語系異常時</h5>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">控制台 -&gt; 時鐘與區域 -&gt; 地區 -&gt; 系統管理 -&gt; 更變系統地區設定，把這選成自己常用的語言
+</code></pre></div></br>
+
+	    
+
+	    
+	    <div class="comments">
+		
+	    </div>
+
+	    
+<hr>
+<div>
+    <nav aria-label="Article quick navigation">
+	<ul class="pagination justify-content-center">
+	    
+	    <li class="page-item disabled">
+		<a class="page-link" href="" tabindex="-1" aria-disabled="true">Previous</a>
+	    </li>
+	    
+
+	    
+	    <li class="page-item">
+		<a class="page-link" href="https://kb.hiy.tw/os/routing/" title="Online routing check service/ 線上測試路由服務">Next</a>
+	    </li>
+	    
+	</ul>
+    </nav>
+</div>
+<hr>
+
+
+
+	    <div class="top-border p-3 mb-2 bg-light">
+		<div>
+    <ul>
+	
+	<h4>Articles</h4>
+	
+<ul>
+    
+    
+    <li><a href="https://kb.hiy.tw/os/vmware/">VMware info &amp; notes / VMware 相關資訊筆記 </a><span><small class="mx-1 text-muted">March 27, 2021</small></span></li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/os/mifare_uid/">Tricky for Mifare Classic / Mifare Classic 的冷知識</a><span><small class="mx-1 text-muted">October 27, 2020</small></span></li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/os/routing/">Online routing check service/ 線上測試路由服務</a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+    
+    <li>Windows Essential App &amp; Tips / Windows 常見軟體與小技巧</li>
+    
+    
+</ul>
+
+	
+	<hr>
+	
+	<h4>Subcategories</h4>
+	
+
+<li><h5><a href="https://kb.hiy.tw/os/android/">Android</a></h5></li>
+
+<ul>
+    
+    
+    <li><a href="https://kb.hiy.tw/os/android/android_adb/">Android adb Tips / Android adb 相關資訊</a><span><small class="mx-1 text-muted">October 27, 2020</small></span></li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/os/android/android_root/">Android Root Tips / Android Root 相關資訊</a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+</ul>
+ 
+<ul>
+    
+
+
+</ul>
+
+<li><h5><a href="https://kb.hiy.tw/os/ios/">iOS</a></h5></li>
+
+<ul>
+    
+    
+    <li><a href="https://kb.hiy.tw/os/ios/ios_jb/">iOS Jailbreak / iOS 越獄</a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/os/ios/ios_path/">iOS System Path / iOS 系統資料結構</a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/os/ios/ios_tips/">iOS Tips / iOS 小技巧</a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+</ul>
+ 
+<ul>
+    
+
+
+</ul>
+
+<li><h5><a href="https://kb.hiy.tw/os/mac/">macOS</a></h5></li>
+
+<ul>
+    
+    
+    <li><a href="https://kb.hiy.tw/os/mac/macos_cli/">macOS CLI / macOS 指令</a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/os/mac/macos_debug/">MacOS Debug / MacOS 除錯設定</a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/os/mac/mac_2hand/">Check list for Used Mac Device / 二手蘋果電腦驗機方式</a><span><small class="mx-1 text-muted">July 6, 2018</small></span></li>
+    
+    
+</ul>
+ 
+<ul>
+    
+
+
+</ul>
+
+<li><h5><a href="https://kb.hiy.tw/os/unix/">UNIX</a></h5></li>
+
+<ul>
+    
+    
+    <li><a href="https://kb.hiy.tw/os/unix/terminal_command/"> Terminal Shortcut / Terminal 快捷鍵</a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/os/unix/cli/">CLI command / 常見 CLI 指令 </a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/os/unix/vim/">VIM Tips / VIM 常用指令</a><span><small class="mx-1 text-muted">July 7, 2020</small></span></li>
+    
+    
+</ul>
+ 
+<ul>
+    
+
+
+</ul>
+
+
+	
+	
+	
+    </ul>
+</div>
+
+
+
+
+
+	    </div>
+	    
+	    
+
+
+
+
+
+
+
+
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb border border-secondary" itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+	
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item "
+    
+    itemprop="itemListElement" itemscope
+      itemtype="http://schema.org/ListItem">
+    
+    <a href="https://kb.hiy.tw/"
+       itemprop="item">
+	<span itemprop="name">Knowledge Base</span>
+    </a>
+    
+    <meta itemprop="position" content="1" />
+</li>
+
+
+<li class="breadcrumb-item "
+    
+    itemprop="itemListElement" itemscope
+      itemtype="http://schema.org/ListItem">
+    
+    <a href="https://kb.hiy.tw/os/"
+       itemprop="item">
+	<span itemprop="name">A. OS/作業系統</span>
+    </a>
+    
+    <meta itemprop="position" content="2" />
+</li>
+
+
+<li class="breadcrumb-item  active"
+    aria-current="page"
+    itemprop="itemListElement" itemscope
+      itemtype="http://schema.org/ListItem">
+    
+	<span itemprop="name">Windows Essential App &amp; Tips / Windows 常見軟體與小技巧</span>
+    
+    <meta itemprop="position" content="3" />
+</li>
+
+  </ol>
+</nav>
+
+
+
+
+	    <div class="mt-3"><footer class="container-fluid site-footer py-3">
+
+</footer>
+<div class="si-license">
+  <div class="text-muted text-sm-center">
+	Henry Yang<small>© 2020</small> &middot; 
+  </div>
+</div>
+
+
+</div>
+	    
+        </main>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<script async src="/js/bundle.min.58c1a372888b06db260026e21bb373955061138b81181b5248eb0a5f94e82b5f1f500a5d40ffa85135bb4ef838a53013ca6d3f85ee39c023de90e6149aac4d6b.js" integrity="sha512-WMGjcoiLBtsmACbiG7NzlVBhE4uBGBtSSOsKX5ToK18fUApdQP&#43;oUTW7Tvg4pTATym0/he45wCPekOYUmqxNaw=="></script>
+
+</body>
+</html>

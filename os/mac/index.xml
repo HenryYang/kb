@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>macOS on Henry&#39;s Knowledge Base</title>
+    <link>https://kb.hiy.tw/os/mac/</link>
+    <description>Recent content in macOS on Henry&#39;s Knowledge Base</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://kb.hiy.tw/os/mac/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>macOS CLI / macOS 指令</title>
+      <link>https://kb.hiy.tw/os/mac/macos_cli/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/os/mac/macos_cli/</guid>
+      <description>顯示從 Keychain 匯出的 .p12 中的公私鑰 openssl pkcs12 -info -in INFILE.p12 -nodes 憑證格式相關資訊
+ 在 CLI 匯入憑證到 Keychain # 解鎖 Keychain security unlock-keychain -p 電腦的密碼 ~/Library/Keychains/login.keychain-db # 匯入公私鑰 security import 要匯入的憑證 -k ~/Library/Keychains/login.keychain-db  手動安裝 Xcode # 去 Apple Developer 網站下載 xip 格式的 Xcode (現在需要登入才能下載) https://developer.apple.com/download/more/ # 使用 xip 指令直接安裝 xip -x ~/Download/Xcode_12.xip  執行 macOS 取消到期通知指令 sudo defaults write /Library/Preferences/com.apple.loginwindow PasswordExpirationDays 0  手動把帳戶加入 Mobile Account 方法 sudo /System/Library/CoreServices/ManagedClient.app/Contents/Resources/createmobileaccount -P -v -n 使用者帳戶  手動更新 FileVault2 的開機解鎖密碼 sudo diskutil apfs changePassphrase disk1s1 -user $(sudo fdesetup list | grep id -un | awk -F&amp;#39;,&amp;#39; &amp;#39;{print $2}&amp;#39;)  macOS Network Location 設定檔存放位置 /Library/Preferences/SystemConfiguration/preferences.</description>
+    </item>
+    
+    <item>
+      <title>MacOS Debug / MacOS 除錯設定</title>
+      <link>https://kb.hiy.tw/os/mac/macos_debug/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/os/mac/macos_debug/</guid>
+      <description>常見 Mac 開機時除錯快捷鍵  預設在 Windows 鍵盤上  Option 就是 Alt Command（⌘） 就是 ⊞ WinKey   執行 Mac 上的「Apple 診斷」  關機時按下電源鍵，且立即按住鍵盤上的 D 鍵，按住直到出現「選擇語言的畫面」為止。   重新安裝 macOS  關機且插上網路線時按下電源鍵，且立即按住鍵盤上的 Command（⌘）與 R 兩個鍵。   手動選擇開機磁碟  關機時按下電源鍵，且立即按住鍵盤上的 Option 鍵，按住直到出現「選擇硬碟的畫面」為止。   進入安全模式  關機時按下電源鍵，且立即按住鍵盤上的 Shift 鍵，按住直到出現「登入畫面」為止。   驗證是否在安全模式  點選 左上方的蘋果圖案 -&amp;gt; 關於這台 Mac -&amp;gt; 系統報告 -&amp;gt; 軟體，然後檢查「開機模式」。 為「安全」表示在安全模式，為「正常」則是正常開機。   以目標磁碟模式啟動( 把 Mac 當成 Thunderbolt 外接硬碟用 )  關機時按下電源鍵，且立即按住鍵盤上的 T 鍵，按住直到出現『 Thunderbolt 的畫面』為止。   進入 Single-User 模式  關機時按下電源鍵，且立即按住鍵盤上的 S 鍵，持續按住直到出現登入畫面為止。 僅支援到 High Sierra (10.</description>
+    </item>
+    
+    <item>
+      <title>Check list for Used Mac Device / 二手蘋果電腦驗機方式</title>
+      <link>https://kb.hiy.tw/os/mac/mac_2hand/</link>
+      <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/os/mac/mac_2hand/</guid>
+      <description>MacuKnow - mac 驗機 步驟，購買全新或二手前都可參考  https://macuknow.com/2019/07/01/2126/   皮樂的買二手機建議驗機方式  https://www.facebook.com/hiraku.tw/posts/3429848490378227  </description>
+    </item>
+    
+  </channel>
+</rss>

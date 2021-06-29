@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tips/技巧 on Henry&#39;s Knowledge Base</title>
+    <title>D. Tips/技巧 on Henry&#39;s Knowledge Base</title>
     <link>https://kb.hiy.tw/tips/</link>
-    <description>Recent content in Tips/技巧 on Henry&#39;s Knowledge Base</description>
+    <description>Recent content in D. Tips/技巧 on Henry&#39;s Knowledge Base</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://kb.hiy.tw/tips/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,15 +13,6 @@
       
       <guid>https://kb.hiy.tw/tips/dmv/</guid>
       <description>車籍資料查詢（付費）  https://mvdvan.mvdis.gov.tw/mvdvan/   車輛哩程數查詢（免費）  下載監理服務 App 就可以查詢 iOS: https://apps.apple.com/tw/app/%E7%9B%A3%E7%90%86%E6%9C%8D%E5%8B%99/id933737788 Android: https://play.google.com/store/apps/details?id=gov.mvdis.m3.emv.app.phone&amp;amp;hl=zh_TW   合法計程車查詢（免費）  https://www.mvdis.gov.tw/m3-emv-sev/taxi/query  </description>
-    </item>
-    
-    <item>
-      <title>Check list for Used Mac Device / 二手蘋果電腦驗機方式</title>
-      <link>https://kb.hiy.tw/tips/mac_2hand/</link>
-      <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/tips/mac_2hand/</guid>
-      <description>MacuKnow - mac 驗機 步驟，購買全新或二手前都可參考  https://macuknow.com/2019/07/01/2126/   皮樂的買二手機建議驗機方式  https://www.facebook.com/hiraku.tw/posts/3429848490378227  </description>
     </item>
     
   </channel>
