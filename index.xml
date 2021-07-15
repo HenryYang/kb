@@ -7,6 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://kb.hiy.tw/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Wire transfer info / 國際電匯的匯出匯入相關資訊</title>
+      <link>https://kb.hiy.tw/lists/finance/wire/</link>
+      <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/lists/finance/wire/</guid>
+      <description>  匯出 (自己的帳戶 -&amp;gt; 海外)
+ 匯出匯款手續費 + 電報費 最多可能有三筆手續費  款項發出銀行 -&amp;gt; 匯出匯款手續費 中轉行 -&amp;gt; 轉手的手續費 (不一定會有) 收款銀行 -&amp;gt; 解匯手續費 (不一定會收)      匯入 (海外 -&amp;gt; 自己的帳戶)
+ 解匯手續費 依照各家銀行會有不同手續費    名詞解釋
+ SHA  一般匯款，收款人要負擔各種中轉行跟收款行的手續費   OUR  全額到匯，理論上收款人會收到足額費用       參考資料與匯出匯入手續費參考  https://davidhuang1219.pixnet.net/blog/post/328089559  </description>
+    </item>
+    
+    <item>
+      <title>iPhone Model List / iPhone 機型型號清單</title>
+      <link>https://kb.hiy.tw/os/ios/ios_device_check/</link>
+      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/os/ios/ios_device_check/</guid>
+      <description>這邊說的是 &amp;ldquo;機型型號&amp;rdquo;，可以從 &amp;ldquo;設定&amp;rdquo; -&amp;gt; &amp;ldquo;一般&amp;rdquo; -&amp;gt; &amp;ldquo;關於本機&amp;rdquo; 中查詢到  機型型號 第一英文字代表是類別  新機是 M 開頭 官方認證整新品是 F 開頭 維修後換新品是 N 開頭 有刻紋是 P 開頭 Apple Store 的 DEMO 機是 3 開頭      機型型號 最尾在 / 前面的一或兩碼英文表示屬於哪一個國家/地區所販售的  台灣是 TA 香港是 ZP 日本是 J 美國是 LL 中國是 CH      這份 Wiki 可以查到全部 iOS Device 各國所屬的&amp;quot;機型型號&amp;quot;  這在買二手機時是一個方便的方式確認該機器是否為賣家所說的規格與國家 因為顏色跟容量都有專屬的型號，正常人沒有能力修改型號資訊    </description>
+    </item>
+    
+    <item>
       <title>Disable LINE personal AD identifier  / 停用 LINE 的個人化廣告偏好</title>
       <link>https://kb.hiy.tw/tips/privacy/line/</link>
       <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
@@ -83,6 +104,7 @@ GitHub 功能小抄 - https://github.com/tiimgreen/github-cheat-sheet/blob/maste
 常見 MIME 類型列表 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types
 破版文字 (netgraffiti) - https://mobile.twitter.com/nmrmrmrn
 U2F 支援程度清單 - https://www.dongleauth.info/
+1Passwords 舊版瀏覽器外掛 - https://support.1password.com/cs/1password-classic-extension/
 
 線上服務類 隨機產生高強度密碼 - https://1password.com/zh-tw/password-generator/
 超強翻譯網站 DeepL - https://www.deepl.com/translator
@@ -92,7 +114,7 @@ U2F 支援程度清單 - https://www.dongleauth.info/
 Adobe 的線上編輯 PDF 服務 - https://www.adobe.com/tw/acrobat/online.html
 Unicode 字元辨識 (用畫的來辨識可能的字元) - https://shapecatcher.com/index.html
 算 Netmask 數值 - http://jodies.de/ipcalc
- 日常生活類 查詢 Amazon US 等網站的真實評價 - https://www.fakespot.com/</description>
+ 日常生活類 查詢 Amazon US 等網站的真實評價 - https://www.</description>
     </item>
     
     <item>
@@ -107,7 +129,7 @@ Unicode 字元辨識 (用畫的來辨識可能的字元) - https://shapecatcher.
 在建立虛擬硬碟時會一次給足所設定的硬碟大小，虛擬硬碟一開始時就會將所有的部分先行初始化，所以開始時會耗費一些時間，但後續使用時，不用在做初始化，所以效能會稍微好一些。
  精簡佈建 Thin Provision
 會隨著虛擬硬碟的使用量而增加硬碟的大小，直到達到當時建立的磁碟空間上限為止
- 重新啟動 ESXi Web Client Service $ /etc/init.d/hostd restart $ /etc/init.d/vpxa restart  </description>
+ 重新啟動 ESXi Web Client Service $ /etc/init.d/hostd restart $ /etc/init.d/vpxa restart   掛載 NFS 磁碟 $ esxcfg-nas -a -o 1192.168.1.21 -s /DATA NAS_DATA  </description>
     </item>
     
     <item>
@@ -462,7 +484,7 @@ Unicode 字元辨識 (用畫的來辨識可能的字元) - https://shapecatcher.
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/life/referral_link/</guid>
-      <description>玉山銀行 - Only 信用卡  https://s.hiy.tw/only  玉山銀行 - Ubear 信用卡  https://s.hiy.tw/ubear  中國信託 - LOL 英雄聯盟聯名卡  https://ctbc.tw/YBv16q  台新銀行 - Richart 數位帳戶  https://s.hiy.tw/richart  Etoro - CFD/美股 線上投資/交易平台  https://s.hiy.tw/etoro  Crypto.com - MCO VISA Debit Card  https://s.hiy.tw/mco  匯豐銀行 - 旅人/現金回饋 信用卡  請私訊問我最新的推廣連結  Shopback 網路購物返利+現金回饋平台  https://s.hiy.tw/shopback  Line TAXI - 使用 Line 就可以叫計程車  https://s.hiy.tw/linetaxi  Uber &amp;amp; Uber Eats  Uber：請直接點選連結 https://s.</description>
+      <description>玉山銀行 - Only 信用卡  https://s.hiy.tw/only  玉山銀行 - Ubear 信用卡  https://s.hiy.tw/ubear  中國信託 - LOL 英雄聯盟聯名卡  https://ctbc.tw/YBv16q  台新銀行 - Richart 數位帳戶  https://s.hiy.tw/richart  Etoro - CFD/美股 線上投資/交易平台  https://s.hiy.tw/etoro  Crypto.com - MCO VISA Debit Card  https://s.hiy.tw/mco  匯豐銀行 - 旅人/現金回饋 信用卡  請私訊問我最新的推廣連結  Wise - 國際線上電匯服務  https://s.hiy.tw/wise  Shopback 網路購物返利+現金回饋平台  https://s.hiy.tw/shopback  Line TAXI - 使用 Line 就可以叫計程車  https://s.hiy.tw/linetaxi  Uber &amp;amp; Uber Eats  Uber：請直接點選連結 https://s.</description>
     </item>
     
     <item>
