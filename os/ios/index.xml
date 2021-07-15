@@ -16,7 +16,7 @@
     </item>
     
     <item>
-      <title>iOS Jailbreak / iOS 越獄</title>
+      <title>iOS Jailbreak / iOS 越獄相關資訊</title>
       <link>https://kb.hiy.tw/os/ios/ios_jb/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
@@ -34,12 +34,12 @@
     </item>
     
     <item>
-      <title>iOS Tips / iOS 小技巧</title>
+      <title>iOS Tips / iOS 冷知識與實用網站</title>
       <link>https://kb.hiy.tw/os/ios/ios_tips/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/os/ios/ios_tips/</guid>
-      <description>隨機化 iOS 14 的 Mac Address  https://support.apple.com/zh-tw/HT211227   舊版 iTunes 12.6.5 下載（還可以載 .ipa 的版本）  https://support.apple.com/en-us/HT208079   iOS App 版本號對應 ID 查詢  https://tools.lancely.tech/apple/app-search   停用 Finder 提示通知的 iOS Update # 雖然 10.15 後沒有 iTunes 但還是用這服務來看設定值 （要重開機） defaults write com.apple.itunes disableCheckForDeviceUpdates -bool YES </description>
+      <description>隨機化 iOS 14 的 Mac Address  https://support.apple.com/zh-tw/HT211227   舊版 iTunes 12.6.5 下載（還可以載 .ipa 的版本）  https://support.apple.com/en-us/HT208079   iOS App 版本號對應 ID 查詢  https://tools.lancely.tech/apple/app-search   下載舊版的 .ipa 教學  https://hiy.tw/2021/03/testflight_export_ipa/   停用 Finder 提示通知的 iOS Update # 雖然 10.15 後沒有 iTunes 但還是用這服務來看設定值 （要重開機） defaults write com.apple.itunes disableCheckForDeviceUpdates -bool YES </description>
     </item>
     
   </channel>
