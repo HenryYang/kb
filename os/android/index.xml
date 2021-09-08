@@ -24,5 +24,14 @@
       <description>我自己在用的清單 </description>
     </item>
     
+    <item>
+      <title>Android Tips / Android 實用資訊</title>
+      <link>https://kb.hiy.tw/os/android/android_tips/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/os/android/android_tips/</guid>
+      <description>下載 APK （已分割的 apk 檔案）  https://apk.support/zh_tw/apk-downloader   安裝已分割的 apk 檔案  https://play.google.com/store/apps/details?id=com.aefyr.sai&amp;amp;hl=zh_TW&amp;amp;gl=US  </description>
+    </item>
+    
   </channel>
 </rss>
