@@ -12,7 +12,7 @@
       <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/os/android/android_adb/</guid>
-      <description>adb 最新版下載位置  Windows 版本：https://dl.google.com/android/repository/platform-tools-latest-windows.zip Mac 版本：https://dl.google.com/android/repository/platform-tools-latest-darwin.zip Linux 版本：https://dl.google.com/android/repository/platform-tools-latest-linux.zip   常用指令  adb 常用命令大全  </description>
+      <description>adb 最新版下載位置  Windows 版本：https://dl.google.com/android/repository/platform-tools-latest-windows.zip Mac 版本：https://dl.google.com/android/repository/platform-tools-latest-darwin.zip Linux 版本：https://dl.google.com/android/repository/platform-tools-latest-linux.zip   常用指令  adb 常用命令大全  透過 adb CLI 來開啟 App 指定畫面 # 範例 開啟 Google Play  adb.exe shell am start -n com.android.vending/com.google.android.finsky.activities.MainActivity # 範例 開啟 My App Share adb.exe shell am start -n com.yschi.MyAppSharer/com.yschi.MyAppSharer.MyAppSharer 找出目前 Android 設備上畫面所屬的 App Activity 名稱 # For Mac/Linux adb shell dumpsys window | grep -E &amp;#39;mCurrentFocus&amp;#39; # For Windows: adb shell dumpsys window | find &amp;#34;mCurrentFocus&amp;#34; 參考資料</description>
     </item>
     
     <item>
