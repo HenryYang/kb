@@ -114,6 +114,7 @@ GitHub 功能小抄 - https://github.com/tiimgreen/github-cheat-sheet/blob/maste
 破版文字 (netgraffiti) - https://mobile.twitter.com/nmrmrmrn
 U2F 支援程度清單 - https://www.dongleauth.info/
 1Passwords 舊版瀏覽器外掛 - https://support.1password.com/cs/1password-classic-extension/
+憑證白話文解釋 - https://haway.30cm.gg/ssl-key-csr-crt-pem/
  線上服務類 隨機產生高強度密碼 - https://1password.com/zh-tw/password-generator/
 超強翻譯網站 DeepL - https://www.deepl.com/translator
 隨機產生專案名稱 - https://mrsharpoblunto.github.io/foswig.js/
@@ -177,22 +178,24 @@ Unicode 字元辨識 (用畫的來辨識可能的字元) - https://shapecatcher.
     </item>
     
     <item>
-      <title>Common Sense for Traveler / 旅遊知識</title>
+      <title>Common Sense for (Points) Traveler /  哩程旅遊知識</title>
       <link>https://kb.hiy.tw/travel/command_sense/</link>
       <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/travel/command_sense/</guid>
-      <description>通用   GCMAP - 用來查飛行距離
- http://www.gcmap.com/    Traveldoc - 查詢各國護照進出各國是否需要簽證
- https://www.traveldoc.aero/Passenger/Check?Language=en-US    Expertflyer - 就是那個大家熟知要付錢的服務
- https://www.expertflyer.com/main.do    外交部領事局 - 查詢中華民國護照進出各國是否需要簽證
- https://www.boca.gov.tw/sp-foof-countrylp-03-1.html    中國信託里程兌換單（亞萬、長榮、華航、新航）
- https://www.ctbcbank.com/content/dam/twrbo/pdf/creditcard/applyform/cc_bp_mileage_apply.pdf    寰宇一家直飛/轉機航點查詢 (失效中)
- http://onw.innosked.com    各聯盟航點查詢
- https://www.flightconnections.com/    各家子艙等累積比例計算
- https://www.wheretocredit.com/calculator    查詢飛行的里程累積在各計畫的比例
- https://www.wheretocredit.com/    查詢機場出發的航線
- https://www.flightsfrom.com/    離線查詢各航空/聯盟航點軟體</description>
+      <description>通用   GCMAP - 用來查飛行距離 - http://www.gcmap.com/
+  Traveldoc - 查詢各國護照進出各國是否需要簽證 - https://www.traveldoc.aero/Passenger/Check?Language=en-US
+  Expertflyer - 就是那個大家熟知要付錢的服務 - https://www.expertflyer.com/main.do
+  外交部領事局 - 查詢中華民國護照進出各國是否需要簽證 - https://www.boca.gov.tw/sp-foof-countrylp-03-1.html
+  中國信託里程兌換單（亞萬、長榮、華航、新航）- https://www.ctbcbank.com/content/dam/twrbo/pdf/creditcard/applyform/cc_bp_mileage_apply.pdf
+  寰宇一家直飛/轉機航點查詢 (失效中) - http://onw.innosked.com
+  各聯盟航點查詢 - https://www.flightconnections.com/
+  各家子艙等累積比例計算 - https://www.wheretocredit.com/calculator
+  查詢飛行的里程累積在各計畫的比例 - https://www.wheretocredit.com/
+  查詢機場出發的航線 - https://www.flightsfrom.com/
+  離線查詢各航空/聯盟航點軟體 - http://arm.64hosts.com/
+  各航點用各計畫兌換所需哩程查詢 - https://www.tripplus.cc/awardplus/redemption/s
+  哩程新手說明書 - https://kb.</description>
     </item>
     
     <item>
