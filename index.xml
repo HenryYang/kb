@@ -398,7 +398,9 @@ https://paper.dropbox.com/doc/Bash-Keystrokes-Moskys-Notes-jc4OF7EoXcOIuA9gtPs13
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/os/ios/ios_jb/</guid>
-      <description>這邊所有行為都有安全風險 使用各項服務前，請先確認是否可信 iOS App 簽署  Signulous - 付錢讓它幫你對特定 iOS Device 簽署企業級 App  https://www.signulous.com/      關於 M1 macOS 設備運行 .ipa 相關資訊  砸殼 -&amp;gt; 重簽名 -&amp;gt; 轉成 M1 格式並安裝 砸殼 - https://github.com/AloneMonkey/frida-ios-dump 重簽名 - https://github.com/DanTheMan827/ios-app-signer 轉成 M1 格式並安裝 -&amp;gt; https://github.com/Mila432/IPA-to-App-M1 轉成 M1 格式並安裝 -&amp;gt; https://pangu8.com/sideloadly/    參考資料</description>
+      <description>這邊所有行為都有安全風險 使用各項服務前，請先確認是否可信 iOS App 簽署   Signulous - 付錢後提供 UUID 讓它幫你對特定 iOS Device 簽署企業級 App
+ https://www.signulous.com/    AppDB - 在設備上裝他們家的描述檔納管後，他用推播方式安裝到設備上
+ https://appdb.to/      關於 M1 macOS 設備運行 .ipa 相關資訊  砸殼 -&amp;gt; 重簽名 -&amp;gt; 轉成 M1 格式並安裝 砸殼 - https://github.com/AloneMonkey/frida-ios-dump 重簽名 - https://github.com/DanTheMan827/ios-app-signer 轉成 M1 格式並安裝 -&amp;gt; https://github.com/Mila432/IPA-to-App-M1 安裝 .ipa 到設備上（用 Apple ID Sideload 似乎失效 ） -&amp;gt; https://pangu8.com/sideloadly/    參考資料</description>
     </item>
     
     <item>
@@ -425,7 +427,7 @@ https://paper.dropbox.com/doc/Bash-Keystrokes-Moskys-Notes-jc4OF7EoXcOIuA9gtPs13
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/os/ios/ios_tips/</guid>
-      <description>隨機化 iOS 14 的 Mac Address  https://support.apple.com/zh-tw/HT211227   舊版 iTunes 12.6.5 下載（還可以載 .ipa 的版本）  https://support.apple.com/en-us/HT208079   iOS App 版本號對應 ID 查詢  https://tools.lancely.tech/apple/app-search   下載舊版的 .ipa 教學  https://hiy.tw/2021/03/testflight_export_ipa/   網路上找到的共用 Apple ID 服務 （請慎用  https://pastebin.com/44NWbWKz  停用 Finder 提示通知的 iOS Update # 雖然 10.15 後沒有 iTunes 但還是用這服務來看設定值 （要重開機） defaults write com.apple.itunes disableCheckForDeviceUpdates -bool YES </description>
+      <description>隨機化 iOS 14 的 Mac Address  https://support.apple.com/zh-tw/HT211227   舊版 iTunes 12.6.5 下載（還可以載 .ipa 的版本）  https://support.apple.com/en-us/HT208079   iOS App 版本號對應 ID 查詢  https://tools.lancely.tech/apple/app-search   下載舊版的 .ipa 教學  https://hiy.tw/2021/03/testflight_export_ipa/   網路上找到的共用 Apple ID 服務 （請慎用  https://pastebin.com/GACW3aC4  停用 Finder 提示通知的 iOS Update # 雖然 10.15 後沒有 iTunes 但還是用這服務來看設定值 （要重開機） defaults write com.apple.itunes disableCheckForDeviceUpdates -bool YES </description>
     </item>
     
     <item>
