@@ -21,10 +21,10 @@
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/os/ios/ios_jb/</guid>
-      <description>這邊所有行為都有安全風險 使用各項服務前，請先確認是否可信 iOS App 簽署   Signulous - 付錢後提供 UUID 讓它幫你對特定 iOS Device 簽署企業級 App
+      <description>這邊所有行為都有安全風險 使用各項服務前，請先確認是否可信  SHSH Wiki - 查詢該 iOS 版本是否還可以還原或使用 OTA 方式降版  https://www.theiphonewiki.com/wiki/SHSH    iOS App 簽署   Signulous - 付錢後提供 UUID 讓它幫你對特定 iOS Device 簽署企業級 App
  https://www.signulous.com/    AppDB - 在設備上裝他們家的描述檔納管後，他用推播方式安裝到設備上
  https://appdb.to/    iOSGods iTunes App Info - 查詢 App Bundle ID、最低版本等相關資訊
- https://armconverter.com/appinfo      關於 M1 macOS 設備運行 .ipa 相關資訊  砸殼 -&amp;gt; 重簽名 -&amp;gt; 轉成 M1 格式並安裝 砸殼 - https://github.com/AloneMonkey/frida-ios-dump 重簽名 - https://github.com/DanTheMan827/ios-app-signer 轉成 M1 格式並安裝 -&amp;gt; https://github.com/Mila432/IPA-to-App-M1 安裝 .</description>
+ https://armconverter.com/appinfo      關於 M1 macOS 設備運行 .ipa 相關資訊  砸殼 -&amp;gt; 重簽名 -&amp;gt; 轉成 M1 格式並安裝 砸殼 - https://github.</description>
     </item>
     
     <item>
