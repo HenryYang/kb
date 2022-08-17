@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://kb.hiy.tw/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Mobile Payment List / 行動支付的支援清單</title>
+      <link>https://kb.hiy.tw/lists/finance/pay/</link>
+      <pubDate>Wed, 17 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/lists/finance/pay/</guid>
+      <description>台灣常見行動支付 對應表     銀行/支付系統 Apple Pay Google Pay Samsung Pay Garmin Pay Fitbit Pay  支援家數     國泰世華銀行 ✅ ✅ ✅ ✅ ✅  5   國泰世華銀行 - 金融卡 ✅ ✅ ✅ ✅ ✅  5   中國信託銀行 ✅ ✅ ✅ ✅ ✅  5   中國信託銀行 - 金融卡 ✅ ✅ ✅    3   台新國際商業銀行 ✅ ✅ ✅ ✅ ✅  5   台新國際商業銀行 - 金融卡 ✅ ✅ ✅ ✅ ✅  5   聯邦銀行 ✅ ✅ ✅ ✅ ✅  5   聯邦銀行 - 金融卡 ✅      1   玉山商業銀行 ✅ ✅ ✅ ✅ ✅  5   玉山商業銀行 - 金融卡 ✅ ✅ ✅    3   台北富邦商業銀行 ✅ ✅ ✅ ✅ ✅  5   台北富邦商業銀行 - 金融卡 ✅ ✅ ✅ ✅ ✅  5   渣打銀行 ✅ ✅ ✅    3   渣打銀行 - 金融卡 ✅ ✅ ✅    3   第一商業銀行 ✅ ✅ ✅    3   滙豐（台灣）銀行 ✅ ✅ ✅    3   華南商業銀行 ✅ ✅     2   新光銀行 ✅ ✅     2   上海商銀  ✅ ✅    2   花旗銀行 ✅  ✅    2   永豐銀行 ✅ ✅ ✅ ✅ ✅  5   永豐銀行 - 金融卡 ✅      1   凱基銀行 ✅ ✅     2   安泰銀行  ✅     1   合作金庫  ✅     1   彰化銀行  ✅     1   兆豐銀行 ✅      1             支援家數 15 17 12 7 7       ## 備註 Apple Pay 目前支援 JCB 卡的銀行僅有：永豐銀行、中國信託、玉山銀行、第一銀行、華南銀行、聯邦銀行、兆豐銀行、台北富邦</description>
+    </item>
+    
+    <item>
       <title>MacOS Useful Tips / MacOS 實用經驗</title>
       <link>https://kb.hiy.tw/os/mac/macos_useful/</link>
       <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
@@ -446,15 +455,6 @@ https://paper.dropbox.com/doc/Bash-Keystrokes-Moskys-Notes-jc4OF7EoXcOIuA9gtPs13
       
       <guid>https://kb.hiy.tw/os/mac/macos_debug/</guid>
       <description>常見 Mac 開機時除錯快捷鍵  預設在 Windows 鍵盤上  Option 就是 Alt Command（⌘） 就是 ⊞ WinKey   執行 Mac 上的「Apple 診斷」  關機時按下電源鍵，且立即按住鍵盤上的 D 鍵，按住直到出現「選擇語言的畫面」為止。   重新安裝 macOS  關機且插上網路線時按下電源鍵，且立即按住鍵盤上的 Command（⌘）與 R 兩個鍵。   手動選擇開機磁碟  關機時按下電源鍵，且立即按住鍵盤上的 Option 鍵，按住直到出現「選擇硬碟的畫面」為止。   進入安全模式  關機時按下電源鍵，且立即按住鍵盤上的 Shift 鍵，按住直到出現「登入畫面」為止。   驗證是否在安全模式  點選 左上方的蘋果圖案 -&amp;gt; 關於這台 Mac -&amp;gt; 系統報告 -&amp;gt; 軟體，然後檢查「開機模式」。 為「安全」表示在安全模式，為「正常」則是正常開機。   以目標磁碟模式啟動( 把 Mac 當成 Thunderbolt 外接硬碟用 )  關機時按下電源鍵，且立即按住鍵盤上的 T 鍵，按住直到出現『 Thunderbolt 的畫面』為止。   進入 Single-User 模式  關機時按下電源鍵，且立即按住鍵盤上的 S 鍵，持續按住直到出現登入畫面為止。 僅支援到 High Sierra (10.</description>
-    </item>
-    
-    <item>
-      <title>Mobile Payment List / 行動支付的支援清單</title>
-      <link>https://kb.hiy.tw/lists/finance/pay/</link>
-      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/lists/finance/pay/</guid>
-      <description>台灣常見行動支付 對應表     銀行/支付系統 Apple Pay Google Pay Samsung Pay Garmin Pay Fitbit Pay  支援家數     國泰世華銀行 ✅ ✅ ✅ ✅ ✅  5   國泰世華銀行 - 金融卡 ✅ ✅ ✅ ✅ ✅  5   中國信託銀行 ✅ ✅ ✅ ✅ ✅  5   中國信託銀行 - 金融卡 ✅ ✅ ✅    3   台新國際商業銀行 ✅ ✅ ✅ ✅ ✅  5   台新國際商業銀行 - 金融卡 ✅ ✅ ✅ ✅ ✅  5   聯邦銀行 ✅ ✅ ✅ ✅ ✅  5   聯邦銀行 - 金融卡 ✅      1   玉山商業銀行 ✅ ✅ ✅ ✅ ✅  5   玉山商業銀行 - 金融卡 ✅ ✅ ✅    3   台北富邦商業銀行 ✅ ✅ ✅ ✅ ✅  5   台北富邦商業銀行 - 金融卡 ✅ ✅ ✅ ✅ ✅  5   渣打銀行 ✅ ✅ ✅    3   渣打銀行 - 金融卡 ✅ ✅ ✅    3   第一商業銀行 ✅ ✅ ✅    3   滙豐（台灣）銀行 ✅ ✅ ✅    3   華南商業銀行 ✅ ✅     2   新光銀行 ✅ ✅     2   上海商銀  ✅ ✅    2   花旗銀行 ✅  ✅    2   永豐銀行 ✅ ✅ ✅ ✅ ✅  5   永豐銀行 - 金融卡 ✅      1   凱基銀行 ✅ ✅     2   安泰銀行  ✅     1   合作金庫  ✅     1   彰化銀行  ✅     1   兆豐銀行 ✅      1             支援家數 15 17 12 7 7       ## 備註 Apple Pay 目前支援 JCB 卡的銀行僅有：永豐銀行、中國信託、玉山銀行、第一銀行、華南銀行、聯邦銀行、兆豐銀行、台北富邦</description>
     </item>
     
     <item>
