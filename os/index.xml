@@ -27,7 +27,7 @@
       <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/os/mifare_uid/</guid>
-      <description>Tools  MIFARE Classic Tool - 用來讀取與編輯 Mifare Classic 卡  可以編輯 CUID 卡的 Block 0   NFC TagInfo - 用來識別 RFID 卡片的類型與 UID 相關資訊 Mifare Calculator - Mifare 卡較驗碼的計算  Servies  XOR Calculator Mifare Classic UID BCC Calculator  Notes  Sector0 Block0 前 4 Byte 放置了該張卡的 UID，第 5 Byte 是校驗碼，為前 4 個 Byte XOR 的結果 假設 UID 為 DDCCBBAA 那這時候要解讀回 10 進位就是變成 (AABBCCDD)hex = 2864434397 (如果長度不足十位則前面補 0 )  參考資料</description>
+      <description>Tools  MIFARE Classic Tool - 用來讀取與編輯 Mifare Classic 卡  可以編輯 CUID 卡的 Block 0   NFC TagInfo - 用來識別 RFID 卡片的類型與 UID 相關資訊 Mifare Calculator - Mifare 卡較驗碼的計算 NFC Reader - 讀取後會顯示 UID 的各種格式換算  Servies  XOR Calculator Mifare Classic UID BCC Calculator UID conversion  Notes  Sector0 Block0 前 4 Byte 放置了該張卡的 UID，第 5 Byte 是校驗碼，為前 4 個 Byte XOR 的結果 假設 UID 為 DDCCBBAA 那這時候要解讀回 10 進位就是變成 (AABBCCDD)hex = 2864434397 (如果長度不足十位則前面補 0 )  參考資料</description>
     </item>
     
     <item>
