@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://kb.hiy.tw/lists/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>台灣和日本的 4G、5G 頻段與常見 APN 設定值</title>
+      <link>https://kb.hiy.tw/lists/band/</link>
+      <pubDate>Tue, 27 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/lists/band/</guid>
+      <description>台灣常見 4G 頻段   日本常見 4G 頻段   台灣常見 5G 頻段   日本常見 5G 頻段     B-mobile 190PadSIM - DoCoMo 線路 APN  iOS 設備專用描述檔 Android 設備資訊連結  BB.excite 格安SIM - AU 線路 APN  iOS 設備專用描述檔 Android 設備資訊連結  </description>
+    </item>
+    
+    <item>
       <title>Useful Services / 實用網站</title>
       <link>https://kb.hiy.tw/lists/url/</link>
       <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
@@ -47,15 +56,6 @@ U2F 支援程度清單 - https://www.dongleauth.info/
       
       <guid>https://kb.hiy.tw/lists/surge_shortcuts/</guid>
       <description>皮樂維護的 Surge 清單  https://kinta.ma/surge/  Jimmy 維護的 Surge 清單  https://github.com/jimmyorz/Surge  Chris 維護的 Surge 清單  https://surge.clai.tw/FacebookClickID.sgmodule https://surge.clai.tw/rules/MitM.sgmodule  Chris 維護的 Surge 清單  Share Clean URL  https://www.icloud.com/shortcuts/a388b20ef2fe47f4b51e88b74ce17b12   Copy Clean URL  https://www.icloud.com/shortcuts/6ac0f4f75cfb410cb1768d2350d4f1ff    </description>
-    </item>
-    
-    <item>
-      <title>Taiwan &amp; Japan 4G 5G Band / 台灣與日本 4G 5G 頻段</title>
-      <link>https://kb.hiy.tw/lists/band/</link>
-      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/lists/band/</guid>
-      <description>台灣常見 4G 頻段  日本常見 4G 頻段  台灣常見 5G 頻段  日本常見 5G 頻段 </description>
     </item>
     
   </channel>
