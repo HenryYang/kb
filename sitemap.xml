@@ -3,6 +3,46 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://kb.hiy.tw/lists/url/google/</loc>
+    <lastmod>2022-10-08T16:20:54+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kb.hiy.tw/lists/url/sns/</loc>
+    <lastmod>2022-10-08T16:20:54+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kb.hiy.tw/lists/url/parking_payment/</loc>
+    <lastmod>2022-10-08T16:20:54+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kb.hiy.tw/lists/esim/</loc>
+    <lastmod>2022-10-08T16:20:54+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kb.hiy.tw/lists/url/useful/</loc>
+    <lastmod>2022-10-08T16:20:54+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kb.hiy.tw/lists/url/online_shopping/</loc>
+    <lastmod>2022-10-08T16:20:54+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kb.hiy.tw/lists/url/security/</loc>
+    <lastmod>2022-10-08T16:20:54+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kb.hiy.tw/lists/url/never_ssl/</loc>
+    <lastmod>2022-10-08T16:20:54+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kb.hiy.tw/lists/finance/credit/</loc>
     <lastmod>2022-09-27T10:16:23+08:00</lastmod>
   </url>
@@ -65,11 +105,6 @@
   <url>
     <loc>https://kb.hiy.tw/life/tech_trivia/</loc>
     <lastmod>2021-04-13T00:09:19+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kb.hiy.tw/lists/url/</loc>
-    <lastmod>2022-09-10T00:39:46+08:00</lastmod>
   </url>
   
   <url>
@@ -189,7 +224,7 @@
   
   <url>
     <loc>https://kb.hiy.tw/os/ios/ios_tips/</loc>
-    <lastmod>2022-09-19T17:25:45+08:00</lastmod>
+    <lastmod>2022-10-08T16:20:54+08:00</lastmod>
   </url>
   
   <url>
@@ -323,6 +358,11 @@
   <url>
     <loc>https://kb.hiy.tw/os/unix/</loc>
     <lastmod>2021-06-29T20:05:12+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kb.hiy.tw/lists/url/</loc>
+    <lastmod>2022-10-08T16:20:54+08:00</lastmod>
   </url>
   
 </urlset>
