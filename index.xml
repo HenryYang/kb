@@ -7,6 +7,52 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://kb.hiy.tw/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Hugo 主題常用指令</title>
+      <link>https://kb.hiy.tw/notes/template/</link>
+      <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/notes/template/</guid>
+      <description>/var/log/apache2/$ grep POST access.log XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:03 +0000] &#34;POST /wp-content/themes/method/lib/scripts/dl-skin.php HTTP/1.1&#34; 500 363 &#34;-&#34; &#34;Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0&#34; XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:14 +0000] &#34;POST /wp-content/themes/modular/lib/scripts/dl-skin.php HTTP/1.1&#34; 500 363 &#34;-&#34; &#34;Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0&#34; XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:25 +0000] &#34;POST /wp-content/themes/myriad/lib/scripts/dl-skin.php HTTP/1.1&#34; 500 363 &#34;-&#34; &#34;Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0&#34; XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:56 +0000] &#34;POST /wp-content/themes/persuasion/lib/scripts/dl-skin.php HTTP/1.</description>
+    </item>
+    
+    <item>
+      <title>全日本空輸的有用資訊</title>
+      <link>https://kb.hiy.tw/travel/ana/</link>
+      <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/travel/ana/</guid>
+      <description>全日空    全日空 YQ 燃油附加費 (Fuel Surcharge) 價目表
+ https://www.ana.co.jp/en/jp/book-plan/charge/fuelsurcharge/    換票時間點
+ 最近可以訂到的票：網站 96 小時前 最遠可以訂到的票：第 355 天 即使「外站出發」，還是用出發地的日曆日計算天數 (意思就是以航班起飛之「當地日期」來釋出放票) 日本時間 09:00 AM 放當天日本出發「整天全部」的航班，意思就是台灣時間 08:00 AM 準時放票 雖然長榮放票是 360 天，且日本時間 355 天的 00:00 AM 就可以看到長榮票，但走到稅金那一步還是會出錯。一樣要等日本時間 09:00 AM 才能換    轉點時間經驗談（非第一次轉點）
+ 華南銀行 -&amp;gt; 每月 2、17 日銀行把資料提交給 ANA，約五天入帳 中信 ANA 聯名卡 -&amp;gt; 2 天 美國 美國運通 MR -&amp;gt; 3 天    </description>
+    </item>
+    
+    <item>
+      <title>日本航空的有用資訊</title>
+      <link>https://kb.hiy.tw/travel/jl/</link>
+      <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/travel/jl/</guid>
+      <description>日本航空    自家與外航累積比例表
+ https://www.tw.jal.co.jp/world/en/jalmile/flight/    國內線與國際線 FOP 計算表
+ https://www.jal.co.jp/cgi-bin/jal/milesearch/save/flt_mile_save.cgi?external=1&amp;amp;language=en    網友整理的常見 OW 航空累積到 JAL 的比例
+ https://bit.ly/30OVWXG    網友自制 JGC 修行里程計算器
+ https://www.jgcmileagerun.org/trilogy/mrgenerator       哩程票不能改票只能退票，然後退票手續費是 3100 JPY
+  日航 YQ 燃油附加費 (Fuel Surcharge) 價目表
+ https://www.jal.co.jp/jp/en/inter/fare/fuel/detail_overseas.html    換票時間點
+ 最近可以訂到的票：網站 48 小時前，電話 24 小時前（如果電話客服下班就只能等上班） 最遠可以訂到的票：第 360 天 即使「外站出發」，還是用出發地的日曆日計算天數 (意思就是以航班起飛之「當地日期」來釋出放票) 日本時間 10:00 AM 放當天日本出發「整天全部」的航班，意思就是台灣時間 09:00 AM 準時放票 通常第 360 天會釋放出一個頭等位，且與寰宇一家夥伴成員共享位置 哩程兌換自家航班，網路上最近的只能兌換到後天的。電話客服可以換到明天的    轉點時間經驗談（非第一次轉點）</description>
+    </item>
+    
+    <item>
+      <title>減少 Facebbook 廣告追蹤的各式方式</title>
+      <link>https://kb.hiy.tw/tips/privacy/fb/</link>
+      <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/tips/privacy/fb/</guid>
+      <description>你的廣告偏好  用來移除『你近期最常查看的廣告商』 https://www.facebook.com/adpreferences/advertisers/  // 在瀏覽器的 Console 中執行以下指令可以把該頁顯示的隱藏，所以需要一直手動重新整理。記得 Facebook 要是使用繁體中文版 document.querySelectorAll(&amp;#34;[aria-label=隱藏廣告]&amp;#34;).forEach(e=&amp;gt;e.click());  你的廣告偏好  用來移除『你的興趣』 https://www.facebook.com/adpreferences/?entry_product=waist&amp;amp;section=interests  // 在瀏覽器的 Console 中執行以下指令可以一次把『你的興趣』全數移除。記得 Facebook 要是使用繁體中文版 document.querySelectorAll(&amp;#34;[aria-label=移除]&amp;#34;).forEach((e, idx)=&amp;gt;{setTimeout(()=&amp;gt;e.click(), idx*1000)})  Facebook 站外動態  清除或是關閉後可以避免商家和組織與 Facebook 分享有關我們與其互動的資訊 但這同時會影響到使用 Facebook 登入的第三方服務 https://www.facebook.com/off_facebook_activity/?entry_point=1   刪除並禁止 Meta 集團使用被上傳的聯絡資訊  免登入即可申請刪除並禁止使用，包含電話或 Email 但這等於是把自己的聯絡資訊明確給出去來禁止，所以看每個人想法 https://www.facebook.com/contacts/removal  </description>
+    </item>
+    
+    <item>
       <title>各國旅遊 eSIM/SIM 清單</title>
       <link>https://kb.hiy.tw/lists/esim/</link>
       <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
@@ -21,7 +67,7 @@
       <pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/travel/am/</guid>
-      <description>國泰香港客服電話 +85227473333
+      <description>國泰航空   國泰香港客服電話 +85227473333
   查詢國泰本家航班近七天所使用機材
  https://www.cathaypacific.com/cx/zh_TW/book-a-trip/timetable.html      飛行獎勵兌換表格  https://www.asiamiles.com/zh/redeem-awards/flight-awards/flight-award-chart.html      國泰會籍與飛行獎勵相關條款  https://www.cathaypacific.com/cx/zh_HK/legal-and-privacy/cathay-membership-terms-and-conditions.html      亞萬開 CX/KA 里程票，機場有位子即可改簽，不需有 Z/U/X 等里程票相應艙等，收取 40 美金或等值的幣別改簽費用。  航班 Delay 超過五分鐘（以官方公布起飛時間為準）則維持免費改簽。 https://www.facebook.com/d3consulting.org/posts/2368549880071782      名詞解釋  Re-Book 只改時間，航空公司、地點、艙等、獎勵類別都 &amp;ldquo;不變&amp;rdquo; 可網路處理，US$25 / 4,000 哩，電話處理，US$40 / 6,000 哩 Re-Issue 當碰到改地點、改艙等、改獎勵類別時就只能選這種 只能電話處理，US$100 / 14,000 哩， Refund 當還碰到改航空公司時，就只能退票重開 只能電話處理，US$120 / 17,000 哩，     香港時間 00:00 AM 放當天「整天全部」的航班，意思就是台灣時間 00:00 AM 準時放票 標準賞，無會籍，換『外航』機票：最遠可以訂到的票: 第 360 天的票 標準賞，無會籍，換『國泰』機票：最遠可以訂到的票: 第 353 天的票 標準賞，銀卡（含）以上會籍且有信用卡聯名卡，換『國泰』機票：最遠可以訂到的票: 第 356 天的票   網路上只要該航班還有在賣票就還換的到（所以可以開當天票）    開日航班號的改票手續費為 40 USD    網友做的混艙計算表  https://epicurean.</description>
     </item>
@@ -297,15 +343,6 @@ DWPD (Drive Writes Per Day) 就是一個 SSD &amp;ldquo;平均下來&amp;rdquo; 
     </item>
     
     <item>
-      <title>Hugo template script / Hugo 主題常用指令</title>
-      <link>https://kb.hiy.tw/notes/template/</link>
-      <pubDate>Thu, 25 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/notes/template/</guid>
-      <description>/var/log/apache2/$ grep POST access.log XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:03 +0000] &#34;POST /wp-content/themes/method/lib/scripts/dl-skin.php HTTP/1.1&#34; 500 363 &#34;-&#34; &#34;Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0&#34; XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:14 +0000] &#34;POST /wp-content/themes/modular/lib/scripts/dl-skin.php HTTP/1.1&#34; 500 363 &#34;-&#34; &#34;Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0&#34; XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:25 +0000] &#34;POST /wp-content/themes/myriad/lib/scripts/dl-skin.php HTTP/1.1&#34; 500 363 &#34;-&#34; &#34;Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0&#34; XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:56 +0000] &#34;POST /wp-content/themes/persuasion/lib/scripts/dl-skin.php HTTP/1.</description>
-    </item>
-    
-    <item>
       <title>Android adb Tips / Android adb 相關資訊</title>
       <link>https://kb.hiy.tw/os/android/android_adb/</link>
       <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
@@ -326,24 +363,6 @@ DWPD (Drive Writes Per Day) 就是一個 SSD &amp;ldquo;平均下來&amp;rdquo; 
   JCB - USD https://www.jcb.jp/rate/usd.html
   現成的比較網站 https://www.bestxrate.com/
   </description>
-    </item>
-    
-    <item>
-      <title>Japan Airlines Tips / 日航筆記</title>
-      <link>https://kb.hiy.tw/travel/jl/</link>
-      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/travel/jl/</guid>
-      <description>日本航空   自家與外航累積比例表
- https://www.tw.jal.co.jp/world/en/jalmile/flight/    國內線與國際線 FOP 計算表
- https://www.jal.co.jp/cgi-bin/jal/milesearch/save/flt_mile_save.cgi?external=1&amp;amp;language=en    JEP 訂票頁面
- https://www.world.jal.co.jp/world/zhtw/japan_explorer_pass/tw/reservation/    手動申請實體會員卡
- https://www.jal.co.jp/jp/en/jalmile/flyon/application-flow/    網友自制 JGC 修行里程計算器
- https://www.jgcmileagerun.org/trilogy/mrgenerator    華南里程兌換單
- https://bit.ly/2HYRb6U    匯豐哩程兌換頁面
- https://ecard.hsbc.com.tw/EXT/travelPlus/redeem https://ecard.hsbc.com.tw/CH/chLogin    網友整理的常見 OW 航空累積到 JAL 的比例
- https://bit.ly/30OVWXG    二等親關係圖
- https://www.jal.co.jp/en/jalmile/use/ticket.html    里程票放票為前 360 天</description>
     </item>
     
     <item>
@@ -592,15 +611,6 @@ https://paper.dropbox.com/doc/Bash-Keystrokes-Moskys-Notes-jc4OF7EoXcOIuA9gtPs13
     </item>
     
     <item>
-      <title>Akihabara Second-hand shop/ 秋業原二手電器店資訊</title>
-      <link>https://kb.hiy.tw/travel/akihabara/</link>
-      <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/travel/akihabara/</guid>
-      <description> 秋葉原電器相關資訊  https://akiba-pc.watch.impress.co.jp/ https://daily-gadget.net/  常會貼超值二手電器的店家 Twitter  https://twitter.com/MlcStaff/ https://twitter.com/kandasoubi https://twitter.com/akihabalast  二手電器店散佈範圍  https://maps.app.goo.gl/aNct4U9uGkot4VLr6 https://maps.app.goo.gl/hwkePXrh5rwJXr469  某位很愛逛秋葉原二手店的經驗分享噗  https://www.plurk.com/p/nl5wmq  </description>
-    </item>
-    
-    <item>
       <title>Check list for Used Mac Device / 二手蘋果電腦驗機方式</title>
       <link>https://kb.hiy.tw/os/mac/mac_2hand/</link>
       <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
@@ -610,12 +620,12 @@ https://paper.dropbox.com/doc/Bash-Keystrokes-Moskys-Notes-jc4OF7EoXcOIuA9gtPs13
     </item>
     
     <item>
-      <title>Reset Facebook AD tracking / 重設 Facebbook 廣告追蹤</title>
-      <link>https://kb.hiy.tw/tips/privacy/fb/</link>
+      <title>秋業原二手電器店資訊</title>
+      <link>https://kb.hiy.tw/travel/akihabara/</link>
       <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://kb.hiy.tw/tips/privacy/fb/</guid>
-      <description>你的廣告偏好  用來移除『你近期最常查看的廣告商』 https://www.facebook.com/adpreferences/advertisers/  // 在瀏覽器的 Console 中執行以下指令可以把該頁顯示的隱藏，所以需要一直手動重新整理。記得 Facebook 要是使用繁體中文版 document.querySelectorAll(&amp;#34;[aria-label=隱藏廣告]&amp;#34;).forEach(e=&amp;gt;e.click());  你的廣告偏好  用來移除『你的興趣』 https://www.facebook.com/adpreferences/?entry_product=waist&amp;amp;section=interests  // 在瀏覽器的 Console 中執行以下指令可以一次把『你的興趣』全數移除。記得 Facebook 要是使用繁體中文版 document.querySelectorAll(&amp;#34;[aria-label=移除]&amp;#34;).forEach((e, idx)=&amp;gt;{setTimeout(()=&amp;gt;e.click(), idx*1000)})  Facebook 站外動態  清除或是關閉後可以避免商家和組織與 Facebook 分享有關我們與其互動的資訊 但這同時會影響到使用 Facebook 登入的第三方服務 https://www.facebook.com/off_facebook_activity/?entry_point=1  </description>
+      <guid>https://kb.hiy.tw/travel/akihabara/</guid>
+      <description> 秋葉原電器相關資訊  https://akiba-pc.watch.impress.co.jp/ https://daily-gadget.net/   常會貼超值二手電器的店家 Twitter  https://twitter.com/MlcStaff/ https://twitter.com/kandasoubi https://twitter.com/akihabalast   二手電器店散佈範圍  https://maps.app.goo.gl/aNct4U9uGkot4VLr6 https://maps.app.goo.gl/hwkePXrh5rwJXr469   某位很愛逛秋葉原二手店的經驗分享噗  https://www.plurk.com/p/nl5wmq  </description>
     </item>
     
   </channel>

@@ -7,9 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://kb.hiy.tw/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hugo template script / Hugo 主題常用指令</title>
+      <title>Hugo 主題常用指令</title>
       <link>https://kb.hiy.tw/notes/template/</link>
-      <pubDate>Thu, 25 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/notes/template/</guid>
       <description>/var/log/apache2/$ grep POST access.log XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:03 +0000] &#34;POST /wp-content/themes/method/lib/scripts/dl-skin.php HTTP/1.1&#34; 500 363 &#34;-&#34; &#34;Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0&#34; XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:14 +0000] &#34;POST /wp-content/themes/modular/lib/scripts/dl-skin.php HTTP/1.1&#34; 500 363 &#34;-&#34; &#34;Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0&#34; XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:25 +0000] &#34;POST /wp-content/themes/myriad/lib/scripts/dl-skin.php HTTP/1.1&#34; 500 363 &#34;-&#34; &#34;Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0&#34; XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:56 +0000] &#34;POST /wp-content/themes/persuasion/lib/scripts/dl-skin.php HTTP/1.</description>
