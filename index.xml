@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://kb.hiy.tw/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title> 無法歸類的冷知識記錄區</title>
+      <link>https://kb.hiy.tw/life/trivia/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/life/trivia/</guid>
+      <description>日常生活類   Taiwan, Province of China，代碼 TWN 是聯合國標準 ISO 3166-1 的稱呼。    「點、線、面」的度量單位  Apple iOS 在 72 ppi 的情況下 1 pixel = 1 px = 1 pt = 1 DTP point Google Android 在 160 ppi (mdpi) 的情況下 1 pixel = 1 px = 1 dp = 1 sp     常見縮寫 i18n = internationalization l10n = localization a11y = accessibility k8s = Kubernetes i14y = interoperability o16n = Operationalization m11y = measurability o11y = observability </description>
+    </item>
+    
+    <item>
       <title>Hugo 主題常用指令</title>
       <link>https://kb.hiy.tw/notes/template/</link>
       <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
@@ -281,16 +290,6 @@ Apple 在用的 - http://captive.apple.com/
       <description>關閉 Siri 的『從此 App 學習』與『跟 Siri 對話』 打開 iOS 設備的『設定』選擇『iri與搜尋』
 這時候往下滑對每一個安裝的 App 點進去，都把『從此 App 學習』與 『跟 Siri 對話搭配使用』都給關閉
  刪除 Siri 的聽寫紀錄 打開 iOS 設備的『設定』&amp;gt;『Siri 與搜尋』點選『刪除 Siri 與聽寫紀錄』</description>
-    </item>
-    
-    <item>
-      <title> Trivia / 無法歸類的冷知識</title>
-      <link>https://kb.hiy.tw/life/trivia/</link>
-      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/life/trivia/</guid>
-      <description>日常生活類  Taiwan, Province of China，代碼 TWN 是聯合國標準 ISO 3166-1 的稱呼。 覺得要別人停止用 Taiwan, China 或 Taiwan, Providence of China，自己政府先停止自稱 Republic of China, Taiwan 比較實在。
- 常見縮寫 i18n = internationalization l10n = localization a11y = accessibility k8s = Kubernetes i14y = interoperability o16n = Operationalization m11y = measurability o11y = observability </description>
     </item>
     
     <item>
