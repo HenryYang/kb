@@ -7,6 +7,44 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://kb.hiy.tw/travel/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>旅遊的各種知識</title>
+      <link>https://kb.hiy.tw/travel/command_sense/</link>
+      <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/travel/command_sense/</guid>
+      <description>距離/查票/航點   GCMAP - 用來查飛行距離 - http://www.gcmap.com/
+  IATA 提供的各國檢疫資訊與入境需求資訊 - https://www.iatatravelcentre.com/world.php
+  舊版 ITA 查詢系統 - https://oldmatrix.itasoftware.com
+  Expertflyer(付費) - 就是那個大家熟知要付錢的服務 - https://www.expertflyer.com/main.do
+  SeatSpy(付費) - 查詢跨大西洋航線各航空里程票數量 - https://www.seatspy.com/
+  Acrewardsearcher - 網友自製查詢星空聯盟里程票數量（透過加航查詢） - https://acrewardsearcher.cowtool.com
+  PY AwardSearch - 台灣網友自製查詢各聯盟里程票數量（透過各家查詢） - https://www.ustatz.com/member/awardSearch
+  ANA 官方里程票日曆圖（僅限日本出發） - https://cam.ana.co.jp/psz/tokutencal/form.jsp
+  離線查詢各航空/聯盟營運航點的 Windows 軟體 - http://arm.64hosts.com/
+  查詢各航空/聯盟營運航點 - https://www.flightconnections.com/
+  查詢各機場所營運的航線 - https://www.</description>
+    </item>
+    
+    <item>
+      <title>航空哩程常用資訊</title>
+      <link>https://kb.hiy.tw/travel/command_sense_airline/</link>
+      <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/travel/command_sense_airline/</guid>
+      <description>距離/查票/航點   GCMAP - 用來查飛行距離 - http://www.gcmap.com/
+  IATA 提供的各國檢疫資訊與入境需求資訊 - https://www.iatatravelcentre.com/world.php
+  舊版 ITA 查詢系統 - https://oldmatrix.itasoftware.com
+  Expertflyer(付費) - 就是那個大家熟知要付錢的服務 - https://www.expertflyer.com/main.do
+  SeatSpy(付費) - 查詢跨大西洋航線各航空里程票數量 - https://www.seatspy.com/
+  Acrewardsearcher - 網友自製查詢星空聯盟里程票數量（透過加航查詢） - https://acrewardsearcher.cowtool.com
+  PY AwardSearch - 台灣網友自製查詢各聯盟里程票數量（透過各家查詢） - https://www.ustatz.com/member/awardSearch
+  ANA 官方里程票日曆圖（僅限日本出發） - https://cam.ana.co.jp/psz/tokutencal/form.jsp
+  離線查詢各航空/聯盟營運航點的 Windows 軟體 - http://arm.64hosts.com/
+  查詢各航空/聯盟營運航點 - https://www.flightconnections.com/
+  查詢各機場所營運的航線 - https://www.</description>
+    </item>
+    
+    <item>
       <title>全日本空輸的有用資訊</title>
       <link>https://kb.hiy.tw/travel/ana/</link>
       <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
@@ -52,25 +90,6 @@
       
       <guid>https://kb.hiy.tw/travel/earn_miles/</guid>
       <description>Asia Miles iShop  官網：https://shop.asiamiles.com/zh/ 台灣常見商店清單  EVA Mileage Mall  官網：https://mall.brmile.com/zh/ 台灣常見商店清單  JAL World Marketplace  官網：https://shop.jmbworldmarketplace.com/ 嗯，沒有台灣商店  </description>
-    </item>
-    
-    <item>
-      <title>哩程旅遊的各種知識</title>
-      <link>https://kb.hiy.tw/travel/command_sense/</link>
-      <pubDate>Wed, 17 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/travel/command_sense/</guid>
-      <description>距離/查票/航點   GCMAP - 用來查飛行距離 - http://www.gcmap.com/
-  IATA 提供的各國檢疫資訊與入境需求資訊 - https://www.iatatravelcentre.com/world.php
-  舊版 ITA 查詢系統 - https://oldmatrix.itasoftware.com
-  Expertflyer(付費) - 就是那個大家熟知要付錢的服務 - https://www.expertflyer.com/main.do
-  SeatSpy(付費) - 查詢跨大西洋航線各航空里程票數量 - https://www.seatspy.com/
-  Acrewardsearcher - 網友自製查詢星空聯盟里程票數量（透過加航查詢） - https://acrewardsearcher.cowtool.com
-  PY AwardSearch - 台灣網友自製查詢各聯盟里程票數量（透過各家查詢） - https://www.ustatz.com/member/awardSearch
-  ANA 官方里程票日曆圖（僅限日本出發） - https://cam.ana.co.jp/psz/tokutencal/form.jsp
-  離線查詢各航空/聯盟營運航點的 Windows 軟體 - http://arm.64hosts.com/
-  查詢各航空/聯盟營運航點 - https://www.flightconnections.com/
-  查詢各機場所營運的航線 - https://www.</description>
     </item>
     
     <item>
