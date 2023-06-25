@@ -7,6 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://kb.hiy.tw/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>機上 WiFi 與 HTTP 的 Captive Portal</title>
+      <link>https://kb.hiy.tw/lists/url/never_ssl/</link>
+      <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/lists/url/never_ssl/</guid>
+      <description>永遠不會 HTTPS 連線 （用於轉跳 WiFi 的入口頁 (Captive Portal)） 網址最短的 - http://neverssl.com/
+另外一個常見的 - http://httpforever.com/
+Apple 在用的 - http://captive.apple.com/
+微軟在用的 - http://www.msftconnecttest.com/connecttest.txt
+各航空公司機上 WiFi 的 Captive Portal 長榮航空 - http://www.evawifi.com
+日本航空 - http://www.jal-wifi.com
+星宇航空 - http://capture.onboard.onair.aero
+ </description>
+    </item>
+    
+    <item>
       <title>旅遊的各種知識</title>
       <link>https://kb.hiy.tw/travel/command_sense/</link>
       <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
@@ -210,19 +226,6 @@ LINE POINTS 點數網頁版兌換 - https://points.line.me/pointcode?pincode=序
  隨機產生高強度密碼 - https://1password.com/zh-tw/password-generator/
  超強翻譯網站 DeepL - https://www.deepl.com/translator
  隨機產生專案名稱 - https://mrsharpoblunto.</description>
-    </item>
-    
-    <item>
-      <title>永遠不採用 HTTPS 的 Captive Portal</title>
-      <link>https://kb.hiy.tw/lists/url/never_ssl/</link>
-      <pubDate>Thu, 06 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/lists/url/never_ssl/</guid>
-      <description>永遠不會 HTTPS 連線 （用於轉跳 WiFi 的入口頁 (Captive Portal)） 網址最短的 - http://neverssl.com/
-另外一個常見的 - http://httpforever.com/
-Apple 在用的 - http://captive.apple.com/
-微軟在用的 - http://www.msftconnecttest.com/connecttest.txt
- </description>
     </item>
     
     <item>
