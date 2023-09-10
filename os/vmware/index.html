@@ -8,11 +8,11 @@
 在建立虛擬硬碟時會一次給足所設定的硬碟大小，虛擬硬碟一開始時就會將所有的部分先行初始化，所以開始時會耗費一些時間，但後續使用時，不用在做初始化，所以效能會稍微好一些。
  精簡佈建 Thin Provision
 會隨著虛擬硬碟的使用量而增加硬碟的大小，直到達到當時建立的磁碟空間上限為止
- 重新啟動 ESXi Web Client Service $ /etc/init.d/hostd restart $ /etc/init.d/vpxa restart   掛載 NFS 磁碟 $ esxcfg-nas -a -o 1192.168.1.21 -s /DATA NAS_DATA  " />
+ ESXi Web Client 的 SSL 憑證存放位置 $ /etc/vmware/ssl/rui.crt # 權限 644 $ /etc/vmware/ssl/rui.key  # 權限 400   重新啟動 ESXi Web Client Service $ /etc/init.d/hostd restart $ /etc/init.d/vpxa restart   掛載 NFS 磁碟 $ esxcfg-nas -a -o 192.168.1.21 -s /DATA NAS_DATA  " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://kb.hiy.tw/os/vmware/" />
 <meta property="article:published_time" content="2021-03-27T00:00:00+00:00" />
-<meta property="article:modified_time" content="2021-07-15T13:39:55+08:00" />
+<meta property="article:modified_time" content="2023-09-10T14:12:25+08:00" />
 <meta itemprop="name" content="VMware info &amp; notes / VMware 相關資訊筆記 ">
 <meta itemprop="description" content="VMwave 虛擬磁碟格式 完整佈建消極式歸零 Thick Provision Lazy Zeroed (zeroedthick)
 在建立虛擬硬碟時會一次給足所設定的硬碟大小，虛擬硬碟一開始時只會將目前所使用到的部分先進行初始化，其它的部分只是當有用到時才會做初始化的動作。
@@ -20,10 +20,10 @@
 在建立虛擬硬碟時會一次給足所設定的硬碟大小，虛擬硬碟一開始時就會將所有的部分先行初始化，所以開始時會耗費一些時間，但後續使用時，不用在做初始化，所以效能會稍微好一些。
  精簡佈建 Thin Provision
 會隨著虛擬硬碟的使用量而增加硬碟的大小，直到達到當時建立的磁碟空間上限為止
- 重新啟動 ESXi Web Client Service $ /etc/init.d/hostd restart $ /etc/init.d/vpxa restart   掛載 NFS 磁碟 $ esxcfg-nas -a -o 1192.168.1.21 -s /DATA NAS_DATA  ">
+ ESXi Web Client 的 SSL 憑證存放位置 $ /etc/vmware/ssl/rui.crt # 權限 644 $ /etc/vmware/ssl/rui.key  # 權限 400   重新啟動 ESXi Web Client Service $ /etc/init.d/hostd restart $ /etc/init.d/vpxa restart   掛載 NFS 磁碟 $ esxcfg-nas -a -o 192.168.1.21 -s /DATA NAS_DATA  ">
 <meta itemprop="datePublished" content="2021-03-27T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2021-07-15T13:39:55+08:00" />
-<meta itemprop="wordCount" content="42">
+<meta itemprop="dateModified" content="2023-09-10T14:12:25+08:00" />
+<meta itemprop="wordCount" content="58">
 
 
 
@@ -36,7 +36,7 @@
 在建立虛擬硬碟時會一次給足所設定的硬碟大小，虛擬硬碟一開始時就會將所有的部分先行初始化，所以開始時會耗費一些時間，但後續使用時，不用在做初始化，所以效能會稍微好一些。
  精簡佈建 Thin Provision
 會隨著虛擬硬碟的使用量而增加硬碟的大小，直到達到當時建立的磁碟空間上限為止
- 重新啟動 ESXi Web Client Service $ /etc/init.d/hostd restart $ /etc/init.d/vpxa restart   掛載 NFS 磁碟 $ esxcfg-nas -a -o 1192.168.1.21 -s /DATA NAS_DATA  "/>
+ ESXi Web Client 的 SSL 憑證存放位置 $ /etc/vmware/ssl/rui.crt # 權限 644 $ /etc/vmware/ssl/rui.key  # 權限 400   重新啟動 ESXi Web Client Service $ /etc/init.d/hostd restart $ /etc/init.d/vpxa restart   掛載 NFS 磁碟 $ esxcfg-nas -a -o 192.168.1.21 -s /DATA NAS_DATA  "/>
 
 
 <meta property="description" content='VMwave 虛擬磁碟格式 完整佈建消極式歸零 Thick Provision Lazy Zeroed (zeroedthick)
@@ -45,7 +45,7 @@
 在建立虛擬硬碟時會一次給足所設定的硬碟大小，虛擬硬碟一開始時就會將所有的部分先行初始化，所以開始時會耗費一些時間，但後續使用時，不用在做初始化，所以效能會稍微好一些。
  精簡佈建 Thin Provision
 會隨著虛擬硬碟的使用量而增加硬碟的大小，直到達到當時建立的磁碟空間上限為止
- 重新啟動 ESXi Web Client Service $ /etc/init.d/hostd restart $ /etc/init.d/vpxa restart   掛載 NFS 磁碟 $ esxcfg-nas -a -o 1192.168.1.21 -s /DATA NAS_DATA  ' /><meta name="author" content="Henry Yang">
+ ESXi Web Client 的 SSL 憑證存放位置 $ /etc/vmware/ssl/rui.crt # 權限 644 $ /etc/vmware/ssl/rui.key  # 權限 400   重新啟動 ESXi Web Client Service $ /etc/init.d/hostd restart $ /etc/init.d/vpxa restart   掛載 NFS 磁碟 $ esxcfg-nas -a -o 192.168.1.21 -s /DATA NAS_DATA  ' /><meta name="author" content="Henry Yang">
 
 
 
@@ -107,7 +107,7 @@
 	<small class="mx-3">
 	    
 	    <div class="ml-2">
-		<i class="fas fa-edit"></i> <strong>Last modified:</strong> <time datetime="2021-07-15T13:39:55&#43;08:00">July 15, 2021</time>
+		<i class="fas fa-edit"></i> <strong>Last modified:</strong> <time datetime="2023-09-10T14:12:25&#43;08:00">September 10, 2023</time>
 	    </div>
 	    
 	</small>
@@ -128,6 +128,12 @@
 <p>精簡佈建 <code>Thin Provision</code><br>
 會隨著虛擬硬碟的使用量而增加硬碟的大小，直到達到當時建立的磁碟空間上限為止</p>
 </br>
+<h4 id="esxi-web-client-的-ssl-憑證存放位置">ESXi Web Client 的 SSL 憑證存放位置</h4>
+<pre class="shell">
+<span class="shell-prompt">$</span> <kbd>/etc/vmware/ssl/rui.crt</kbd>  # 權限 644
+<span class="shell-prompt">$</span> <kbd>/etc/vmware/ssl/rui.key </kbd> # 權限 400
+</pre>
+</br>
 <h4 id="重新啟動-esxi-web-client-service">重新啟動 ESXi Web Client Service</h4>
 <pre class="shell">
 <span class="shell-prompt">$</span> <kbd>/etc/init.d/hostd restart</kbd>
@@ -136,7 +142,7 @@
 </br>
 <h4 id="掛載-nfs-磁碟">掛載 NFS 磁碟</h4>
 <pre class="shell">
-<span class="shell-prompt">$</span> <kbd>esxcfg-nas -a -o 1192.168.1.21 -s /DATA NAS_DATA</kbd>
+<span class="shell-prompt">$</span> <kbd>esxcfg-nas -a -o 192.168.1.21 -s /DATA NAS_DATA</kbd>
 </pre>
 
 	    

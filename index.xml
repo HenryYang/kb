@@ -373,7 +373,7 @@ DWPD (Drive Writes Per Day) 就是一個 SSD &amp;ldquo;平均下來&amp;rdquo; 
 在建立虛擬硬碟時會一次給足所設定的硬碟大小，虛擬硬碟一開始時就會將所有的部分先行初始化，所以開始時會耗費一些時間，但後續使用時，不用在做初始化，所以效能會稍微好一些。
  精簡佈建 Thin Provision
 會隨著虛擬硬碟的使用量而增加硬碟的大小，直到達到當時建立的磁碟空間上限為止
- 重新啟動 ESXi Web Client Service $ /etc/init.d/hostd restart $ /etc/init.d/vpxa restart   掛載 NFS 磁碟 $ esxcfg-nas -a -o 1192.168.1.21 -s /DATA NAS_DATA  </description>
+ ESXi Web Client 的 SSL 憑證存放位置 $ /etc/vmware/ssl/rui.crt # 權限 644 $ /etc/vmware/ssl/rui.key  # 權限 400   重新啟動 ESXi Web Client Service $ /etc/init.d/hostd restart $ /etc/init.d/vpxa restart   掛載 NFS 磁碟 $ esxcfg-nas -a -o 192.168.1.21 -s /DATA NAS_DATA  </description>
     </item>
     
     <item>
