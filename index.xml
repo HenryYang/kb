@@ -7,12 +7,44 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://kb.hiy.tw/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>出國旅遊 - 各種知識</title>
+      <link>https://kb.hiy.tw/travel/command_sense/</link>
+      <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/travel/command_sense/</guid>
+      <description>簽證/入境管制/保險   Traveldoc - 查詢各國護照進出各國是否需要簽證 - https://www.traveldoc.aero/Passenger/Check?Language=en-US
+  外交部領事局 - 查詢中華民國護照進出各國是否需要簽證 - https://www.boca.gov.tw/sp-foof-countrylp-03-1.html
+  從日本出發的人 ANA 有提供旅行前文件確認服務 - https://ana-travel-ready.web.app/?lang=en
+  各航空公司提供的入境國限制查詢
+ 長榮 - https://www.evaair.com/zh-tw/customer-services/covid-19-information-center/travel-restrictions/ 華航 - https://news.china-airlines.com/bvct/immigration?country=tw&amp;amp;locale=zh 日航 - https://www.jal.co.jp/tw/zhtw/info/travelalerts/flysafe/flights-service/quarantine-immigration/ sherpa - https://apply.joinsherpa.com/travel-restrictions?language=en-US covidcontrols - https://covidcontrols.co/traveller-entry      我國外交部提供的各國入境/簽證/防疫相關資訊  https://www.boca.gov.tw/sp-foof-countrylp-01-1.html https://www.boca.gov.tw/sp-foof-countrylp-03-1.html      海外保險  日本 (東京海上日動)(限定日本IP) - https://www.jnto.go.jp/emergency/chc/ov_travel_insurance.html 歐盟申根 (AXA) - https://www.axa-schengen.com/en 歐盟 (Allianz) - https://www.allianz-reiseversicherung.de/en_DE.html 全球 (IMG) - https://www.</description>
+    </item>
+    
+    <item>
       <title>秋業原二手電器店資訊</title>
       <link>https://kb.hiy.tw/travel/akihabara/</link>
       <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/travel/akihabara/</guid>
       <description> 秋葉原電器相關資訊  https://akiba-pc.watch.impress.co.jp/ https://daily-gadget.net/   常會貼超值二手電器的店家 Twitter  https://twitter.com/MlcStaff/ https://twitter.com/kandasoubi https://twitter.com/akihabalast https://twitter.com/GMlpc2jp https://twitter.com/akibajunks https://twitter.com/shonan_tsusho   二手電器店散佈範圍與清單  https://maps.app.goo.gl/GZQ2jWWjBR7KBU3x5 https://maps.app.goo.gl/aNct4U9uGkot4VLr6 https://maps.app.goo.gl/hwkePXrh5rwJXr469   某位很愛逛秋葉原二手店的經驗分享噗  https://www.plurk.com/p/nl5wmq  </description>
+    </item>
+    
+    <item>
+      <title>航空哩程 - 常用資訊</title>
+      <link>https://kb.hiy.tw/travel/command_sense_airline/</link>
+      <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/travel/command_sense_airline/</guid>
+      <description>距離/查票/航點   GCMAP - 用來查飛行距離 - http://www.gcmap.com/
+  IATA 提供的各國檢疫資訊與入境需求資訊 - https://www.iatatravelcentre.com/world.php
+  舊版 ITA 查詢系統 - https://oldmatrix.itasoftware.com
+  Expertflyer(付費) - 就是那個大家熟知要付錢的服務 - https://www.expertflyer.com/main.do
+  SeatSpy(付費) - 查詢跨大西洋航線各航空里程票數量 - https://www.seatspy.com/
+  Acrewardsearcher - 網友自製查詢星空聯盟里程票數量（透過加航查詢） - https://acrewardsearcher.cowtool.com
+  PY AwardSearch - 台灣網友自製查詢各聯盟里程票數量（透過各家查詢） - https://www.ustatz.com/member/awardSearch
+  ANA 官方里程票日曆圖（僅限日本出發） - https://cam.ana.co.jp/psz/tokutencal/form.jsp
+  離線查詢各航空/聯盟營運航點的 Windows 軟體 - http://arm.64hosts.com/
+  查詢各航空/聯盟營運航點 - https://www.flightconnections.com/
+  查詢各機場所營運的航線 - https://www.</description>
     </item>
     
     <item>
@@ -83,44 +115,6 @@ Apple 在用的 - http://captive.apple.com/
 日本航空 - http://www.jal-wifi.com
 星宇航空 - http://capture.onboard.onair.aero
  </description>
-    </item>
-    
-    <item>
-      <title>出國旅遊 - 各種知識</title>
-      <link>https://kb.hiy.tw/travel/command_sense/</link>
-      <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/travel/command_sense/</guid>
-      <description>距離/查票/航點   GCMAP - 用來查飛行距離 - http://www.gcmap.com/
-  IATA 提供的各國檢疫資訊與入境需求資訊 - https://www.iatatravelcentre.com/world.php
-  舊版 ITA 查詢系統 - https://oldmatrix.itasoftware.com
-  Expertflyer(付費) - 就是那個大家熟知要付錢的服務 - https://www.expertflyer.com/main.do
-  SeatSpy(付費) - 查詢跨大西洋航線各航空里程票數量 - https://www.seatspy.com/
-  Acrewardsearcher - 網友自製查詢星空聯盟里程票數量（透過加航查詢） - https://acrewardsearcher.cowtool.com
-  PY AwardSearch - 台灣網友自製查詢各聯盟里程票數量（透過各家查詢） - https://www.ustatz.com/member/awardSearch
-  ANA 官方里程票日曆圖（僅限日本出發） - https://cam.ana.co.jp/psz/tokutencal/form.jsp
-  離線查詢各航空/聯盟營運航點的 Windows 軟體 - http://arm.64hosts.com/
-  查詢各航空/聯盟營運航點 - https://www.flightconnections.com/
-  查詢各機場所營運的航線 - https://www.</description>
-    </item>
-    
-    <item>
-      <title>航空哩程 - 常用資訊</title>
-      <link>https://kb.hiy.tw/travel/command_sense_airline/</link>
-      <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/travel/command_sense_airline/</guid>
-      <description>距離/查票/航點   GCMAP - 用來查飛行距離 - http://www.gcmap.com/
-  IATA 提供的各國檢疫資訊與入境需求資訊 - https://www.iatatravelcentre.com/world.php
-  舊版 ITA 查詢系統 - https://oldmatrix.itasoftware.com
-  Expertflyer(付費) - 就是那個大家熟知要付錢的服務 - https://www.expertflyer.com/main.do
-  SeatSpy(付費) - 查詢跨大西洋航線各航空里程票數量 - https://www.seatspy.com/
-  Acrewardsearcher - 網友自製查詢星空聯盟里程票數量（透過加航查詢） - https://acrewardsearcher.cowtool.com
-  PY AwardSearch - 台灣網友自製查詢各聯盟里程票數量（透過各家查詢） - https://www.ustatz.com/member/awardSearch
-  ANA 官方里程票日曆圖（僅限日本出發） - https://cam.ana.co.jp/psz/tokutencal/form.jsp
-  離線查詢各航空/聯盟營運航點的 Windows 軟體 - http://arm.64hosts.com/
-  查詢各航空/聯盟營運航點 - https://www.flightconnections.com/
-  查詢各機場所營運的航線 - https://www.</description>
     </item>
     
     <item>
