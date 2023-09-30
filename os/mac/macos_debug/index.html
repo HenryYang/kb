@@ -6,12 +6,12 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://kb.hiy.tw/os/mac/macos_debug/" />
 <meta property="article:published_time" content="2020-07-07T00:00:00+00:00" />
-<meta property="article:modified_time" content="2021-12-08T21:18:07+08:00" />
+<meta property="article:modified_time" content="2023-09-30T11:32:58+08:00" />
 <meta itemprop="name" content="MacOS Debug / MacOS 除錯設定">
 <meta itemprop="description" content="常見 Mac 開機時除錯快捷鍵  預設在 Windows 鍵盤上  Option 就是 Alt Command（⌘） 就是 ⊞ WinKey   執行 Mac 上的「Apple 診斷」  關機時按下電源鍵，且立即按住鍵盤上的 D 鍵，按住直到出現「選擇語言的畫面」為止。   重新安裝 macOS  關機且插上網路線時按下電源鍵，且立即按住鍵盤上的 Command（⌘）與 R 兩個鍵。   手動選擇開機磁碟  關機時按下電源鍵，且立即按住鍵盤上的 Option 鍵，按住直到出現「選擇硬碟的畫面」為止。   進入安全模式  關機時按下電源鍵，且立即按住鍵盤上的 Shift 鍵，按住直到出現「登入畫面」為止。   驗證是否在安全模式  點選 左上方的蘋果圖案 -&gt; 關於這台 Mac -&gt; 系統報告 -&gt; 軟體，然後檢查「開機模式」。 為「安全」表示在安全模式，為「正常」則是正常開機。   以目標磁碟模式啟動( 把 Mac 當成 Thunderbolt 外接硬碟用 )  關機時按下電源鍵，且立即按住鍵盤上的 T 鍵，按住直到出現『 Thunderbolt 的畫面』為止。   進入 Single-User 模式  關機時按下電源鍵，且立即按住鍵盤上的 S 鍵，持續按住直到出現登入畫面為止。 僅支援到 High Sierra (10.">
 <meta itemprop="datePublished" content="2020-07-07T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2021-12-08T21:18:07+08:00" />
-<meta itemprop="wordCount" content="90">
+<meta itemprop="dateModified" content="2023-09-30T11:32:58+08:00" />
+<meta itemprop="wordCount" content="137">
 
 
 
@@ -83,7 +83,7 @@
 	<small class="mx-3">
 	    
 	    <div class="ml-2">
-		<i class="fas fa-edit"></i> <strong>Last modified:</strong> <time datetime="2021-12-08T21:18:07&#43;08:00">December 8, 2021</time>
+		<i class="fas fa-edit"></i> <strong>Last modified:</strong> <time datetime="2023-09-30T11:32:58&#43;08:00">September 30, 2023</time>
 	    </div>
 	    
 	</small>
@@ -152,6 +152,25 @@
 </li>
 </ul>
 </br>
+<h5 id="icloud-同步問題處理">iCloud 同步問題處理</h5>
+<ul>
+<li>解決一直卡在上傳的狀態</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># 停用服務</span>
+$ killall bird
+
+<span style="color:#75715e"># 刪除同步的暫存檔，完成後請重開機</span>
+$ cd ~/Library/Application<span style="color:#ae81ff">\ </span>Support
+$ rm -rf CloudDocs
+</code></pre></div><ul>
+<li>解決部分檔案下載不下來（好發在大型檔案）</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># 找尋檔案清單</span>
+$ find . -name <span style="color:#e6db74">&#39;.*icloud&#39;</span>
+
+<span style="color:#75715e"># 強迫下載檔案回來</span>
+$ find . -name <span style="color:#e6db74">&#39;.*icloud&#39;</span> | perl -pe <span style="color:#e6db74">&#39;s|(.*)/.(.*).icloud|$1/$2|s&#39;</span> | <span style="color:#66d9ef">while</span> read file; <span style="color:#66d9ef">do</span> brctl download <span style="color:#e6db74">&#34;</span>$file<span style="color:#e6db74">&#34;</span>; <span style="color:#66d9ef">done</span>
+</code></pre></div><p><a href="https://www.facebook.com/htlin.lizard/posts/pfbid025u4jnAcDys9faxKbS2gY6HNaAWnBEww5EMoCMwHGnqtkt2UH45GxzqjG7EshAw7Fl">參考資料</a></p>
 
 	    
 
