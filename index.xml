@@ -39,6 +39,15 @@
     </item>
     
     <item>
+      <title>其他哩程計畫 - 實用資訊</title>
+      <link>https://kb.hiy.tw/travel/other/</link>
+      <pubDate>Sat, 09 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/travel/other/</guid>
+      <description>星宇航空  新加坡航空  </description>
+    </item>
+    
+    <item>
       <title>JL 哩程計畫 - 實用資訊</title>
       <link>https://kb.hiy.tw/travel/jl/</link>
       <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
@@ -368,6 +377,15 @@ DWPD (Drive Writes Per Day) 就是一個 SSD &amp;ldquo;平均下來&amp;rdquo; 
  精簡佈建 Thin Provision
 會隨著虛擬硬碟的使用量而增加硬碟的大小，直到達到當時建立的磁碟空間上限為止
  ESXi SSH 公鑰存放位置 $ /etc/ssh/keys-root/authorized_keys   ESXi Web Client 的 SSL 憑證存放位置 $ /etc/vmware/ssl/rui.crt # 權限 644 $ /etc/vmware/ssl/rui.key  # 權限 400   重新啟動 ESXi Web Client Service $ /etc/init.d/hostd restart $ /etc/init.d/vpxa restart   掛載 NFS 磁碟 $ esxcfg-nas -a -o 192.168.1.21 -s /DATA NAS_DATA  </description>
+    </item>
+    
+    <item>
+      <title>Google TV 裝機常用軟體</title>
+      <link>https://kb.hiy.tw/os/googletv/</link>
+      <pubDate>Sat, 20 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/os/googletv/</guid>
+      <description>可以從 Google Play 下載的 </description>
     </item>
     
     <item>
