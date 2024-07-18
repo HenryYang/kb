@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://kb.hiy.tw/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Samsung 手機實用資訊</title>
+      <link>https://kb.hiy.tw/os/android/samsung/</link>
+      <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/os/android/samsung/</guid>
+      <description>下載 APK （已分割的 apk 檔案）  https://apk.support/zh_tw/apk-downloader   安裝已分割的 apk 檔案  https://play.google.com/store/apps/details?id=com.aefyr.sai&amp;amp;hl=zh_TW&amp;amp;gl=US   Google Pixel 保固查詢  https://store.google.com/repair   Android 手機透過 IMEI 查詢資訊  https://www.imei.info/   下載 Google Play 的 APK  https://apps.evozi.com/apk-downloader/ https://apkpure.com/tw/  </description>
+    </item>
+    
+    <item>
       <title>出國旅遊 - 各種知識</title>
       <link>https://kb.hiy.tw/travel/command_sense/</link>
       <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
@@ -369,6 +378,7 @@ CARD CS0 Pro SIM 轉接卡
       <guid>https://kb.hiy.tw/life/tech_trivia/</guid>
       <description>科技類  關於網址上面的中文與 URL Encode  如果網址內有包含中文（如維基百科頁面）  在 Chrome 中複製時會自動將網址轉為「百分號編碼」 在 Safari 則會保留原本中文字符。   雖然 Chrome 很貼心的轉換了，但現在大部分的服務 (如 Facebook 的轉貼) 都能支援含中文的 URL 轉成百分號編碼後會讓訊息變得很長，而且在一些如 LINE 之類的訊息軟體裡，也不容易一眼看出分享的網頁的內容。   Google Docs 文件直接分享副本 把 edit?usp=sharing 換成 copy 就可以讓分享的人直接是拿到文件副本
  Google Play 更換顯示語言 把 &amp;amp;hl=zh_tw 的等於之後參數換成想要的語言_國家/地區即可，如有清楚的可以參考 ISO 639 相關資訊
+ Chrome 快速刪除 Cookie 方法 在網址列輸入 chrome://settings/content/all 即可看到目前有留下 Cookie 的網站，依照需求刪除即可
  買 SSD 要注意的兩個數值 TBW (Terabytes Written) 就是一個 SSD 的一輩子總共可以寫入多少 TB 的資料量
 DWPD (Drive Writes Per Day) 就是一個 SSD &amp;ldquo;平均下來&amp;rdquo; 一天可以把該 SSD 本身的容量寫入幾次</description>
     </item>

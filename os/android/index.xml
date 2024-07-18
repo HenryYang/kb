@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://kb.hiy.tw/os/android/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Samsung 手機實用資訊</title>
+      <link>https://kb.hiy.tw/os/android/samsung/</link>
+      <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/os/android/samsung/</guid>
+      <description>下載 APK （已分割的 apk 檔案）  https://apk.support/zh_tw/apk-downloader   安裝已分割的 apk 檔案  https://play.google.com/store/apps/details?id=com.aefyr.sai&amp;amp;hl=zh_TW&amp;amp;gl=US   Google Pixel 保固查詢  https://store.google.com/repair   Android 手機透過 IMEI 查詢資訊  https://www.imei.info/   下載 Google Play 的 APK  https://apps.evozi.com/apk-downloader/ https://apkpure.com/tw/  </description>
+    </item>
+    
+    <item>
       <title>Android adb Tips / Android adb 相關資訊</title>
       <link>https://kb.hiy.tw/os/android/android_adb/</link>
       <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
