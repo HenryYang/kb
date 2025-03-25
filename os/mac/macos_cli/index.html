@@ -6,14 +6,14 @@
  在 CLI 匯入憑證到 Keychain # 解鎖 Keychain security unlock-keychain -p 電腦的密碼 ~/Library/Keychains/login.keychain-db # 匯入公私鑰 security import 要匯入的憑證 -k ~/Library/Keychains/login.keychain-db  手動安裝 Xcode # 去 Apple Developer 網站下載 xip 格式的 Xcode (現在需要登入才能下載) https://developer.apple.com/download/more/ # 使用 xip 指令直接安裝 xip -x ~/Download/Xcode_15.xip # 下載 iOS 17.2 Simulator Runtime https://download.developer.apple.com/Developer_Tools/iOS_17.2_Simulator_Runtime/iOS_17.2_Simulator_Runtime.dmg # 安裝 Simulator Runtime xcrun simctl runtime add &#34;~/Downloads/iOS_17.2_Simulator_Runtime.dmg&#34;  執行 macOS 取消到期通知指令 sudo defaults write /Library/Preferences/com." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://kb.hiy.tw/os/mac/macos_cli/" />
-<meta property="article:published_time" content="2020-07-07T00:00:00+00:00" />
-<meta property="article:modified_time" content="2024-12-06T16:45:53+08:00" />
+<meta property="article:published_time" content="2025-03-25T00:00:00+00:00" />
+<meta property="article:modified_time" content="2025-03-25T17:36:28+08:00" />
 <meta itemprop="name" content="macOS CLI / macOS 指令">
 <meta itemprop="description" content="顯示從 Keychain 匯出的 .p12 中的公私鑰 openssl pkcs12 -info -in INFILE.p12 -nodes 憑證格式相關資訊
  在 CLI 匯入憑證到 Keychain # 解鎖 Keychain security unlock-keychain -p 電腦的密碼 ~/Library/Keychains/login.keychain-db # 匯入公私鑰 security import 要匯入的憑證 -k ~/Library/Keychains/login.keychain-db  手動安裝 Xcode # 去 Apple Developer 網站下載 xip 格式的 Xcode (現在需要登入才能下載) https://developer.apple.com/download/more/ # 使用 xip 指令直接安裝 xip -x ~/Download/Xcode_15.xip # 下載 iOS 17.2 Simulator Runtime https://download.developer.apple.com/Developer_Tools/iOS_17.2_Simulator_Runtime/iOS_17.2_Simulator_Runtime.dmg # 安裝 Simulator Runtime xcrun simctl runtime add &#34;~/Downloads/iOS_17.2_Simulator_Runtime.dmg&#34;  執行 macOS 取消到期通知指令 sudo defaults write /Library/Preferences/com.">
-<meta itemprop="datePublished" content="2020-07-07T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2024-12-06T16:45:53+08:00" />
-<meta itemprop="wordCount" content="316">
+<meta itemprop="datePublished" content="2025-03-25T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2025-03-25T17:36:28+08:00" />
+<meta itemprop="wordCount" content="329">
 
 
 
@@ -81,14 +81,10 @@
 	<small>
 	    <i class="fas fa-clock"></i> <strong>Published:</strong>
 	    
-	    <time datetime="2020-07-07T00:00:00&#43;00:00">7 Jul, 2020</time>
+	    <time datetime="2025-03-25T00:00:00&#43;00:00">25 Mar, 2025</time>
 	    
 	    </small>
 	<small class="mx-3">
-	    
-	    <div class="ml-2">
-		<i class="fas fa-edit"></i> <strong>Last modified:</strong> <time datetime="2024-12-06T16:45:53&#43;08:00">December 6, 2024</time>
-	    </div>
 	    
 	</small>
 	
@@ -146,6 +142,9 @@ sudo killall <span style="color:#e6db74">&#34;ControlStrip&#34;</span>
 <h5 id="允許-macos-安裝任何來源軟體危險風險自負">允許 macOS 安裝任何來源軟體（危險，風險自負）</h5>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo spctl --master-disable
 </code></pre></div></br>
+<h5 id="手動刪除系統的快取檔案-危險風險自負">手動刪除系統的快取檔案 （危險，風險自負）</h5>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">rm -rf ~/Library/Caches
+</code></pre></div></br>
 <h5 id="擴充找回未使用的硬碟空間">擴充（找回）未使用的硬碟空間</h5>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># 查看目前要擴充的磁碟代號</span>
 sudo diskutil list
@@ -192,6 +191,9 @@ sudo ext4fuse /dev/disk3s1 ~/MY_DISK -o allow_other
 <h5 id="備份-homebrew-安裝的軟體清單">備份 homebrew 安裝的軟體清單</h5>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">brew bundle dump
 </code></pre></div></br>
+<h5 id="強制移除-homebrew-安裝的軟體">強制移除 homebrew 安裝的軟體</h5>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">brew uninstall --cask --force 安裝的軟體
+</code></pre></div></br>
 <h5 id="查詢最近關機重開登入紀錄">查詢最近關機、重開、登入紀錄</h5>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># 查看最近關機時間紀錄</span>
 last shutdown
@@ -226,13 +228,13 @@ Enter the password <span style="color:#66d9ef">for</span> the added user <span s
 	<ul class="pagination justify-content-center">
 	    
 	    <li class="page-item">
-		<a class="page-link" href="https://kb.hiy.tw/os/mac/macos_debug/" title="MacOS Debug / MacOS 除錯設定">Previous</a>
+		<a class="page-link" href="https://kb.hiy.tw/os/mac/macos_useful/" title="MacOS 實用技巧">Previous</a>
 	    </li>
 	    
 
 	    
-	    <li class="page-item">
-		<a class="page-link" href="https://kb.hiy.tw/os/mac/macos_useful/" title="MacOS 實用技巧">Next</a>
+	    <li class="page-item disabled">
+		<a class="page-link" href="" tabindex="-1" aria-disabled="true">Next</a>
 	    </li>
 	    
 	</ul>
@@ -251,11 +253,11 @@ Enter the password <span style="color:#66d9ef">for</span> the added user <span s
 <ul>
     
     
-    <li><a href="https://kb.hiy.tw/os/mac/macos_useful/">MacOS 實用技巧</a><span><small class="mx-1 text-muted">July 15, 2023</small></span></li>
-    
-    
-    
     <li>macOS CLI / macOS 指令</li>
+    
+    
+    
+    <li><a href="https://kb.hiy.tw/os/mac/macos_useful/">MacOS 實用技巧</a><span><small class="mx-1 text-muted">July 15, 2023</small></span></li>
     
     
     

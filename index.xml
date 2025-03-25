@@ -7,6 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://kb.hiy.tw/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>macOS CLI / macOS 指令</title>
+      <link>https://kb.hiy.tw/os/mac/macos_cli/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/os/mac/macos_cli/</guid>
+      <description>顯示從 Keychain 匯出的 .p12 中的公私鑰 openssl pkcs12 -info -in INFILE.p12 -nodes 憑證格式相關資訊
+ 在 CLI 匯入憑證到 Keychain # 解鎖 Keychain security unlock-keychain -p 電腦的密碼 ~/Library/Keychains/login.keychain-db # 匯入公私鑰 security import 要匯入的憑證 -k ~/Library/Keychains/login.keychain-db  手動安裝 Xcode # 去 Apple Developer 網站下載 xip 格式的 Xcode (現在需要登入才能下載) https://developer.apple.com/download/more/ # 使用 xip 指令直接安裝 xip -x ~/Download/Xcode_15.xip # 下載 iOS 17.2 Simulator Runtime https://download.developer.apple.com/Developer_Tools/iOS_17.2_Simulator_Runtime/iOS_17.2_Simulator_Runtime.dmg # 安裝 Simulator Runtime xcrun simctl runtime add &amp;#34;~/Downloads/iOS_17.2_Simulator_Runtime.dmg&amp;#34;  執行 macOS 取消到期通知指令 sudo defaults write /Library/Preferences/com.</description>
+    </item>
+    
+    <item>
       <title>各大平台廣告資訊公開中心</title>
       <link>https://kb.hiy.tw/tips/privacy/ad/</link>
       <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
@@ -622,16 +632,6 @@ https://paper.dropbox.com/doc/Bash-Keystrokes-Moskys-Notes-jc4OF7EoXcOIuA9gtPs13
       
       <guid>https://kb.hiy.tw/os/ios/ios_tips/</guid>
       <description>隨機化 iOS 14 的 Mac Address  https://support.apple.com/zh-tw/HT211227   舊版 iTunes 12.6.5 下載（還可以載 .ipa 的版本）  https://support.apple.com/en-us/HT208079   iOS App 版本號對應 ID 查詢  https://tools.lancely.tech/apple/app-search   下載舊版的 .ipa 教學  https://hiy.tw/2021/03/testflight_export_ipa/   網路上找到的共用 Apple ID 服務 （請慎用  https://pastebin.com/GACW3aC4   停用 Finder 提示通知的 iOS Update # 雖然 10.15 後沒有 iTunes 但還是用這服務來看設定值 （要重開機） defaults write com.apple.itunes disableCheckForDeviceUpdates -bool YES  中國知呼的 iPhone 驗機與注意事項  https://www.zhihu.com/question/279981966/answer/1487316109   中國知呼的 iPad 驗機與注意事項  https://www.</description>
-    </item>
-    
-    <item>
-      <title>macOS CLI / macOS 指令</title>
-      <link>https://kb.hiy.tw/os/mac/macos_cli/</link>
-      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/os/mac/macos_cli/</guid>
-      <description>顯示從 Keychain 匯出的 .p12 中的公私鑰 openssl pkcs12 -info -in INFILE.p12 -nodes 憑證格式相關資訊
- 在 CLI 匯入憑證到 Keychain # 解鎖 Keychain security unlock-keychain -p 電腦的密碼 ~/Library/Keychains/login.keychain-db # 匯入公私鑰 security import 要匯入的憑證 -k ~/Library/Keychains/login.keychain-db  手動安裝 Xcode # 去 Apple Developer 網站下載 xip 格式的 Xcode (現在需要登入才能下載) https://developer.apple.com/download/more/ # 使用 xip 指令直接安裝 xip -x ~/Download/Xcode_15.xip # 下載 iOS 17.2 Simulator Runtime https://download.developer.apple.com/Developer_Tools/iOS_17.2_Simulator_Runtime/iOS_17.2_Simulator_Runtime.dmg # 安裝 Simulator Runtime xcrun simctl runtime add &amp;#34;~/Downloads/iOS_17.2_Simulator_Runtime.dmg&amp;#34;  執行 macOS 取消到期通知指令 sudo defaults write /Library/Preferences/com.</description>
     </item>
     
     <item>
