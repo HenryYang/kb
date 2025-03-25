@@ -7,6 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://kb.hiy.tw/travel/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>JL 哩程計畫 - 實用資訊</title>
+      <link>https://kb.hiy.tw/travel/jl/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/travel/jl/</guid>
+      <description>日本航空    JAL 國際線酬賓獎勵機票 所需哩程列表
+ https://www.jal.co.jp/tw/zhtw/jalmile/use/jal/inter/routemiles.html    JAL 環球票 所需哩程列表
+ https://www.jal.co.jp/twl/zhtw/jalmile/use/partner_air/oneworld/index.html    JAL 計算 Sector mileage 工具
+ https://www121.jal.co.jp/JmbWeb/JR/SectionMile_en.do    伙伴航空哩程累積在 JAL 比例查詢
+ https://www.jal.co.jp/jp/en/jmb/earn/travel/byflight/index.html    國內線與國際線 FOP 計算表
+ https://www.jal.co.jp/cgi-bin/jal/milesearch/save/flt_mile_save.cgi?external=1&amp;amp;language=en    JGC 入會申請連結
+ https://www.jal.co.jp/jp/ja/jalmile/jgc/enroll_guide_world.html    日航 YQ 燃油附加費 (Fuel Surcharge) 價目表
+ https://www.jal.co.jp/jp/en/inter/fare/fuel/detail.html    JEP 訂票頁面
+ https://www.world.jal.co.jp/world/zhtw/japan_explorer_pass/tw/reservation/    手動申請實體會員卡</description>
+    </item>
+    
+    <item>
       <title>其他哩程計畫 - 實用資訊</title>
       <link>https://kb.hiy.tw/travel/other/</link>
       <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
@@ -51,23 +68,6 @@
     </item>
     
     <item>
-      <title>JL 哩程計畫 - 實用資訊</title>
-      <link>https://kb.hiy.tw/travel/jl/</link>
-      <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/travel/jl/</guid>
-      <description>日本航空    JAL 國際線酬賓獎勵機票 所需哩程列表
- https://www.jal.co.jp/tw/zhtw/jalmile/use/jal/inter/routemiles.html    JAL 環球票 所需哩程列表
- https://www.jal.co.jp/twl/zhtw/jalmile/use/partner_air/oneworld/index.html    JAL 計算 Sector mileage 工具
- https://www121.jal.co.jp/JmbWeb/JR/SectionMile_en.do    伙伴航空哩程累積在 JAL 比例查詢
- https://www.jal.co.jp/jp/en/jmb/earn/travel/byflight/index.html    國內線與國際線 FOP 計算表
- https://www.jal.co.jp/cgi-bin/jal/milesearch/save/flt_mile_save.cgi?external=1&amp;amp;language=en    網友整理的常見 OW 航空累積到 JAL 的比例
- https://bit.ly/30OVWXG    網友自制 JGC 修行里程計算器
- https://www.jgcmileagerun.org/trilogy/mrgenerator    JGC 入會申請連結
- https://www.jal.co.jp/jp/ja/jalmile/jgc/enroll_guide_world.html    日航 YQ 燃油附加費 (Fuel Surcharge) 價目表</description>
-    </item>
-    
-    <item>
       <title>NH 哩程計畫 - 實用資訊</title>
       <link>https://kb.hiy.tw/travel/ana/</link>
       <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
@@ -93,9 +93,11 @@
       <description>國泰航空   國泰香港客服電話 +85227473333
   查詢國泰本家航班近七天所使用機材
  https://www.cathaypacific.com/cx/zh_TW/book-a-trip/timetable.html    查詢國泰本家航班狀態
- https://www.cathaypacific.com/cx/zh_TW/prepare-trip/flight-status.html#/flight-status       飛行獎勵換算表
+ https://www.cathaypacific.com/cx/zh_TW/prepare-trip/flight-status.html#/flight-status    飛行獎勵換算表
  https://flights.cathaypacific.com/zh_HK/redeem-flights/flight-award-chart.html    查詢票等、會籍可托運的行李件數
- https://www.cathaypacific.com/cx/zh_TW/baggage.html      國泰航空 寰宇一家 環球票小幫手  https://cxplanner.jayliu.net/      國泰會籍與飛行獎勵相關條款  https://www.cathaypacific.com/cx/zh_HK/legal-and-privacy/cathay-membership-terms-and-conditions.html       獎勵機票兌換頁面
+ https://www.cathaypacific.com/cx/zh_TW/baggage.html    國泰航空 寰宇一家 環球票小幫手
+ https://cxplanner.jayliu.net/    國泰會籍與飛行獎勵相關條款
+ https://www.cathaypacific.com/cx/zh_HK/legal-and-privacy/cathay-membership-terms-and-conditions.html    獎勵機票兌換頁面
  https://www.cathaypacific.com/cx/zh_TW/book-a-trip/redeem-flights/facade.html    線上更改亞萬開的國泰航空執飛航段（僅能改日期）
  https://www.cathaypacific.com/cx/en_HK/book-a-trip/redeem-flights/rebooking-list.html      據說國泰內部的升等順序（有兩種說法）  可信度比較高的：CX銀&amp;gt;OW綠寶 未經證實的：CX鑽石&amp;gt;OW綠寶&amp;gt;CX金&amp;gt;OW藍寶&amp;gt;CX銀&amp;gt;OW紅寶      亞萬開 CX 里程票，機場有位子即可改簽，不需有 Z/U/X 等里程票相應艙等，收取 40 美金或等值的幣別改簽費用。  航班 Delay 超過五分鐘（以官方公布起飛時間為準）則維持免費改簽。 https://www.</description>
     </item>
