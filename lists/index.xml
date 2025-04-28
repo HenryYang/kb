@@ -6,41 +6,5 @@
     <description>Recent content in B. Lists/清單 on Henry&#39;s Knowledge Base</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://kb.hiy.tw/lists/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>各國旅遊 eSIM/SIM 清單</title>
-      <link>https://kb.hiy.tw/lists/esim/</link>
-      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/lists/esim/</guid>
-      <description>這邊說說觀光客可以買到的各種 eSIM/SIM 清單 eSIM  DJB - eSIM 暢日卡  ICCID 前八碼：89860012 「需」開啟數據漫遊 簽卡國家：中國的中國電信 使用電信：DoCoMo (實測連上沒訊號) / SoftBank / AU (連不上)  有拿到日本 020 開頭門號，實際測試出口是日本 IP        Airalo - Moshi Moshi  ICCID 前八碼：89371088 「需」開啟數據漫遊 簽卡國家：拉脫維亞的 SIA IZZI 使用電信：AU     實體 SIM 卡  WiHo - 日本5日無流量限制 SoftBank 電信  ICCID 前八碼：89852800 「需」開啟數據漫遊 簽卡國家：香港的電訊盈科 使用電信：SoftBank      WiHo - 日本 30 日 50GB Docomo 電信  ICCID 前八碼：89810300 「不用」開啟數據漫遊 簽卡國家：日本的 IIJ 使用電信：DoCoMo      b-mobile S 190PadSIM  ICCID 前八碼：&amp;lt;待補&amp;gt; 「不用」開啟數據漫遊 簽卡國家：日本的 IIJ 使用電信：DoCoMo  iOS Mobileconfig、APN 資訊        BBエキサイト 格安SIM  ICCID 前八碼：&amp;lt;待補&amp;gt; 「不用」開啟數據漫遊 簽卡國家：日本 使用電信：AU  iOS Mobileconfig、APN 資訊      </description>
-    </item>
-    
-    <item>
-      <title>台灣和日本的 4G、5G 頻段與常見 APN 設定值</title>
-      <link>https://kb.hiy.tw/lists/band/</link>
-      <pubDate>Tue, 27 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/lists/band/</guid>
-      <description>台灣常見 4G 頻段   日本常見 4G 頻段    NTT DoCoMo 建議頻段 Band1、Band3、Band19 Softbank 建議頻段 Band1、Band3、Band8 AU 建議頻段 Band1、Band18、Band26    台灣常見 5G 頻段   日本常見 5G 頻段    日本の全キャリアの4G周波数帯まとめ【楽天モバイル追加】  4G LTE 頻段清單  B-mobile 190PadSIM - DoCoMo 線路 APN  iOS 設備專用描述檔 Android 設備資訊連結  BB.excite 格安SIM - AU 線路 APN  iOS 設備專用描述檔 Android 設備資訊連結  </description>
-    </item>
-    
-    <item>
-      <title>Adguard Home Block List / Adguard Home 廣告封鎖清單</title>
-      <link>https://kb.hiy.tw/lists/ad/</link>
-      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/lists/ad/</guid>
-      <description>我自己在用的清單  https://gist.github.com/HenryYang/5b7d222d9b1559829ae3e1e442e3b3e2  網路上有人蒐集的大清單  https://firebog.net/  Futa DNS 所用的清單  https://www.jkg.tw/p3351/  我自己 NextDNS 所用清單  https://i.imgur.com/p88K6hG.png  </description>
-    </item>
-    
-    <item>
-      <title>iOS Surge Module &amp; Shortcuts List  / iOS Surge 模組與捷徑的實用清單</title>
-      <link>https://kb.hiy.tw/lists/surge_shortcuts/</link>
-      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/lists/surge_shortcuts/</guid>
-      <description>皮樂維護的 Surge 清單  https://kinta.ma/surge/  Jimmy 維護的 Surge 清單  https://github.com/jimmyorz/Surge  Chris 維護的 Surge 清單  https://surge.clai.tw/FacebookClickID.sgmodule https://surge.clai.tw/rules/MitM.sgmodule  Chris 維護的 Surge 清單  Share Clean URL  https://www.icloud.com/shortcuts/a388b20ef2fe47f4b51e88b74ce17b12   Copy Clean URL  https://www.icloud.com/shortcuts/6ac0f4f75cfb410cb1768d2350d4f1ff    </description>
-    </item>
-    
   </channel>
 </rss>
