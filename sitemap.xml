@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://kb.hiy.tw/lists/finance/credit/</loc>
+    <lastmod>2025-05-08T10:16:13+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kb.hiy.tw/lists/mobile/esim/</loc>
     <lastmod>2025-05-01T16:58:49+08:00</lastmod>
   </url>
@@ -113,11 +118,6 @@
   </url>
   
   <url>
-    <loc>https://kb.hiy.tw/lists/finance/credit/</loc>
-    <lastmod>2024-03-11T20:57:50+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kb.hiy.tw/lists/mobile/band/</loc>
     <lastmod>2025-04-28T11:14:53+08:00</lastmod>
   </url>
@@ -173,18 +173,8 @@
   </url>
   
   <url>
-    <loc>https://kb.hiy.tw/lists/finance/currency/</loc>
-    <lastmod>2021-04-13T00:16:24+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kb.hiy.tw/os/mifare_uid/</loc>
     <lastmod>2022-09-05T21:15:03+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kb.hiy.tw/lists/finance/mobile_payment/</loc>
-    <lastmod>2021-06-29T20:05:12+08:00</lastmod>
   </url>
   
   <url>
