@@ -7,12 +7,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://kb.hiy.tw/os/ios/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>iPhone Model List / iPhone 機型型號清單</title>
-      <link>https://kb.hiy.tw/os/ios/ios_device_check/</link>
-      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
+      <title>iOS 冷知識與實用網站</title>
+      <link>https://kb.hiy.tw/os/ios/ios_tips/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kb.hiy.tw/os/ios/ios_device_check/</guid>
-      <description>這邊說的是 &amp;ldquo;機型型號&amp;rdquo;，可以從 &amp;ldquo;設定&amp;rdquo; -&amp;gt; &amp;ldquo;一般&amp;rdquo; -&amp;gt; &amp;ldquo;關於本機&amp;rdquo; 中查詢到  機型型號 第一英文字代表是類別  新機是 M 開頭 官方認證整新品是 F 開頭 維修後換新品是 N 開頭 有刻紋是 P 開頭 Apple Store 的 DEMO 機是 3 開頭      機型型號 最尾在 / 前面的一或兩碼英文表示屬於哪一個國家/地區所販售的  台灣是 TA 香港是 ZP 日本是 J 美國是 LL 中國是 CH      這份 Wiki 可以查到全部 iOS Device 各國所屬的&amp;quot;機型型號&amp;quot;  這在買二手機時是一個方便的方式確認該機器是否為賣家所說的規格與國家 因為顏色跟容量都有專屬的型號，正常人沒有能力修改型號資訊    </description>
+      <guid>https://kb.hiy.tw/os/ios/ios_tips/</guid>
+      <description>關於 ipa 部分 舊版 iTunes 12.6.5 下載（還可以載 .ipa 的版本）  https://support.apple.com/en-us/HT208079  下載舊版的 .ipa 教學  https://hiy.tw/2021/03/testflight_export_ipa/  網路上找到的共用 Apple ID 服務 （請慎用  https://pastebin.com/GACW3aC4   關於驗機、設備資訊 中國知呼的 iPhone 驗機與注意事項  https://www.zhihu.com/question/279981966/answer/1487316109  中國知呼的 iPad 驗機與注意事項  https://www.zhihu.com/question/282974354/answer/1453767111  中國知呼的 AirPods 驗機與注意事項  https://www.zhihu.com/question/279688500  詳細 Apple 產品規格參數  https://hubweb.cn  iOS 設備上直接查詢 UDiD 資訊 (需安裝網站方的描述檔)  https://showmyudid.com/  查詢設備啟用相關資訊  https://applesn.info/devices/  iPhone 機型型號判斷  機型型號 第一英文字代表是類別  新機是 M 開頭 官方認證整新品是 F 開頭 維修後換新品是 N 開頭 有刻紋是 P 開頭 Apple Store 的 DEMO 機是 3 開頭   機型型號 最尾在 / 前面的一或兩碼英文表示屬於哪邊所販售的  台灣是 TA 香港是 ZP 日本是 J 美國是 LL 中國是 CH     工具類 電腦批次下載 iCloud Photo 工具  https://github.</description>
     </item>
     
     <item>
@@ -25,24 +25,6 @@
  https://www.signulous.com/    AppDB - 在設備上裝他們家的描述檔納管後，他用推播方式安裝到設備上
  https://appdb.to/    iOSGods iTunes App Info - 查詢 App Bundle ID、最低版本等相關資訊
  https://armconverter.com/appinfo      關於 M1 macOS 設備運行 .ipa 相關資訊  砸殼 -&amp;gt; 重簽名 -&amp;gt; 轉成 M1 格式並安裝 砸殼 - https://github.</description>
-    </item>
-    
-    <item>
-      <title>iOS System Path / iOS 系統資料結構</title>
-      <link>https://kb.hiy.tw/os/ios/ios_path/</link>
-      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/os/ios/ios_path/</guid>
-      <description>我自己在用的清單 </description>
-    </item>
-    
-    <item>
-      <title>iOS Tips / iOS 冷知識與實用網站</title>
-      <link>https://kb.hiy.tw/os/ios/ios_tips/</link>
-      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/os/ios/ios_tips/</guid>
-      <description>隨機化 iOS 14 的 Mac Address  https://support.apple.com/zh-tw/HT211227   舊版 iTunes 12.6.5 下載（還可以載 .ipa 的版本）  https://support.apple.com/en-us/HT208079   iOS App 版本號對應 ID 查詢  https://tools.lancely.tech/apple/app-search   下載舊版的 .ipa 教學  https://hiy.tw/2021/03/testflight_export_ipa/   網路上找到的共用 Apple ID 服務 （請慎用  https://pastebin.com/GACW3aC4   電腦批次下載 iCloud Photo 工具  https://github.com/icloud-photos-downloader/icloud_photos_downloader   停用 Finder 提示通知的 iOS Update # 雖然 10.15 後沒有 iTunes 但還是用這服務來看設定值 （要重開機） defaults write com.apple.itunes disableCheckForDeviceUpdates -bool YES  中國知呼的 iPhone 驗機與注意事項  https://www.</description>
     </item>
     
   </channel>

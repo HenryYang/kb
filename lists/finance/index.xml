@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://kb.hiy.tw/lists/finance/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>ETF、特別股 殖利率與配息清單</title>
+      <link>https://kb.hiy.tw/lists/finance/etf/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/lists/finance/etf/</guid>
+      <description>兆豐可以查詢特別股與 ETF 的地方  https://www.emega.com.tw/emegaAbroad/financialTool.do  元大投信 ETF 資訊查詢  http://www.yuantaetfs.com/#/ProductMap/0  TWSE ETF 配息清單與行事曆  https://www.twse.com.tw/zh/ETFortune/dividendList https://www.twse.com.tw/zh/ETFortune/dividendCalendar  Vanguard 的 ETF 清單  https://investor.vanguard.com/etf/list#/etf/asset-class/month-end-returns  美股配息查詢  https://www.nasdaq.com/market-activity/funds-and-etfs https://www.dividend.com/dividend-etfs/  </description>
+    </item>
+    
+    <item>
       <title>台灣信用卡的實用知識</title>
       <link>https://kb.hiy.tw/lists/finance/credit/</link>
       <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
@@ -31,15 +40,6 @@
       
       <guid>https://kb.hiy.tw/lists/finance/wire/</guid>
       <description> 匯出 (自己的帳戶 -&amp;gt; 海外)  匯出匯款手續費 + 電報費 最多可能有三筆手續費  款項發出銀行 -&amp;gt; 匯出匯款手續費 中轉行 -&amp;gt; 轉手的手續費 (不一定會有) 收款銀行 -&amp;gt; 解匯手續費 (不一定會收)        匯入 (海外 -&amp;gt; 自己的帳戶)  解匯手續費 依照各家銀行會有不同手續費      名詞解釋  SHA  一般匯款，收款人要負擔各種中轉行跟收款行的手續費   OUR  全額到匯，理論上收款人會收到足額費用       參考資料與匯出匯入手續費參考  https://davidhuang1219.pixnet.net/blog/post/328089559  </description>
-    </item>
-    
-    <item>
-      <title>ETF 特別股 殖利率清單</title>
-      <link>https://kb.hiy.tw/lists/finance/etf/</link>
-      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/lists/finance/etf/</guid>
-      <description>兆豐可以查詢特別股與 ETF 的地方  https://www.emega.com.tw/emegaAbroad/financialTool.do  元大投信 ETF 資訊查詢  http://www.yuantaetfs.com/#/ProductMap/0  Vanguard 的 ETF 清單  https://investor.vanguard.com/etf/list#/etf/asset-class/month-end-returns  美股配息查詢  https://www.nasdaq.com/market-activity/funds-and-etfs https://www.dividend.com/dividend-etfs/  </description>
     </item>
     
   </channel>

@@ -7,6 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://kb.hiy.tw/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>ETF、特別股 殖利率與配息清單</title>
+      <link>https://kb.hiy.tw/lists/finance/etf/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/lists/finance/etf/</guid>
+      <description>兆豐可以查詢特別股與 ETF 的地方  https://www.emega.com.tw/emegaAbroad/financialTool.do  元大投信 ETF 資訊查詢  http://www.yuantaetfs.com/#/ProductMap/0  TWSE ETF 配息清單與行事曆  https://www.twse.com.tw/zh/ETFortune/dividendList https://www.twse.com.tw/zh/ETFortune/dividendCalendar  Vanguard 的 ETF 清單  https://investor.vanguard.com/etf/list#/etf/asset-class/month-end-returns  美股配息查詢  https://www.nasdaq.com/market-activity/funds-and-etfs https://www.dividend.com/dividend-etfs/  </description>
+    </item>
+    
+    <item>
+      <title>iOS 冷知識與實用網站</title>
+      <link>https://kb.hiy.tw/os/ios/ios_tips/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/os/ios/ios_tips/</guid>
+      <description>關於 ipa 部分 舊版 iTunes 12.6.5 下載（還可以載 .ipa 的版本）  https://support.apple.com/en-us/HT208079  下載舊版的 .ipa 教學  https://hiy.tw/2021/03/testflight_export_ipa/  網路上找到的共用 Apple ID 服務 （請慎用  https://pastebin.com/GACW3aC4   關於驗機、設備資訊 中國知呼的 iPhone 驗機與注意事項  https://www.zhihu.com/question/279981966/answer/1487316109  中國知呼的 iPad 驗機與注意事項  https://www.zhihu.com/question/282974354/answer/1453767111  中國知呼的 AirPods 驗機與注意事項  https://www.zhihu.com/question/279688500  詳細 Apple 產品規格參數  https://hubweb.cn  iOS 設備上直接查詢 UDiD 資訊 (需安裝網站方的描述檔)  https://showmyudid.com/  查詢設備啟用相關資訊  https://applesn.info/devices/  iPhone 機型型號判斷  機型型號 第一英文字代表是類別  新機是 M 開頭 官方認證整新品是 F 開頭 維修後換新品是 N 開頭 有刻紋是 P 開頭 Apple Store 的 DEMO 機是 3 開頭   機型型號 最尾在 / 前面的一或兩碼英文表示屬於哪邊所販售的  台灣是 TA 香港是 ZP 日本是 J 美國是 LL 中國是 CH     工具類 電腦批次下載 iCloud Photo 工具  https://github.</description>
+    </item>
+    
+    <item>
       <title> 無法歸類的冷知識記錄區</title>
       <link>https://kb.hiy.tw/life/trivia/</link>
       <pubDate>Sun, 25 May 2025 00:00:00 +0000</pubDate>
@@ -121,7 +139,7 @@
   外交部領事局 - 查詢中華民國護照進出各國是否需要簽證 - https://www.boca.gov.tw/sp-foof-countrylp-01-1.html
     海外保險  日本 (東京海上日動)(限定日本IP) - https://www.jnto.go.jp/emergency/chc/ov_travel_insurance.html 歐盟申根 (AXA) - https://www.axa-schengen.com/en 歐盟 (Allianz) - https://www.allianz-reiseversicherung.de/en_DE.html 全球 (IMG) - https://www.imglobal.com 全球 (多平台提供商) - https://www.visitorscoverage.com/get-quotes 全球 (東京海上集團孫孫公司) - https://www.worldtrips.com    實用資訊   網友整理的即時機場天氣資訊 - https://blog.jesselin.com/newsupdate/airport.php
   入境桃園機場須要額外檢查非洲豬瘟 X 光的國家
- 中國、香港、澳門、泰國、柬埔寨、越南、韓國、俄羅斯、菲律賓、新加坡、馬來西亞、印尼、義大利、德國      世界迷霧 記錄自己移動路徑的人生解鎖類遊戲 - App Store &amp;amp; Google Play    北約音標字母NATO phonetic alphabet  https://en.</description>
+ 中國、香港、澳門、泰國、柬埔寨、越南、韓國、俄羅斯、菲律賓、新加坡、馬來西亞、印尼、義大利、德國      北約音標字母NATO phonetic alphabet  https://en.</description>
     </item>
     
     <item>
@@ -347,15 +365,6 @@ Google Suite 教育帳號資料轉移 - https://takeout.google.com/transfer
     </item>
     
     <item>
-      <title>iPhone Model List / iPhone 機型型號清單</title>
-      <link>https://kb.hiy.tw/os/ios/ios_device_check/</link>
-      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/os/ios/ios_device_check/</guid>
-      <description>這邊說的是 &amp;ldquo;機型型號&amp;rdquo;，可以從 &amp;ldquo;設定&amp;rdquo; -&amp;gt; &amp;ldquo;一般&amp;rdquo; -&amp;gt; &amp;ldquo;關於本機&amp;rdquo; 中查詢到  機型型號 第一英文字代表是類別  新機是 M 開頭 官方認證整新品是 F 開頭 維修後換新品是 N 開頭 有刻紋是 P 開頭 Apple Store 的 DEMO 機是 3 開頭      機型型號 最尾在 / 前面的一或兩碼英文表示屬於哪一個國家/地區所販售的  台灣是 TA 香港是 ZP 日本是 J 美國是 LL 中國是 CH      這份 Wiki 可以查到全部 iOS Device 各國所屬的&amp;quot;機型型號&amp;quot;  這在買二手機時是一個方便的方式確認該機器是否為賣家所說的規格與國家 因為顏色跟容量都有專屬的型號，正常人沒有能力修改型號資訊    </description>
-    </item>
-    
-    <item>
       <title>停用 LINE 的個人化廣告偏好</title>
       <link>https://kb.hiy.tw/tips/privacy/line/</link>
       <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
@@ -572,15 +581,6 @@ https://paper.dropbox.com/doc/Bash-Keystrokes-Moskys-Notes-jc4OF7EoXcOIuA9gtPs13
     </item>
     
     <item>
-      <title>ETF 特別股 殖利率清單</title>
-      <link>https://kb.hiy.tw/lists/finance/etf/</link>
-      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/lists/finance/etf/</guid>
-      <description>兆豐可以查詢特別股與 ETF 的地方  https://www.emega.com.tw/emegaAbroad/financialTool.do  元大投信 ETF 資訊查詢  http://www.yuantaetfs.com/#/ProductMap/0  Vanguard 的 ETF 清單  https://investor.vanguard.com/etf/list#/etf/asset-class/month-end-returns  美股配息查詢  https://www.nasdaq.com/market-activity/funds-and-etfs https://www.dividend.com/dividend-etfs/  </description>
-    </item>
-    
-    <item>
       <title>iOS Jailbreak / iOS 越獄相關資訊</title>
       <link>https://kb.hiy.tw/os/ios/ios_jb/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
@@ -599,24 +599,6 @@ https://paper.dropbox.com/doc/Bash-Keystrokes-Moskys-Notes-jc4OF7EoXcOIuA9gtPs13
       
       <guid>https://kb.hiy.tw/lists/mobile/surge_shortcuts/</guid>
       <description>皮樂維護的 Surge 清單  https://kinta.ma/surge/  Jimmy 維護的 Surge 清單  https://github.com/jimmyorz/Surge  Chris 維護的 Surge 清單  https://surge.clai.tw/FacebookClickID.sgmodule https://surge.clai.tw/rules/MitM.sgmodule  Chris 維護的 Surge 清單  Share Clean URL  https://www.icloud.com/shortcuts/a388b20ef2fe47f4b51e88b74ce17b12   Copy Clean URL  https://www.icloud.com/shortcuts/6ac0f4f75cfb410cb1768d2350d4f1ff    </description>
-    </item>
-    
-    <item>
-      <title>iOS System Path / iOS 系統資料結構</title>
-      <link>https://kb.hiy.tw/os/ios/ios_path/</link>
-      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/os/ios/ios_path/</guid>
-      <description>我自己在用的清單 </description>
-    </item>
-    
-    <item>
-      <title>iOS Tips / iOS 冷知識與實用網站</title>
-      <link>https://kb.hiy.tw/os/ios/ios_tips/</link>
-      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/os/ios/ios_tips/</guid>
-      <description>隨機化 iOS 14 的 Mac Address  https://support.apple.com/zh-tw/HT211227   舊版 iTunes 12.6.5 下載（還可以載 .ipa 的版本）  https://support.apple.com/en-us/HT208079   iOS App 版本號對應 ID 查詢  https://tools.lancely.tech/apple/app-search   下載舊版的 .ipa 教學  https://hiy.tw/2021/03/testflight_export_ipa/   網路上找到的共用 Apple ID 服務 （請慎用  https://pastebin.com/GACW3aC4   電腦批次下載 iCloud Photo 工具  https://github.com/icloud-photos-downloader/icloud_photos_downloader   停用 Finder 提示通知的 iOS Update # 雖然 10.15 後沒有 iTunes 但還是用這服務來看設定值 （要重開機） defaults write com.apple.itunes disableCheckForDeviceUpdates -bool YES  中國知呼的 iPhone 驗機與注意事項  https://www.</description>
     </item>
     
     <item>
