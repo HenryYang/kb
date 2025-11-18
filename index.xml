@@ -7,6 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://kb.hiy.tw/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>停車/繳費/充電 相關連結</title>
+      <link>https://kb.hiy.tw/lists/url/parking_payment/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/lists/url/parking_payment/</guid>
+      <description>通用線上繳費  應安 168 停車聯盟 uTagGO易付 台北市路邊停車位查詢   常用停車場繳費  內湖 IKEA 峨眉停車場 國泰松江商業大樓 南港國小停車場 臺灣科技大學研揚大樓 宏匯廣場  充電車位  高島屋 B2 DARA 充電機器人 查詢公有充電樁 北市好停車   </description>
+    </item>
+    
+    <item>
+      <title>VMware 相關資訊筆記 </title>
+      <link>https://kb.hiy.tw/os/vmware/</link>
+      <pubDate>Sun, 16 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/os/vmware/</guid>
+      <description>VMwave 虛擬磁碟格式 完整佈建消極式歸零 Thick Provision Lazy Zeroed (zeroedthick)
+在建立虛擬硬碟時會一次給足所設定的硬碟大小，虛擬硬碟一開始時只會將目前所使用到的部分先進行初始化，其它的部分只是當有用到時才會做初始化的動作。
+ 完整佈建積極性歸零 Thick Provision Eager Zeroed (eagerzeroedthick)
+在建立虛擬硬碟時會一次給足所設定的硬碟大小，虛擬硬碟一開始時就會將所有的部分先行初始化，所以開始時會耗費一些時間，但後續使用時，不用在做初始化，所以效能會稍微好一些。
+ 精簡佈建 Thin Provision
+會隨著虛擬硬碟的使用量而增加硬碟的大小，直到達到當時建立的磁碟空間上限為止
+ ESXi SSH 公鑰存放位置 $ /etc/ssh/keys-root/authorized_keys   ESXi Web Client 的 SSL 憑證存放位置 $ /etc/vmware/ssl/rui.crt # 權限 644 $ /etc/vmware/ssl/rui.key  # 權限 600   重新啟動 ESXi Web Client Service $ /etc/init.d/hostd restart $ /etc/init.d/vpxa restart $ # 如果沒效可以嘗試重起全部服務 $ /sbin/services.sh restart   掛載 NFS 磁碟 $ esxcfg-nas -a -o 192.</description>
+    </item>
+    
+    <item>
       <title>ETF、特別股 殖利率與配息清單</title>
       <link>https://kb.hiy.tw/lists/finance/etf/</link>
       <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
@@ -122,7 +146,8 @@
       <guid>https://kb.hiy.tw/travel/other/</guid>
       <description>星宇航空   開放網路報到時間:出發前 48hr
   阿拉斯加航空賣點網址，一年只能買 15 萬 miles
- https://storefront.points.com/mileage-plan/en-US/buy    網路上換 JX 哩程票知識
+ https://storefront.points.com/mileage-plan/en-US/buy    阿拉斯加舊版獎勵機票以月曆方式查詢位置
+ https://www.alaskaair.com/planbook/shoppingstart    網路上換 JX 哩程票知識
  https://blog.tripplus.cc/zh/173966/brady_how_to_book_starlux_airlines_by_mileage_2024    對於單姓、單名，統一輸入在姓，名輸入 FNU
  https://meiyacommonfile.oss-cn-shenzhen.aliyuncs.com/policy/contenta6320a1724227608202.pdf    班機動態查詢
  https://www.starlux-airlines.com/zh-TW/flight-status      獎勵機票(使用阿拉斯加航空點數)  A321neo 機型執飛 -&amp;gt; 通常會釋出 1 經濟艙、1 商務艙 A350-900、A330-900neo 機型執飛 -&amp;gt; 通常會釋出 2 經濟艙、1 豪經艙、1 商務艙 最遠只能兌330天後的機位 臺灣 &amp;lt;-&amp;gt; 日本（北海道除外）（單程）  經濟艙: 7500 miles 起 豪經艙: 1 萬 miles 起 商務艙: 1.</description>
@@ -281,15 +306,6 @@ Google Suite 教育帳號資料轉移 - https://takeout.google.com/transfer
     </item>
     
     <item>
-      <title>停車場線上繳費連結</title>
-      <link>https://kb.hiy.tw/lists/url/parking_payment/</link>
-      <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/lists/url/parking_payment/</guid>
-      <description>通用線上繳費  應安 168 停車聯盟 uTagGO易付 台北市路邊停車位查詢   常用停車場  內湖 IKEA 峨眉停車場 國泰松江商業大樓 南港國小停車場 臺灣科技大學研揚大樓   </description>
-    </item>
-    
-    <item>
       <title>無法分類的實用網址</title>
       <link>https://kb.hiy.tw/lists/url/useful/</link>
       <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
@@ -418,21 +434,6 @@ CARD CS0 Pro SIM 轉接卡
  Chrome 快速刪除 Cookie 方法 在網址列輸入 chrome://settings/content/all 即可看到目前有留下 Cookie 的網站，依照需求刪除即可
  買 SSD 要注意的兩個數值 TBW (Terabytes Written) 就是一個 SSD 的一輩子總共可以寫入多少 TB 的資料量
 DWPD (Drive Writes Per Day) 就是一個 SSD &amp;ldquo;平均下來&amp;rdquo; 一天可以把該 SSD 本身的容量寫入幾次</description>
-    </item>
-    
-    <item>
-      <title>VMware info &amp; notes / VMware 相關資訊筆記 </title>
-      <link>https://kb.hiy.tw/os/vmware/</link>
-      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/os/vmware/</guid>
-      <description>VMwave 虛擬磁碟格式 完整佈建消極式歸零 Thick Provision Lazy Zeroed (zeroedthick)
-在建立虛擬硬碟時會一次給足所設定的硬碟大小，虛擬硬碟一開始時只會將目前所使用到的部分先進行初始化，其它的部分只是當有用到時才會做初始化的動作。
- 完整佈建積極性歸零 Thick Provision Eager Zeroed (eagerzeroedthick)
-在建立虛擬硬碟時會一次給足所設定的硬碟大小，虛擬硬碟一開始時就會將所有的部分先行初始化，所以開始時會耗費一些時間，但後續使用時，不用在做初始化，所以效能會稍微好一些。
- 精簡佈建 Thin Provision
-會隨著虛擬硬碟的使用量而增加硬碟的大小，直到達到當時建立的磁碟空間上限為止
- ESXi SSH 公鑰存放位置 $ /etc/ssh/keys-root/authorized_keys   ESXi Web Client 的 SSL 憑證存放位置 $ /etc/vmware/ssl/rui.crt # 權限 644 $ /etc/vmware/ssl/rui.key  # 權限 600   重新啟動 ESXi Web Client Service $ /etc/init.d/hostd restart $ /etc/init.d/vpxa restart $ # 如果沒效可以嘗試重起全部服務 $ /sbin/services.sh restart   掛載 NFS 磁碟 $ esxcfg-nas -a -o 192.</description>
     </item>
     
     <item>
