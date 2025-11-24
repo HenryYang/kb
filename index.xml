@@ -118,7 +118,7 @@
       
       <guid>https://kb.hiy.tw/travel/jl/</guid>
       <description>日本航空    開放網路報到時間:出發前 24hr
-  JAL 國際線酬賓獎勵機票 所需哩程列表
+ 預辦登機 https://digital.jal.co.jp/ssci/identification?lang=zh-Hant    JAL 國際線酬賓獎勵機票 所需哩程列表
  https://www.jal.co.jp/tw/zhtw/jalmile/use/jal/inter/routemiles.html    JAL 環球票 所需哩程列表
  https://www.jal.co.jp/twl/zhtw/jalmile/use/partner_air/oneworld/index.html    JAL 計算 Sector mileage 工具
  https://www121.jal.co.jp/JmbWeb/JR/SectionMile_en.do    伙伴航空哩程累積在 JAL 比例查詢
@@ -129,7 +129,7 @@
     </item>
     
     <item>
-      <title>macOS CLI / macOS 指令</title>
+      <title>macOS CLI 指令</title>
       <link>https://kb.hiy.tw/os/mac/macos_cli/</link>
       <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
       
@@ -201,7 +201,7 @@
       <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
       
       <guid>https://kb.hiy.tw/os/android/samsung/</guid>
-      <description>必裝客製化系統軟體 - Good Lock  https://apps.samsung.com/appquery/appDetail.as?appId=com.samsung.android.goodlock 軟體只有簡體中文跟英文，想看簡中需要把系統整個改成簡中（設定 -&amp;gt; 一般管理 -&amp;gt; 語言）   Home Up (來自 Good Lock ) 調整 多工的選擇  調整 多工切換時的樣式選擇、桌面行列上限數、分享功能的調整  Nice Shot (來自 Good Lock ) 調整 螢幕截圖  增加螢幕截圖後的刪除、錄影時通知勿擾  LockStar (來自 Good Lock ) 調整 鎖定畫面  調整 icon 樣式、通知樣式、時間格式、排版位置、增加小工具  RegiStar (來自 Good Lock ) 調整 設定頁面、側邊按鈕  調整設定頁面的顯示方式、側邊按鈕執行的功能  Camera Assiatant (來自 Good Lock ) 調整 相機設定  調整變焦變率、HDR、鏡頭切換、對焦的預設方式   常見功能   Samsung Wallet  把載具加入會員卡，可以感應卡時同時顯示載具 悠遊卡歸戶，要去超商 KIOSK 歸戶。無法手機 App 互相感應或自體歸戶 台灣信用卡們，是可以使用簡訊驗證綁卡驗證       個人化設定</description>
+      <description>必裝客製化系統軟體 - Good Lock  https://apps.samsung.com/appquery/appDetail.as?appId=com.samsung.android.goodlock 軟體只有簡體中文跟英文，想看簡中需要把系統整個改成簡中（設定 -&amp;gt; 一般管理 -&amp;gt; 語言）   Home Up (來自 Good Lock ) 調整 多工的選擇  調整 多工切換時的樣式選擇、桌面行列上限數、分享功能的調整  Nice Shot (來自 Good Lock ) 調整 螢幕截圖  增加螢幕截圖後的刪除、錄影時通知勿擾  LockStar (來自 Good Lock ) 調整 鎖定畫面  調整 icon 樣式、通知樣式、時間格式、排版位置、增加小工具  RegiStar (來自 Good Lock ) 調整 設定頁面、側邊按鈕  調整設定頁面的顯示方式、側邊按鈕執行的功能  Camera Assiatant (來自 Good Lock ) 調整 相機設定  調整變焦變率、HDR、鏡頭切換、對焦的預設方式   常見功能   Samsung Wallet  把載具加入會員卡，可以感應卡時同時顯示載具 悠遊卡歸戶，要去超商 KIOSK 歸戶。無法手機 App 互相感應或自體歸戶 台灣信用卡們，是可以使用簡訊驗證綁卡驗證      啟用安全資料夾 (App分身)  設定 -&amp;gt; 安全性與隱私權 -&amp;gt; 更多安全性設定 -&amp;gt; 安全資料夾，      個人化設定   設定 -&amp;gt; 進階功能 -&amp;gt; 側邊按鈕 -&amp;gt; 長按，可以設定讓長按電源成為關機功能</description>
     </item>
     
     <item>
@@ -449,7 +449,7 @@ DWPD (Drive Writes Per Day) 就是一個 SSD &amp;ldquo;平均下來&amp;rdquo; 
     </item>
     
     <item>
-      <title>Android adb Tips / Android adb 相關資訊</title>
+      <title>Android adb 相關資訊</title>
       <link>https://kb.hiy.tw/os/android/android_adb/</link>
       <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
       
@@ -545,16 +545,7 @@ https://paper.dropbox.com/doc/Bash-Keystrokes-Moskys-Notes-jc4OF7EoXcOIuA9gtPs13
     </item>
     
     <item>
-      <title>Android Root Tips / Android Root 相關資訊</title>
-      <link>https://kb.hiy.tw/os/android/android_root/</link>
-      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/os/android/android_root/</guid>
-      <description>我自己在用的清單 </description>
-    </item>
-    
-    <item>
-      <title>Android Tips / Android 實用資訊</title>
+      <title>Android 實用資訊</title>
       <link>https://kb.hiy.tw/os/android/android_tips/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
@@ -573,16 +564,16 @@ https://paper.dropbox.com/doc/Bash-Keystrokes-Moskys-Notes-jc4OF7EoXcOIuA9gtPs13
     </item>
     
     <item>
-      <title>DMV Information / 車籍相關資料查詢</title>
-      <link>https://kb.hiy.tw/tips/dmv/</link>
+      <title>iOS Surge 模組與捷徑的實用清單</title>
+      <link>https://kb.hiy.tw/lists/mobile/surge_shortcuts/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://kb.hiy.tw/tips/dmv/</guid>
-      <description>車籍資料查詢（付費）  https://mvdvan.mvdis.gov.tw/mvdvan/   車輛哩程數查詢（免費）  下載監理服務 App 就可以查詢 iOS: https://apps.apple.com/tw/app/%E7%9B%A3%E7%90%86%E6%9C%8D%E5%8B%99/id933737788 Android: https://play.google.com/store/apps/details?id=gov.mvdis.m3.emv.app.phone&amp;amp;hl=zh_TW   合法計程車查詢（免費）  https://www.mvdis.gov.tw/m3-emv-sev/taxi/query  </description>
+      <guid>https://kb.hiy.tw/lists/mobile/surge_shortcuts/</guid>
+      <description>皮樂維護的 Surge 清單  https://kinta.ma/surge/  Jimmy 維護的 Surge 清單  https://github.com/jimmyorz/Surge  Chris 維護的 Surge 清單  https://surge.clai.tw/FacebookClickID.sgmodule https://surge.clai.tw/rules/MitM.sgmodule  Chris 維護的 Surge 清單  Share Clean URL  https://www.icloud.com/shortcuts/a388b20ef2fe47f4b51e88b74ce17b12   Copy Clean URL  https://www.icloud.com/shortcuts/6ac0f4f75cfb410cb1768d2350d4f1ff    </description>
     </item>
     
     <item>
-      <title>iOS Jailbreak / iOS 越獄相關資訊</title>
+      <title>iOS 越獄相關資訊</title>
       <link>https://kb.hiy.tw/os/ios/ios_jb/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
@@ -594,16 +585,7 @@ https://paper.dropbox.com/doc/Bash-Keystrokes-Moskys-Notes-jc4OF7EoXcOIuA9gtPs13
     </item>
     
     <item>
-      <title>iOS Surge 模組與捷徑的實用清單</title>
-      <link>https://kb.hiy.tw/lists/mobile/surge_shortcuts/</link>
-      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/lists/mobile/surge_shortcuts/</guid>
-      <description>皮樂維護的 Surge 清單  https://kinta.ma/surge/  Jimmy 維護的 Surge 清單  https://github.com/jimmyorz/Surge  Chris 維護的 Surge 清單  https://surge.clai.tw/FacebookClickID.sgmodule https://surge.clai.tw/rules/MitM.sgmodule  Chris 維護的 Surge 清單  Share Clean URL  https://www.icloud.com/shortcuts/a388b20ef2fe47f4b51e88b74ce17b12   Copy Clean URL  https://www.icloud.com/shortcuts/6ac0f4f75cfb410cb1768d2350d4f1ff    </description>
-    </item>
-    
-    <item>
-      <title>MacOS Debug / MacOS 除錯設定</title>
+      <title>MacOS Debug 技巧</title>
       <link>https://kb.hiy.tw/os/mac/macos_debug/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
@@ -639,6 +621,15 @@ https://paper.dropbox.com/doc/Bash-Keystrokes-Moskys-Notes-jc4OF7EoXcOIuA9gtPs13
     </item>
     
     <item>
+      <title>車籍相關資料查詢</title>
+      <link>https://kb.hiy.tw/tips/dmv/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/tips/dmv/</guid>
+      <description>車籍資料查詢（付費）  https://mvdvan.mvdis.gov.tw/mvdvan/   車輛哩程數查詢（免費）  下載監理服務 App 就可以查詢 iOS: https://apps.apple.com/tw/app/%E7%9B%A3%E7%90%86%E6%9C%8D%E5%8B%99/id933737788 Android: https://play.google.com/store/apps/details?id=gov.mvdis.m3.emv.app.phone&amp;amp;hl=zh_TW   合法計程車查詢（免費）  https://www.mvdis.gov.tw/m3-emv-sev/taxi/query  </description>
+    </item>
+    
+    <item>
       <title>Explanation No 535 tips / 臨檢須知</title>
       <link>https://kb.hiy.tw/life/others/explanation_no_535/</link>
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
@@ -657,7 +648,7 @@ https://paper.dropbox.com/doc/Bash-Keystrokes-Moskys-Notes-jc4OF7EoXcOIuA9gtPs13
     </item>
     
     <item>
-      <title>Check list for Used Mac Device / 二手蘋果電腦驗機方式</title>
+      <title>二手蘋果電腦驗機方式</title>
       <link>https://kb.hiy.tw/os/mac/mac_2hand/</link>
       <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
       
