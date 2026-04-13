@@ -7,6 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://kb.hiy.tw/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>JX/BR/CI/SQ/Other 哩程計畫 - 實用資訊</title>
+      <link>https://kb.hiy.tw/travel/other/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://kb.hiy.tw/travel/other/</guid>
+      <description>星宇航空   開放網路報到時間:出發前 48hr
+  阿拉斯加航空賣點網址，一年只能買 15 萬 miles
+ https://storefront.points.com/mileage-plan/en-US/buy    網路上換 JX 哩程票知識
+ https://blog.tripplus.cc/zh/173966/brady_how_to_book_starlux_airlines_by_mileage_2024    對於單姓、單名，統一輸入在姓，名輸入 FNU
+ https://meiyacommonfile.oss-cn-shenzhen.aliyuncs.com/policy/contenta6320a1724227608202.pdf    班機動態查詢
+ https://www.starlux-airlines.com/zh-TW/flight-status      獎勵機票(使用阿拉斯加航空點數)  最遠只能兌330天後的機位 臺灣 &amp;lt;-&amp;gt; 日本（北海道除外）（單程）  經濟艙: 7500 miles 起 豪經艙: 1 萬 miles 起 商務艙: 1.5 萬 miles 起        使用AS里程開星宇機票，是可以更改航班或取消的。取消行程只有夥伴訂票費(Partner Award Booking Fee) 12.</description>
+    </item>
+    
+    <item>
       <title>停車/繳費/充電 相關連結</title>
       <link>https://kb.hiy.tw/lists/url/parking_payment/</link>
       <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
@@ -136,21 +150,6 @@
       <guid>https://kb.hiy.tw/os/mac/macos_cli/</guid>
       <description>顯示從 Keychain 匯出的 .p12 中的公私鑰 openssl pkcs12 -info -in INFILE.p12 -nodes 憑證格式相關資訊
  在 CLI 匯入憑證到 Keychain # 解鎖 Keychain security unlock-keychain -p 電腦的密碼 ~/Library/Keychains/login.keychain-db # 匯入公私鑰 security import 要匯入的憑證 -k ~/Library/Keychains/login.keychain-db  手動安裝 Xcode # 去 Apple Developer 網站下載 xip 格式的 Xcode (現在需要登入才能下載) https://developer.apple.com/download/more/ # 使用 xip 指令直接安裝 xip -x ~/Download/Xcode_15.xip # 下載 iOS 17.2 Simulator Runtime https://download.developer.apple.com/Developer_Tools/iOS_17.2_Simulator_Runtime/iOS_17.2_Simulator_Runtime.dmg # 安裝 Simulator Runtime xcrun simctl runtime add &amp;#34;~/Downloads/iOS_17.2_Simulator_Runtime.dmg&amp;#34;  執行 macOS 取消到期通知指令 sudo defaults write /Library/Preferences/com.</description>
-    </item>
-    
-    <item>
-      <title>其他哩程計畫 - 實用資訊</title>
-      <link>https://kb.hiy.tw/travel/other/</link>
-      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://kb.hiy.tw/travel/other/</guid>
-      <description>星宇航空   開放網路報到時間:出發前 48hr
-  阿拉斯加航空賣點網址，一年只能買 15 萬 miles
- https://storefront.points.com/mileage-plan/en-US/buy    阿拉斯加舊版獎勵機票以月曆方式查詢位置
- https://www.alaskaair.com/planbook/shoppingstart    網路上換 JX 哩程票知識
- https://blog.tripplus.cc/zh/173966/brady_how_to_book_starlux_airlines_by_mileage_2024    對於單姓、單名，統一輸入在姓，名輸入 FNU
- https://meiyacommonfile.oss-cn-shenzhen.aliyuncs.com/policy/contenta6320a1724227608202.pdf    班機動態查詢
- https://www.starlux-airlines.com/zh-TW/flight-status      獎勵機票(使用阿拉斯加航空點數)  A321neo 機型執飛 -&amp;gt; 通常會釋出 1 經濟艙、1 商務艙 A350-900、A330-900neo 機型執飛 -&amp;gt; 通常會釋出 2 經濟艙、1 豪經艙、1 商務艙 最遠只能兌330天後的機位 臺灣 &amp;lt;-&amp;gt; 日本（北海道除外）（單程）  經濟艙: 7500 miles 起 豪經艙: 1 萬 miles 起 商務艙: 1.</description>
     </item>
     
     <item>
