@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>D. Tips/技巧 on Henry&#39;s Knowledge Base</title>
-    <link>https://kb.hiy.tw/tips/</link>
-    <description>Recent content in D. Tips/技巧 on Henry&#39;s Knowledge Base</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://kb.hiy.tw/tips/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>車籍相關資料查詢</title>
-      <link>https://kb.hiy.tw/tips/dmv/</link>
-      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://kb.hiy.tw/tips/dmv/</guid>
-      <description>&lt;h5 id=&#34;車籍資料查詢付費&#34;&gt;車籍資料查詢（付費）&lt;/h5&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://mvdvan.mvdis.gov.tw/mvdvan/&#34;&gt;https://mvdvan.mvdis.gov.tw/mvdvan/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/br&gt;&#xA;&lt;h5 id=&#34;車輛哩程數查詢免費&#34;&gt;車輛哩程數查詢（免費）&lt;/h5&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;下載監理服務 App 就可以查詢&lt;/li&gt;&#xA;&lt;li&gt;iOS: &lt;a href=&#34;https://apps.apple.com/tw/app/%E7%9B%A3%E7%90%86%E6%9C%8D%E5%8B%99/id933737788&#34;&gt;https://apps.apple.com/tw/app/%E7%9B%A3%E7%90%86%E6%9C%8D%E5%8B%99/id933737788&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Android: &lt;a href=&#34;https://play.google.com/store/apps/details?id=gov.mvdis.m3.emv.app.phone&amp;amp;hl=zh_TW&#34;&gt;https://play.google.com/store/apps/details?id=gov.mvdis.m3.emv.app.phone&amp;hl=zh_TW&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/br&gt;&#xA;&lt;h5 id=&#34;合法計程車查詢免費&#34;&gt;合法計程車查詢（免費）&lt;/h5&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.mvdis.gov.tw/m3-emv-sev/taxi/query&#34;&gt;https://www.mvdis.gov.tw/m3-emv-sev/taxi/query&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>D. Tips/技巧 on Henry&#39;s Knowledge Base</title>
+		<link>https://kb.hiy.tw/tips/</link>
+		<description>Recent content in D. Tips/技巧 on Henry&#39;s Knowledge Base</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="https://kb.hiy.tw/tips/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>車籍相關資料查詢</title>
+				<link>https://kb.hiy.tw/tips/dmv/</link>
+				<pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+				<guid>https://kb.hiy.tw/tips/dmv/</guid>
+				<description>&lt;h5 id=&#34;車籍資料查詢付費&#34;&gt;車籍資料查詢（付費）&lt;/h5&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://mvdvan.mvdis.gov.tw/mvdvan/&#34;&gt;https://mvdvan.mvdis.gov.tw/mvdvan/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/br&gt;&#xA;&lt;h5 id=&#34;車輛哩程數查詢免費&#34;&gt;車輛哩程數查詢（免費）&lt;/h5&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;下載監理服務 App 就可以查詢&lt;/li&gt;&#xA;&lt;li&gt;iOS: &lt;a href=&#34;https://apps.apple.com/tw/app/%E7%9B%A3%E7%90%86%E6%9C%8D%E5%8B%99/id933737788&#34;&gt;https://apps.apple.com/tw/app/%E7%9B%A3%E7%90%86%E6%9C%8D%E5%8B%99/id933737788&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Android: &lt;a href=&#34;https://play.google.com/store/apps/details?id=gov.mvdis.m3.emv.app.phone&amp;amp;hl=zh_TW&#34;&gt;https://play.google.com/store/apps/details?id=gov.mvdis.m3.emv.app.phone&amp;hl=zh_TW&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/br&gt;&#xA;&lt;h5 id=&#34;合法計程車查詢免費&#34;&gt;合法計程車查詢（免費）&lt;/h5&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.mvdis.gov.tw/m3-emv-sev/taxi/query&#34;&gt;https://www.mvdis.gov.tw/m3-emv-sev/taxi/query&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+	</channel>
 </rss>
