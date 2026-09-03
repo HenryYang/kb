@@ -1,31 +1,56 @@
 <!DOCTYPE html>
 <html lang="en" itemscope="" itemtype="http://schema.org/WebPage">
     <head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta property="og:title" content="CLI command / 常見 CLI 指令 " />
-<meta property="og:description" content="Let&rsquo;s Encrypt 安裝指令
-# For macOS $ brew install letsencrypt # For Ubuntu $ apt install certbot  手動產生憑證（可用於驗證 Private IP 或無法安裝 agent 的主機上） $ certbot certonly --manual --config-dir ~/Desktop/letsencrypt --work-dir ~/Desktop/letsencrypt --logs-dir ~/Desktop/letsencrypt --preferred-challenges dns  自動產生憑證（用於外網可以直接連線到 agent 的主機上） $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --preferred-challenges http -d 你的網域  關閉 SSH 密碼登入 # /etc/ssh/sshd_config PasswordAuthentication no ChallengeResponseAuthentication no UsePAM no 產生 SSH key # Ed25519 algorithm ssh-keygen -t ed25519 -C &#34;hi@hiy." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://kb.hiy.tw/os/unix/cli/" />
-<meta property="article:published_time" content="2020-07-07T00:00:00+00:00" />
-<meta property="article:modified_time" content="2022-09-16T21:08:00+08:00" />
-<meta itemprop="name" content="CLI command / 常見 CLI 指令 ">
-<meta itemprop="description" content="Let&rsquo;s Encrypt 安裝指令
-# For macOS $ brew install letsencrypt # For Ubuntu $ apt install certbot  手動產生憑證（可用於驗證 Private IP 或無法安裝 agent 的主機上） $ certbot certonly --manual --config-dir ~/Desktop/letsencrypt --work-dir ~/Desktop/letsencrypt --logs-dir ~/Desktop/letsencrypt --preferred-challenges dns  自動產生憑證（用於外網可以直接連線到 agent 的主機上） $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --preferred-challenges http -d 你的網域  關閉 SSH 密碼登入 # /etc/ssh/sshd_config PasswordAuthentication no ChallengeResponseAuthentication no UsePAM no 產生 SSH key # Ed25519 algorithm ssh-keygen -t ed25519 -C &#34;hi@hiy.">
-<meta itemprop="datePublished" content="2020-07-07T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2022-09-16T21:08:00+08:00" />
-<meta itemprop="wordCount" content="327">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta property="og:url" content="https://kb.hiy.tw/os/unix/cli/">
+  <meta property="og:site_name" content="Henry&#39;s Knowledge Base">
+  <meta property="og:title" content="CLI command / 常見 CLI 指令 ">
+  <meta property="og:description" content="Let’s Encrypt 安裝指令
+# For macOS $ brew install letsencrypt # For Ubuntu $ apt install certbot 手動產生憑證（可用於驗證 Private IP 或無法安裝 agent 的主機上） $ certbot certonly --manual --config-dir ~/Desktop/letsencrypt --work-dir ~/Desktop/letsencrypt --logs-dir ~/Desktop/letsencrypt --preferred-challenges dns 自動產生憑證（用於外網可以直接連線到 agent 的主機上） $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --preferred-challenges http -d 你的網域 關閉 SSH 密碼登入 # /etc/ssh/sshd_config PasswordAuthentication no ChallengeResponseAuthentication no UsePAM no 產生 SSH key # Ed25519 algorithm ssh-keygen -t ed25519 -C &#34;hi@hiy.tw&#34; # Legacy system ssh-keygen -t rsa -b 4096 -C &#34;legacy@hiy.tw&#34; Github的教學">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="os">
+    <meta property="article:published_time" content="2020-07-07T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-09-03T13:42:00+08:00">
+
+  <meta itemprop="name" content="CLI command / 常見 CLI 指令 ">
+  <meta itemprop="description" content="Let’s Encrypt 安裝指令
+# For macOS $ brew install letsencrypt # For Ubuntu $ apt install certbot 手動產生憑證（可用於驗證 Private IP 或無法安裝 agent 的主機上） $ certbot certonly --manual --config-dir ~/Desktop/letsencrypt --work-dir ~/Desktop/letsencrypt --logs-dir ~/Desktop/letsencrypt --preferred-challenges dns 自動產生憑證（用於外網可以直接連線到 agent 的主機上） $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --preferred-challenges http -d 你的網域 關閉 SSH 密碼登入 # /etc/ssh/sshd_config PasswordAuthentication no ChallengeResponseAuthentication no UsePAM no 產生 SSH key # Ed25519 algorithm ssh-keygen -t ed25519 -C &#34;hi@hiy.tw&#34; # Legacy system ssh-keygen -t rsa -b 4096 -C &#34;legacy@hiy.tw&#34; Github的教學">
+  <meta itemprop="datePublished" content="2020-07-07T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2026-09-03T13:42:00+08:00">
+  <meta itemprop="wordCount" content="327">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="CLI command / 常見 CLI 指令 ">
+  <meta name="twitter:description" content="Let’s Encrypt 安裝指令
+# For macOS $ brew install letsencrypt # For Ubuntu $ apt install certbot 手動產生憑證（可用於驗證 Private IP 或無法安裝 agent 的主機上） $ certbot certonly --manual --config-dir ~/Desktop/letsencrypt --work-dir ~/Desktop/letsencrypt --logs-dir ~/Desktop/letsencrypt --preferred-challenges dns 自動產生憑證（用於外網可以直接連線到 agent 的主機上） $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --preferred-challenges http -d 你的網域 關閉 SSH 密碼登入 # /etc/ssh/sshd_config PasswordAuthentication no ChallengeResponseAuthentication no UsePAM no 產生 SSH key # Ed25519 algorithm ssh-keygen -t ed25519 -C &#34;hi@hiy.tw&#34; # Legacy system ssh-keygen -t rsa -b 4096 -C &#34;legacy@hiy.tw&#34; Github的教學">
 
 
+<meta property="description" content='Let&rsquo;s Encrypt
+安裝指令
+# For macOS
+$ brew install letsencrypt
 
-<meta itemprop="keywords" content="" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="CLI command / 常見 CLI 指令 "/>
-<meta name="twitter:description" content="Let&rsquo;s Encrypt 安裝指令
-# For macOS $ brew install letsencrypt # For Ubuntu $ apt install certbot  手動產生憑證（可用於驗證 Private IP 或無法安裝 agent 的主機上） $ certbot certonly --manual --config-dir ~/Desktop/letsencrypt --work-dir ~/Desktop/letsencrypt --logs-dir ~/Desktop/letsencrypt --preferred-challenges dns  自動產生憑證（用於外網可以直接連線到 agent 的主機上） $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --preferred-challenges http -d 你的網域  關閉 SSH 密碼登入 # /etc/ssh/sshd_config PasswordAuthentication no ChallengeResponseAuthentication no UsePAM no 產生 SSH key # Ed25519 algorithm ssh-keygen -t ed25519 -C &#34;hi@hiy."/>
+# For Ubuntu
+$ apt install certbot
 
+手動產生憑證（可用於驗證 Private IP 或無法安裝 agent 的主機上）
+$ certbot certonly --manual --config-dir ~/Desktop/letsencrypt --work-dir ~/Desktop/letsencrypt --logs-dir ~/Desktop/letsencrypt --preferred-challenges dns
 
-<meta property="description" content='Let&rsquo;s Encrypt 安裝指令
-# For macOS $ brew install letsencrypt # For Ubuntu $ apt install certbot  手動產生憑證（可用於驗證 Private IP 或無法安裝 agent 的主機上） $ certbot certonly --manual --config-dir ~/Desktop/letsencrypt --work-dir ~/Desktop/letsencrypt --logs-dir ~/Desktop/letsencrypt --preferred-challenges dns  自動產生憑證（用於外網可以直接連線到 agent 的主機上） $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --preferred-challenges http -d 你的網域  關閉 SSH 密碼登入 # /etc/ssh/sshd_config PasswordAuthentication no ChallengeResponseAuthentication no UsePAM no 產生 SSH key # Ed25519 algorithm ssh-keygen -t ed25519 -C &#34;hi@hiy.' /><meta name="author" content="Henry Yang">
+自動產生憑證（用於外網可以直接連線到 agent 的主機上）
+$ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --preferred-challenges http -d 你的網域
+
+關閉 SSH 密碼登入
+# /etc/ssh/sshd_config
+
+PasswordAuthentication no
+ChallengeResponseAuthentication no
+UsePAM no
+產生 SSH key
+# Ed25519 algorithm
+ssh-keygen -t ed25519 -C &#34;hi@hiy.tw&#34;
+
+# Legacy system
+ssh-keygen -t rsa -b 4096 -C &#34;legacy@hiy.tw&#34;
+Github的教學' /><meta name="author" content="Henry Yang">
 
 
 
@@ -40,11 +65,11 @@
 
 
 
-<link rel="stylesheet" href="https://kb.hiy.tw/css/all.min.4a45a7ed7d7dd5b16e4cd2f3bf71a6acb00b4c69bdbb1516f431bbfdf6629067.css" integrity="sha256-SkWn7X191bFuTNLzv3GmrLALTGm9uxUW9DG7/fZikGc=">
+<link rel="stylesheet" href="https://kb.hiy.tw/css/all.min.5330bad6b8b859632c19447b4f0f4d81571e2eaa16c966367e368cf6c8521c6c.css" integrity="sha256-UzC61ri4WWMsGUR7Tw9NgVceLqoWyWY2fjaM9shSHGw=">
 
 
 
-
+<!-- Google analytics disabled -->
 
 
 
@@ -87,7 +112,7 @@
 	<small class="mx-3">
 	    
 	    <div class="ml-2">
-		<i class="fas fa-edit"></i> <strong>Last modified:</strong> <time datetime="2022-09-16T21:08:00&#43;08:00">September 16, 2022</time>
+		<i class="fas fa-edit"></i> <strong>Last modified:</strong> <time datetime="2026-09-03T13:42:00&#43;08:00">September 3, 2026</time>
 	    </div>
 	    
 	</small>
@@ -100,113 +125,113 @@
 	    
 	    <h5 id="lets-encrypt">Let&rsquo;s Encrypt</h5>
 <p>安裝指令</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># For macOS</span>
-$ brew install letsencrypt
-
-<span style="color:#75715e"># For Ubuntu</span>
-$ apt install certbot
-</code></pre></div></br>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># For macOS</span>
+</span></span><span style="display:flex;"><span>$ brew install letsencrypt
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># For Ubuntu</span>
+</span></span><span style="display:flex;"><span>$ apt install certbot
+</span></span></code></pre></div></br>
 <h5 id="手動產生憑證可用於驗證-private-ip-或無法安裝-agent-的主機上">手動產生憑證（可用於驗證 Private IP 或無法安裝 agent 的主機上）</h5>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ certbot certonly --manual --config-dir ~/Desktop/letsencrypt --work-dir ~/Desktop/letsencrypt --logs-dir ~/Desktop/letsencrypt --preferred-challenges dns
-</code></pre></div></br>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ certbot certonly --manual --config-dir ~/Desktop/letsencrypt --work-dir ~/Desktop/letsencrypt --logs-dir ~/Desktop/letsencrypt --preferred-challenges dns
+</span></span></code></pre></div></br>
 <h5 id="自動產生憑證用於外網可以直接連線到-agent-的主機上">自動產生憑證（用於外網可以直接連線到 agent 的主機上）</h5>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --preferred-challenges http -d 你的網域
-</code></pre></div></br>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --preferred-challenges http -d 你的網域
+</span></span></code></pre></div></br>
 <h5 id="關閉-ssh-密碼登入">關閉 SSH 密碼登入</h5>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># /etc/ssh/sshd_config</span>
-
-PasswordAuthentication no
-ChallengeResponseAuthentication no
-UsePAM no
-</code></pre></div><h5 id="產生-ssh-key">產生 SSH key</h5>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Ed25519 algorithm</span>
-ssh-keygen -t ed25519 -C <span style="color:#e6db74">&#34;hi@hiy.tw&#34;</span>
-
-<span style="color:#75715e"># Legacy system</span>
-ssh-keygen -t rsa -b <span style="color:#ae81ff">4096</span> -C <span style="color:#e6db74">&#34;legacy@hiy.tw&#34;</span>
-</code></pre></div><p><a href="https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent">Github的教學</a></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># /etc/ssh/sshd_config</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>PasswordAuthentication no
+</span></span><span style="display:flex;"><span>ChallengeResponseAuthentication no
+</span></span><span style="display:flex;"><span>UsePAM no
+</span></span></code></pre></div><h5 id="產生-ssh-key">產生 SSH key</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># Ed25519 algorithm</span>
+</span></span><span style="display:flex;"><span>ssh-keygen -t ed25519 -C <span style="color:#e6db74">&#34;hi@hiy.tw&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Legacy system</span>
+</span></span><span style="display:flex;"><span>ssh-keygen -t rsa -b <span style="color:#ae81ff">4096</span> -C <span style="color:#e6db74">&#34;legacy@hiy.tw&#34;</span>
+</span></span></code></pre></div><p><a href="https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent">Github的教學</a></p>
 </br>
 <h5 id="用-gpg-簽署-git-commit">用 GPG 簽署 GIT COMMIT</h5>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># 顯示自己有哪一些 GPG Keys </span>
-gpg --list-keys 
-
-<span style="color:#75715e"># 匯出自己的公鑰並上傳到 Github 上 (https://github.com/settings/keys)</span>
-gpg --armor --export 你的KEY_ID
-
-<span style="color:#75715e"># 在 git 設定以下參數來完成</span>
-
-git config --global user.signingkey 你的KEY_ID
-git config --global commit.gpgSign true 
-git config --global tag.gpgSign true
-</code></pre></div><p><a href="https://useme.medium.com/%E4%BA%94%E5%88%86%E9%90%98%E8%AA%8D%E8%AD%89%E4%BD%A0%E7%9A%84-git-commit-265b002ce71b">medium上的教學</a></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># 顯示自己有哪一些 GPG Keys </span>
+</span></span><span style="display:flex;"><span>gpg --list-keys 
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 匯出自己的公鑰並上傳到 Github 上 (https://github.com/settings/keys)</span>
+</span></span><span style="display:flex;"><span>gpg --armor --export 你的KEY_ID
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 在 git 設定以下參數來完成</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>git config --global user.signingkey 你的KEY_ID
+</span></span><span style="display:flex;"><span>git config --global commit.gpgSign true 
+</span></span><span style="display:flex;"><span>git config --global tag.gpgSign true
+</span></span></code></pre></div><p><a href="https://useme.medium.com/%E4%BA%94%E5%88%86%E9%90%98%E8%AA%8D%E8%AD%89%E4%BD%A0%E7%9A%84-git-commit-265b002ce71b">medium上的教學</a></p>
 </br>
 <h5 id="esxi-重起管理服務">ESXi 重起管理服務</h5>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">/etc/init.d/hostd restart
-/etc/init.d/vpxa restart
-</code></pre></div></br>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>/etc/init.d/hostd restart
+</span></span><span style="display:flex;"><span>/etc/init.d/vpxa restart
+</span></span></code></pre></div></br>
 <h5 id="docker-清理">Docker 清理</h5>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ docker system prune -a
-$ docker image prune -a
-
-<span style="color:#75715e"># Remove unused volumes</span>
-$ docker volume ls -qf dangling<span style="color:#f92672">=</span>true | xargs -r docker volume rm
-</code></pre></div></br>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ docker system prune -a
+</span></span><span style="display:flex;"><span>$ docker image prune -a
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Remove unused volumes</span>
+</span></span><span style="display:flex;"><span>$ docker volume ls -qf dangling<span style="color:#f92672">=</span>true | xargs -r docker volume rm
+</span></span></code></pre></div></br>
 <h5 id="openssl-相關指令">Openssl 相關指令</h5>
 <ul>
 <li><a href="https://ssorc.tw/42/">https://ssorc.tw/42/</a></li>
 </ul>
 </br>
 <h5 id="用-ffmpeg-合併影片">用 ffmpeg 合併影片</h5>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e">#clips.txt</span>
-file <span style="color:#e6db74">&#39;first.mp4&#39;</span>
-file <span style="color:#e6db74">&#39;second.mp4&#39;</span>
-...
-</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">ffmpeg -f concat -i clips.txt -c copy output.mp4
-</code></pre></div></br>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e">#clips.txt</span>
+</span></span><span style="display:flex;"><span>file <span style="color:#e6db74">&#39;first.mp4&#39;</span>
+</span></span><span style="display:flex;"><span>file <span style="color:#e6db74">&#39;second.mp4&#39;</span>
+</span></span><span style="display:flex;"><span>...
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>ffmpeg -f concat -i clips.txt -c copy output.mp4
+</span></span></code></pre></div></br>
 <h5 id="掛載-nfs-磁碟">掛載 NFS 磁碟</h5>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e">#掛載</span>
-sudo mount -t nfs 192.168.1.21:/DATA   /Users/henryyang/Desktop/NAS_DATA
-<span style="color:#75715e">#ESXi 掛載</span>
-esxcfg-nas -a -o 1192.168.1.21 -s /DATA NAS_DATA
-</code></pre></div></br>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e">#掛載</span>
+</span></span><span style="display:flex;"><span>sudo mount -t nfs 192.168.1.21:/DATA   /Users/henryyang/Desktop/NAS_DATA
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#ESXi 掛載</span>
+</span></span><span style="display:flex;"><span>esxcfg-nas -a -o 1192.168.1.21 -s /DATA NAS_DATA
+</span></span></code></pre></div></br>
 <h5 id="用-wget-砍站">用 wget 砍站</h5>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e">#完整指令</span>
-wget --mirror --page-requisites --convert-links --directory-prefix ./  https://example.com/
-<span style="color:#75715e">#簡寫指令</span>
-wget -mpkP ./  https://example.com/
-</code></pre></div></br>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e">#完整指令</span>
+</span></span><span style="display:flex;"><span>wget --mirror --page-requisites --convert-links --directory-prefix ./  https://example.com/
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#簡寫指令</span>
+</span></span><span style="display:flex;"><span>wget -mpkP ./  https://example.com/
+</span></span></code></pre></div></br>
 <h5 id="刪除-gitlab-rack-attack-ban-的-ip">刪除 Gitlab Rack Attack Ban 的 IP</h5>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e">#查目前所被 Ban 的 IP</span>
-grep <span style="color:#e6db74">&#34;Rack_Attack&#34;</span> /var/log/gitlab/gitlab-rails/auth.log
-
-<span style="color:#75715e">#進入 Redius 刪除該 IP</span>
-/opt/gitlab/embedded/bin/redis-cli -s /var/opt/gitlab/redis/redis.socket
-del cache:gitlab:rack::attack:allow2ban:ban:&lt;ip&gt;
-</code></pre></div><p>參考資料：https://docs.gitlab.com/ee/security/rack_attack.html</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e">#查目前所被 Ban 的 IP</span>
+</span></span><span style="display:flex;"><span>grep <span style="color:#e6db74">&#34;Rack_Attack&#34;</span> /var/log/gitlab/gitlab-rails/auth.log
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#進入 Redius 刪除該 IP</span>
+</span></span><span style="display:flex;"><span>/opt/gitlab/embedded/bin/redis-cli -s /var/opt/gitlab/redis/redis.socket
+</span></span><span style="display:flex;"><span>del cache:gitlab:rack::attack:allow2ban:ban:&lt;ip&gt;
+</span></span></code></pre></div><p>參考資料：https://docs.gitlab.com/ee/security/rack_attack.html</p>
 </br>
 <h5 id="firefox-開啟強制-https-模式">Firefox 開啟強制 https 模式</h5>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">偏好設定 -&gt; 隱私權與安全性 -&gt; 純 HTTPS 模式 -&gt; 在所有視窗都開啟純 HTTPS 模式
-</code></pre></div></br>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>偏好設定 -&gt; 隱私權與安全性 -&gt; 純 HTTPS 模式 -&gt; 在所有視窗都開啟純 HTTPS 模式
+</span></span></code></pre></div></br>
 <h5 id="建立-symbolic-link">建立 Symbolic link</h5>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">ln -s &lt;要被連的真實資料夾&gt; &lt;欲建立進入點的虛擬資料夾&gt;
-</code></pre></div></br>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>ln -s &lt;要被連的真實資料夾&gt; &lt;欲建立進入點的虛擬資料夾&gt;
+</span></span></code></pre></div></br>
 <h5 id="tar-指令">tar 指令</h5>
 <p><a href="https://blog.gtwang.org/linux/tar-command-examples-in-linux-1/">https://blog.gtwang.org/linux/tar-command-examples-in-linux-1/</a></p>
 </br>
 <h5 id="把-git-repo-搬移到另外一個全新的-repo-中">把 Git Repo 搬移到另外一個全新的 Repo 中</h5>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">cd existing_repo
-git branch -r | grep -v &#39;\-&gt;&#39; | sed &#34;s,\x1B\[[0-9;]*[a-zA-Z],,g&#34; | while read remote; do git branch --track &#34;${remote#origin/}&#34; &#34;$remote&#34;; done
-git fetch --all
-git lfs fetch --all
-git pull --all
-git remote rename origin old-origin
-git remote add origin git@new.example.com:traget/newrepo.git
-git push -u origin --all
-git push -u origin --tags
-</code></pre></div></br>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>cd existing_repo
+</span></span><span style="display:flex;"><span>git branch -r | grep -v &#39;\-&gt;&#39; | sed &#34;s,\x1B\[[0-9;]*[a-zA-Z],,g&#34; | while read remote; do git branch --track &#34;${remote#origin/}&#34; &#34;$remote&#34;; done
+</span></span><span style="display:flex;"><span>git fetch --all
+</span></span><span style="display:flex;"><span>git lfs fetch --all
+</span></span><span style="display:flex;"><span>git pull --all
+</span></span><span style="display:flex;"><span>git remote rename origin old-origin
+</span></span><span style="display:flex;"><span>git remote add origin git@new.example.com:traget/newrepo.git
+</span></span><span style="display:flex;"><span>git push -u origin --all
+</span></span><span style="display:flex;"><span>git push -u origin --tags
+</span></span></code></pre></div></br>
 <h5 id="查詢當下目錄中各資料夾的大小">查詢當下目錄中各資料夾的大小</h5>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">du -sh /&lt;PATH&gt;/* | sort -rn
-</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>du -sh /&lt;PATH&gt;/* | sort -rn
+</span></span></code></pre></div>
 	    
 
 	    
@@ -307,7 +332,7 @@ git push -u origin --tags
 	<span itemprop="name">Knowledge Base</span>
     </a>
     
-    <meta itemprop="position" content="1" />
+    <meta itemprop="position" content="2" />
 </li>
 
 
@@ -321,7 +346,7 @@ git push -u origin --tags
 	<span itemprop="name">A. OS/作業系統</span>
     </a>
     
-    <meta itemprop="position" content="2" />
+    <meta itemprop="position" content="3" />
 </li>
 
 
@@ -335,7 +360,7 @@ git push -u origin --tags
 	<span itemprop="name">UNIX</span>
     </a>
     
-    <meta itemprop="position" content="3" />
+    <meta itemprop="position" content="4" />
 </li>
 
 
@@ -346,7 +371,7 @@ git push -u origin --tags
     
 	<span itemprop="name">CLI command / 常見 CLI 指令 </span>
     
-    <meta itemprop="position" content="4" />
+    <meta itemprop="position" content="5" />
 </li>
 
   </ol>
@@ -379,7 +404,7 @@ git push -u origin --tags
 
 
 
-<script async src="/js/bundle.min.58c1a372888b06db260026e21bb373955061138b81181b5248eb0a5f94e82b5f1f500a5d40ffa85135bb4ef838a53013ca6d3f85ee39c023de90e6149aac4d6b.js" integrity="sha512-WMGjcoiLBtsmACbiG7NzlVBhE4uBGBtSSOsKX5ToK18fUApdQP&#43;oUTW7Tvg4pTATym0/he45wCPekOYUmqxNaw=="></script>
+<script async src="/js/bundle.min.3f9b1c444e55dfb5f71737b6248e4866fcfa6293e0bf32b776b923c9029759b2eececb3a6c19eb35651182551d93d774326b8619ae5df48809413609d82d5556.js" integrity="sha512-P5scRE5V37X3Fze2JI5IZvz6YpPgvzK3drkjyQKXWbLuzss6bBnrNWURglUdk9d0MmuGGa5d9IgJQTYJ2C1VVg=="></script>
 
 </body>
 </html>

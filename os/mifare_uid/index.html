@@ -1,27 +1,49 @@
 <!DOCTYPE html>
 <html lang="en" itemscope="" itemtype="http://schema.org/WebPage">
     <head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta property="og:title" content="Tricky for Mifare Classic / Mifare Classic 的冷知識" />
-<meta property="og:description" content="Tools  MIFARE Classic Tool - 用來讀取與編輯 Mifare Classic 卡  可以編輯 CUID 卡的 Block 0   NFC TagInfo - 用來識別 RFID 卡片的類型與 UID 相關資訊 Mifare Calculator - Mifare 卡較驗碼的計算 NFC Reader - 讀取後會顯示 UID 的各種格式換算  Servies  XOR Calculator Mifare Classic UID BCC Calculator UID conversion  Notes  Sector0 Block0 前 4 Byte 放置了該張卡的 UID，第 5 Byte 是校驗碼，為前 4 個 Byte XOR 的結果 假設 UID 為 DDCCBBAA 那這時候要解讀回 10 進位就是變成 (AABBCCDD)hex = 2864434397 (如果長度不足十位則前面補 0 )  參考資料" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://kb.hiy.tw/os/mifare_uid/" />
-<meta property="article:published_time" content="2020-10-27T00:00:00+00:00" />
-<meta property="article:modified_time" content="2022-09-05T21:15:03+08:00" />
-<meta itemprop="name" content="Tricky for Mifare Classic / Mifare Classic 的冷知識">
-<meta itemprop="description" content="Tools  MIFARE Classic Tool - 用來讀取與編輯 Mifare Classic 卡  可以編輯 CUID 卡的 Block 0   NFC TagInfo - 用來識別 RFID 卡片的類型與 UID 相關資訊 Mifare Calculator - Mifare 卡較驗碼的計算 NFC Reader - 讀取後會顯示 UID 的各種格式換算  Servies  XOR Calculator Mifare Classic UID BCC Calculator UID conversion  Notes  Sector0 Block0 前 4 Byte 放置了該張卡的 UID，第 5 Byte 是校驗碼，為前 4 個 Byte XOR 的結果 假設 UID 為 DDCCBBAA 那這時候要解讀回 10 進位就是變成 (AABBCCDD)hex = 2864434397 (如果長度不足十位則前面補 0 )  參考資料">
-<meta itemprop="datePublished" content="2020-10-27T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2022-09-05T21:15:03+08:00" />
-<meta itemprop="wordCount" content="73">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta property="og:url" content="https://kb.hiy.tw/os/mifare_uid/">
+  <meta property="og:site_name" content="Henry&#39;s Knowledge Base">
+  <meta property="og:title" content="Tricky for Mifare Classic / Mifare Classic 的冷知識">
+  <meta property="og:description" content="Tools MIFARE Classic Tool - 用來讀取與編輯 Mifare Classic 卡 可以編輯 CUID 卡的 Block 0 NFC TagInfo - 用來識別 RFID 卡片的類型與 UID 相關資訊 Mifare Calculator - Mifare 卡較驗碼的計算 NFC Reader - 讀取後會顯示 UID 的各種格式換算 Servies XOR Calculator Mifare Classic UID BCC Calculator UID conversion Notes Sector0 Block0 前 4 Byte 放置了該張卡的 UID，第 5 Byte 是校驗碼，為前 4 個 Byte XOR 的結果 假設 UID 為 DDCCBBAA 那這時候要解讀回 10 進位就是變成 (AABBCCDD)hex = 2864434397 (如果長度不足十位則前面補 0 ) 參考資料">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="os">
+    <meta property="article:published_time" content="2020-10-27T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-09-03T13:42:00+08:00">
+
+  <meta itemprop="name" content="Tricky for Mifare Classic / Mifare Classic 的冷知識">
+  <meta itemprop="description" content="Tools MIFARE Classic Tool - 用來讀取與編輯 Mifare Classic 卡 可以編輯 CUID 卡的 Block 0 NFC TagInfo - 用來識別 RFID 卡片的類型與 UID 相關資訊 Mifare Calculator - Mifare 卡較驗碼的計算 NFC Reader - 讀取後會顯示 UID 的各種格式換算 Servies XOR Calculator Mifare Classic UID BCC Calculator UID conversion Notes Sector0 Block0 前 4 Byte 放置了該張卡的 UID，第 5 Byte 是校驗碼，為前 4 個 Byte XOR 的結果 假設 UID 為 DDCCBBAA 那這時候要解讀回 10 進位就是變成 (AABBCCDD)hex = 2864434397 (如果長度不足十位則前面補 0 ) 參考資料">
+  <meta itemprop="datePublished" content="2020-10-27T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2026-09-03T13:42:00+08:00">
+  <meta itemprop="wordCount" content="73">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Tricky for Mifare Classic / Mifare Classic 的冷知識">
+  <meta name="twitter:description" content="Tools MIFARE Classic Tool - 用來讀取與編輯 Mifare Classic 卡 可以編輯 CUID 卡的 Block 0 NFC TagInfo - 用來識別 RFID 卡片的類型與 UID 相關資訊 Mifare Calculator - Mifare 卡較驗碼的計算 NFC Reader - 讀取後會顯示 UID 的各種格式換算 Servies XOR Calculator Mifare Classic UID BCC Calculator UID conversion Notes Sector0 Block0 前 4 Byte 放置了該張卡的 UID，第 5 Byte 是校驗碼，為前 4 個 Byte XOR 的結果 假設 UID 為 DDCCBBAA 那這時候要解讀回 10 進位就是變成 (AABBCCDD)hex = 2864434397 (如果長度不足十位則前面補 0 ) 參考資料">
 
 
+<meta property="description" content='Tools
 
-<meta itemprop="keywords" content="" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tricky for Mifare Classic / Mifare Classic 的冷知識"/>
-<meta name="twitter:description" content="Tools  MIFARE Classic Tool - 用來讀取與編輯 Mifare Classic 卡  可以編輯 CUID 卡的 Block 0   NFC TagInfo - 用來識別 RFID 卡片的類型與 UID 相關資訊 Mifare Calculator - Mifare 卡較驗碼的計算 NFC Reader - 讀取後會顯示 UID 的各種格式換算  Servies  XOR Calculator Mifare Classic UID BCC Calculator UID conversion  Notes  Sector0 Block0 前 4 Byte 放置了該張卡的 UID，第 5 Byte 是校驗碼，為前 4 個 Byte XOR 的結果 假設 UID 為 DDCCBBAA 那這時候要解讀回 10 進位就是變成 (AABBCCDD)hex = 2864434397 (如果長度不足十位則前面補 0 )  參考資料"/>
+MIFARE Classic Tool - 用來讀取與編輯 Mifare Classic 卡
+
+可以編輯 CUID 卡的 Block 0
 
 
-<meta property="description" content='Tools  MIFARE Classic Tool - 用來讀取與編輯 Mifare Classic 卡  可以編輯 CUID 卡的 Block 0   NFC TagInfo - 用來識別 RFID 卡片的類型與 UID 相關資訊 Mifare Calculator - Mifare 卡較驗碼的計算 NFC Reader - 讀取後會顯示 UID 的各種格式換算  Servies  XOR Calculator Mifare Classic UID BCC Calculator UID conversion  Notes  Sector0 Block0 前 4 Byte 放置了該張卡的 UID，第 5 Byte 是校驗碼，為前 4 個 Byte XOR 的結果 假設 UID 為 DDCCBBAA 那這時候要解讀回 10 進位就是變成 (AABBCCDD)hex = 2864434397 (如果長度不足十位則前面補 0 )  參考資料' /><meta name="author" content="Henry Yang">
+NFC TagInfo - 用來識別 RFID 卡片的類型與 UID 相關資訊
+Mifare Calculator - Mifare 卡較驗碼的計算
+NFC Reader - 讀取後會顯示 UID 的各種格式換算
+
+Servies
+
+XOR Calculator
+Mifare Classic UID BCC Calculator
+UID conversion
+
+Notes
+
+Sector0 Block0 前 4 Byte 放置了該張卡的 UID，第 5 Byte 是校驗碼，為前 4 個 Byte XOR 的結果
+假設 UID 為 DDCCBBAA 那這時候要解讀回 10 進位就是變成 (AABBCCDD)hex = 2864434397 (如果長度不足十位則前面補 0 )
+
+參考資料' /><meta name="author" content="Henry Yang">
 
 
 
@@ -36,11 +58,11 @@
 
 
 
-<link rel="stylesheet" href="https://kb.hiy.tw/css/all.min.4a45a7ed7d7dd5b16e4cd2f3bf71a6acb00b4c69bdbb1516f431bbfdf6629067.css" integrity="sha256-SkWn7X191bFuTNLzv3GmrLALTGm9uxUW9DG7/fZikGc=">
+<link rel="stylesheet" href="https://kb.hiy.tw/css/all.min.5330bad6b8b859632c19447b4f0f4d81571e2eaa16c966367e368cf6c8521c6c.css" integrity="sha256-UzC61ri4WWMsGUR7Tw9NgVceLqoWyWY2fjaM9shSHGw=">
 
 
 
-
+<!-- Google analytics disabled -->
 
 
 
@@ -83,7 +105,7 @@
 	<small class="mx-3">
 	    
 	    <div class="ml-2">
-		<i class="fas fa-edit"></i> <strong>Last modified:</strong> <time datetime="2022-09-05T21:15:03&#43;08:00">September 5, 2022</time>
+		<i class="fas fa-edit"></i> <strong>Last modified:</strong> <time datetime="2026-09-03T13:42:00&#43;08:00">September 3, 2026</time>
 	    </div>
 	    
 	</small>
@@ -324,7 +346,7 @@
 	<span itemprop="name">Knowledge Base</span>
     </a>
     
-    <meta itemprop="position" content="1" />
+    <meta itemprop="position" content="2" />
 </li>
 
 
@@ -338,7 +360,7 @@
 	<span itemprop="name">A. OS/作業系統</span>
     </a>
     
-    <meta itemprop="position" content="2" />
+    <meta itemprop="position" content="3" />
 </li>
 
 
@@ -349,7 +371,7 @@
     
 	<span itemprop="name">Tricky for Mifare Classic / Mifare Classic 的冷知識</span>
     
-    <meta itemprop="position" content="3" />
+    <meta itemprop="position" content="4" />
 </li>
 
   </ol>
@@ -382,7 +404,7 @@
 
 
 
-<script async src="/js/bundle.min.58c1a372888b06db260026e21bb373955061138b81181b5248eb0a5f94e82b5f1f500a5d40ffa85135bb4ef838a53013ca6d3f85ee39c023de90e6149aac4d6b.js" integrity="sha512-WMGjcoiLBtsmACbiG7NzlVBhE4uBGBtSSOsKX5ToK18fUApdQP&#43;oUTW7Tvg4pTATym0/he45wCPekOYUmqxNaw=="></script>
+<script async src="/js/bundle.min.3f9b1c444e55dfb5f71737b6248e4866fcfa6293e0bf32b776b923c9029759b2eececb3a6c19eb35651182551d93d774326b8619ae5df48809413609d82d5556.js" integrity="sha512-P5scRE5V37X3Fze2JI5IZvz6YpPgvzK3drkjyQKXWbLuzss6bBnrNWURglUdk9d0MmuGGa5d9IgJQTYJ2C1VVg=="></script>
 
 </body>
 </html>

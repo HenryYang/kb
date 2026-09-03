@@ -4,34 +4,29 @@
     <title>E. Notes/筆記 on Henry&#39;s Knowledge Base</title>
     <link>https://kb.hiy.tw/notes/</link>
     <description>Recent content in E. Notes/筆記 on Henry&#39;s Knowledge Base</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://kb.hiy.tw/notes/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://kb.hiy.tw/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo 主題常用指令</title>
       <link>https://kb.hiy.tw/notes/template/</link>
       <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://kb.hiy.tw/notes/template/</guid>
-      <description>/var/log/apache2/$ grep POST access.log XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:03 +0000] &#34;POST /wp-content/themes/method/lib/scripts/dl-skin.php HTTP/1.1&#34; 500 363 &#34;-&#34; &#34;Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0&#34; XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:14 +0000] &#34;POST /wp-content/themes/modular/lib/scripts/dl-skin.php HTTP/1.1&#34; 500 363 &#34;-&#34; &#34;Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0&#34; XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:25 +0000] &#34;POST /wp-content/themes/myriad/lib/scripts/dl-skin.php HTTP/1.1&#34; 500 363 &#34;-&#34; &#34;Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0&#34; XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:56 +0000] &#34;POST /wp-content/themes/persuasion/lib/scripts/dl-skin.php HTTP/1.</description>
+      <description>&lt;pre class=&#34;shell&#34;&gt;&#xA;&lt;samp&gt;&#xA;&lt;span class=&#34;shell-prompt&#34;&gt;/var/log/apache2/$&lt;/span&gt; &lt;kbd&gt;grep POST access.log&lt;/kbd&gt;&#xA;XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:03 +0000] &#34;POST /wp-content/themes/method/lib/scripts/dl-skin.php HTTP/1.1&#34; 500 363 &#34;-&#34; &#34;Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0&#34;&#xA;XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:14 +0000] &#34;POST /wp-content/themes/modular/lib/scripts/dl-skin.php HTTP/1.1&#34; 500 363 &#34;-&#34; &#34;Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0&#34;&#xA;XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:25 +0000] &#34;POST /wp-content/themes/myriad/lib/scripts/dl-skin.php HTTP/1.1&#34; 500 363 &#34;-&#34; &#34;Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0&#34;&#xA;XXXXXXXX.com:80 193.XXX.XXX.XXX - - [26/Jan/2017:00:07:56 +0000] &#34;POST /wp-content/themes/persuasion/lib/scripts/dl-skin.php HTTP/1.1&#34; 500 363 &#34;-&#34; &#34;Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0&#34;&#xA;&lt;/samp&gt;&#xA;&lt;/pre&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;To make authorized calls to Twitter’s APIs, your application must&#xA;first obtain an OAuth access token on behalf of a Twitter user (or,&#xA;you could issue Application-only authenticated requests, when user&#xA;context is not required).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Crypto.com 的 Fiat Wallet 記錄</title>
       <link>https://kb.hiy.tw/notes/crypto_com/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://kb.hiy.tw/notes/crypto_com/</guid>
-      <description> Fiat Wallet 就是法幣帳戶，可以在支援的國家用銀行系統來存款與提款 在從 Crypto.com Fiat Wallet 提款到銀行帳號前，要先用該銀行帳號存款完成帳號持有人的驗證   提款所耗費時間 (UTC+8)  提款到德國的銀行  8/1 晚上申請提領 100 EUR 8/4 下午銀行推撥通知收到款項   提款到英國的銀行  8/3 晚上申請提領 100 GBP 8/4 晚上銀行推撥通知收到款項    </description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;Fiat Wallet 就是法幣帳戶，可以在支援的國家用銀行系統來存款與提款&lt;/li&gt;&#xA;&lt;li&gt;在從 Crypto.com Fiat Wallet 提款到銀行帳號前，要先用該銀行帳號存款完成帳號持有人的驗證&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/br&gt;&#xA;&lt;h5 id=&#34;提款所耗費時間-utc8&#34;&gt;提款所耗費時間 (UTC+8)&lt;/h5&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;提款到德國的銀行&#xA;&lt;ul&gt;&#xA;&lt;li&gt;8/1 晚上申請提領 100 EUR&lt;/li&gt;&#xA;&lt;li&gt;8/4 下午銀行推撥通知收到款項&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;提款到英國的銀行&#xA;&lt;ul&gt;&#xA;&lt;li&gt;8/3 晚上申請提領 100 GBP&lt;/li&gt;&#xA;&lt;li&gt;8/4 晚上銀行推撥通知收到款項&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>eToro 透過 Paypal 記錄</title>
       <link>https://kb.hiy.tw/notes/etoro/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://kb.hiy.tw/notes/etoro/</guid>
-      <description> 信用卡綁定 PayPal 入金的，出金是給 PayPal 餘額。所以信用卡回饋不用吐回去。 成本：etoro 出金手續費 5 USD + PayPal 提領到玉山銀行的 2.5% 手續費   出金所耗費時間 (UTC+8)  7/23 22:00 Etoro 申請出金 7/24 18:33 Paypal 收到款項 7/24 21:10 Paypal 提款 7/29 16:00 玉山收到款項  </description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;信用卡綁定 PayPal 入金的，出金是給 PayPal 餘額。所以信用卡回饋不用吐回去。&lt;/li&gt;&#xA;&lt;li&gt;成本：etoro 出金手續費 5 USD + PayPal 提領到玉山銀行的 2.5% 手續費&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/br&gt;&#xA;&lt;h5 id=&#34;出金所耗費時間-utc8&#34;&gt;出金所耗費時間 (UTC+8)&lt;/h5&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;7/23 22:00 Etoro 申請出金&lt;/li&gt;&#xA;&lt;li&gt;7/24 18:33 Paypal 收到款項&lt;/li&gt;&#xA;&lt;li&gt;7/24 21:10 Paypal 提款&lt;/li&gt;&#xA;&lt;li&gt;7/29 16:00 玉山收到款項&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>
