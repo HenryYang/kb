@@ -9,12 +9,12 @@
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="os">
 		<meta property="article:published_time" content="2020-10-27T00:00:00+00:00">
-		<meta property="article:modified_time" content="2026-09-03T14:21:57+08:00">
+		<meta property="article:modified_time" content="2026-09-03T14:54:56+08:00">
 
 	<meta itemprop="name" content="Tricky for Mifare Classic / Mifare Classic 的冷知識">
 	<meta itemprop="description" content="Tools MIFARE Classic Tool - 用來讀取與編輯 Mifare Classic 卡 可以編輯 CUID 卡的 Block 0 NFC TagInfo - 用來識別 RFID 卡片的類型與 UID 相關資訊 Mifare Calculator - Mifare 卡較驗碼的計算 NFC Reader - 讀取後會顯示 UID 的各種格式換算 Servies XOR Calculator Mifare Classic UID BCC Calculator UID conversion Notes Sector0 Block0 前 4 Byte 放置了該張卡的 UID，第 5 Byte 是校驗碼，為前 4 個 Byte XOR 的結果 假設 UID 為 DDCCBBAA 那這時候要解讀回 10 進位就是變成 (AABBCCDD)hex = 2864434397 (如果長度不足十位則前面補 0 ) 參考資料">
 	<meta itemprop="datePublished" content="2020-10-27T00:00:00+00:00">
-	<meta itemprop="dateModified" content="2026-09-03T14:21:57+08:00">
+	<meta itemprop="dateModified" content="2026-09-03T14:54:56+08:00">
 	<meta itemprop="wordCount" content="73">
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="Tricky for Mifare Classic / Mifare Classic 的冷知識">
@@ -58,7 +58,7 @@ Sector0 Block0 前 4 Byte 放置了該張卡的 UID，第 5 Byte 是校驗碼，
 
 
 
-<link rel="stylesheet" href="https://kb.hiy.tw/css/all.min.07e6cb8f7b2272145927c023882e4ef352c8da022a5c9cb8f3339e6c80afafe1.css" integrity="sha256-B&#43;bLj3sichRZJ8AjiC5O81LI2gIqXJy48zOebICvr&#43;E=">
+<link rel="stylesheet" href="https://kb.hiy.tw/css/all.min.7ad358cb1a4dcee28e9250d9024260f62264a603ed75d59ac56ed8823c75333b.css" integrity="sha256-etNYyxpNzuKOklDZAkJg9iJkpgPtddWaxW7Ygjx1Mzs=">
 
 
 
@@ -105,7 +105,7 @@ Sector0 Block0 前 4 Byte 放置了該張卡的 UID，第 5 Byte 是校驗碼，
 	<small class="mx-3">
 	    
 	    <div class="ml-2">
-		<i class="fas fa-edit"></i> <strong>Last modified:</strong> <time datetime="2026-09-03T14:21:57&#43;08:00">September 3, 2026</time>
+		<i class="fas fa-edit"></i> <strong>Last modified:</strong> <time datetime="2026-09-03T14:54:56&#43;08:00">September 3, 2026</time>
 	    </div>
 	    
 	</small>
@@ -114,6 +114,23 @@ Sector0 Block0 前 4 Byte 放置了該張卡的 UID，第 5 Byte 是校驗碼，
     
 </div>
 
+
+	    
+	    <div class="card toc-card mb-4">
+		<div class="card-body">
+		    <h2 class="h5 card-title"><i class="fas fa-list"></i> 快速導覽</h2>
+		    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+		</div>
+	    </div>
+	    
 
 	    
 	    <div class="post-content"><h5 id="tools">Tools</h5>
