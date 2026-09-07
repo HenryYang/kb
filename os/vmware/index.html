@@ -15,7 +15,7 @@ ESXi SSH 公鑰存放位置 $ /etc/ssh/keys-root/authorized_keys ESXi Web Client
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="os">
 		<meta property="article:published_time" content="2025-11-16T00:00:00+00:00">
-		<meta property="article:modified_time" content="2026-09-06T07:02:23+08:00">
+		<meta property="article:modified_time" content="2026-09-07T15:16:59+08:00">
 
 	<meta itemprop="name" content="VMware 相關資訊筆記 ">
 	<meta itemprop="description" content="VMwave 虛擬磁碟格式 完整佈建消極式歸零 Thick Provision Lazy Zeroed (zeroedthick)
@@ -26,7 +26,7 @@ ESXi SSH 公鑰存放位置 $ /etc/ssh/keys-root/authorized_keys ESXi Web Client
 會隨著虛擬硬碟的使用量而增加硬碟的大小，直到達到當時建立的磁碟空間上限為止
 ESXi SSH 公鑰存放位置 $ /etc/ssh/keys-root/authorized_keys ESXi Web Client 的 SSL 憑證存放位置 $ /etc/vmware/ssl/rui.crt # 權限 644 $ /etc/vmware/ssl/rui.key # 權限 600 重新啟動 ESXi Web Client Service $ /etc/init.d/hostd restart $ /etc/init.d/vpxa restart $ # 如果沒效可以嘗試重起全部服務 $ /sbin/services.sh restart 掛載 NFS 磁碟 $ esxcfg-nas -a -o 192.168.1.21 -s /DATA NAS_DATA">
 	<meta itemprop="datePublished" content="2025-11-16T00:00:00+00:00">
-	<meta itemprop="dateModified" content="2026-09-06T07:02:23+08:00">
+	<meta itemprop="dateModified" content="2026-09-07T15:16:59+08:00">
 	<meta itemprop="wordCount" content="69">
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="VMware 相關資訊筆記 ">
@@ -136,7 +136,7 @@ $ esxcfg-nas -a -o 192.168.1.21 -s /DATA NAS_DATA
 	<small class="mx-3">
 	    
 	    <div class="ml-2">
-		<i class="fas fa-edit"></i> <strong>Last modified:</strong> <time datetime="2026-09-06T07:02:23&#43;08:00">September 6, 2026</time>
+		<i class="fas fa-edit"></i> <strong>Last modified:</strong> <time datetime="2026-09-07T15:16:59&#43;08:00">September 7, 2026</time>
 	    </div>
 	    
 	</small>
@@ -153,24 +153,24 @@ $ esxcfg-nas -a -o 192.168.1.21 -s /DATA NAS_DATA
 	    <div class="post-content"><h4 id="vmwave-虛擬磁碟格式">VMwave 虛擬磁碟格式</h4>
 <p>完整佈建消極式歸零 <code>Thick Provision Lazy Zeroed (zeroedthick)</code><br>
 在建立虛擬硬碟時會一次給足所設定的硬碟大小，虛擬硬碟一開始時只會將目前所使用到的部分先進行初始化，其它的部分只是當有用到時才會做初始化的動作。</p>
-</br>
+<hr>
 <p>完整佈建積極性歸零 <code>Thick Provision Eager Zeroed (eagerzeroedthick)</code><br>
 在建立虛擬硬碟時會一次給足所設定的硬碟大小，虛擬硬碟一開始時就會將所有的部分先行初始化，所以開始時會耗費一些時間，但後續使用時，不用在做初始化，所以效能會稍微好一些。</p>
-</br>
+<hr>
 <p>精簡佈建 <code>Thin Provision</code><br>
 會隨著虛擬硬碟的使用量而增加硬碟的大小，直到達到當時建立的磁碟空間上限為止</p>
-</br>
+<hr>
 <h4 id="esxi-ssh-公鑰存放位置">ESXi SSH 公鑰存放位置</h4>
 <pre class="shell">
 <span class="shell-prompt">$</span> <kbd>/etc/ssh/keys-root/authorized_keys</kbd>
 </pre>
-</br>
+<hr>
 <h4 id="esxi-web-client-的-ssl-憑證存放位置">ESXi Web Client 的 SSL 憑證存放位置</h4>
 <pre class="shell">
 <span class="shell-prompt">$</span> <kbd>/etc/vmware/ssl/rui.crt</kbd>  # 權限 644
 <span class="shell-prompt">$</span> <kbd>/etc/vmware/ssl/rui.key </kbd> # 權限 600
 </pre>
-</br>
+<hr>
 <h4 id="重新啟動-esxi-web-client-service">重新啟動 ESXi Web Client Service</h4>
 <pre class="shell">
 <span class="shell-prompt">$</span> <kbd>/etc/init.d/hostd restart</kbd>
@@ -178,7 +178,7 @@ $ esxcfg-nas -a -o 192.168.1.21 -s /DATA NAS_DATA
 <span class="shell-prompt">$</span> <kbd># 如果沒效可以嘗試重起全部服務</kbd>
 <span class="shell-prompt">$</span> <kbd>/sbin/services.sh restart</kbd>
 </pre>
-</br>
+<hr>
 <h4 id="掛載-nfs-磁碟">掛載 NFS 磁碟</h4>
 <pre class="shell">
 <span class="shell-prompt">$</span> <kbd>esxcfg-nas -a -o 192.168.1.21 -s /DATA NAS_DATA</kbd>
