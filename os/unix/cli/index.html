@@ -10,13 +10,13 @@
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="os">
 		<meta property="article:published_time" content="2020-07-07T00:00:00+00:00">
-		<meta property="article:modified_time" content="2026-09-10T15:56:04+08:00">
+		<meta property="article:modified_time" content="2026-09-11T15:54:48+08:00">
 
 	<meta itemprop="name" content="CLI command / 常見 CLI 指令 ">
 	<meta itemprop="description" content="Let’s Encrypt 安裝指令
 # For macOS $ brew install letsencrypt # For Ubuntu $ apt install certbot 手動產生憑證（可用於驗證 Private IP 或無法安裝 agent 的主機上） $ certbot certonly --manual --config-dir ~/Desktop/letsencrypt --work-dir ~/Desktop/letsencrypt --logs-dir ~/Desktop/letsencrypt --preferred-challenges dns 自動產生憑證（用於外網可以直接連線到 agent 的主機上） $ certbot certonly --standalone -n --agree-tos --email 你的電子信箱 --preferred-challenges http -d 你的網域 關閉 SSH 密碼登入 # /etc/ssh/sshd_config PasswordAuthentication no ChallengeResponseAuthentication no UsePAM no 產生 SSH key # Ed25519 algorithm ssh-keygen -t ed25519 -C &#34;hi@hiy.tw&#34; # Legacy system ssh-keygen -t rsa -b 4096 -C &#34;legacy@hiy.tw&#34; Github的教學">
 	<meta itemprop="datePublished" content="2020-07-07T00:00:00+00:00">
-	<meta itemprop="dateModified" content="2026-09-10T15:56:04+08:00">
+	<meta itemprop="dateModified" content="2026-09-11T15:54:48+08:00">
 	<meta itemprop="wordCount" content="327">
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="CLI command / 常見 CLI 指令 ">
@@ -115,7 +115,7 @@ Github的教學' /><meta name="author" content="Henry Yang">
 	<small class="mx-3">
 	    
 	    <div class="ml-2">
-		<i class="fas fa-edit"></i> <strong>Last modified:</strong> <time datetime="2026-09-10T15:56:04&#43;08:00">September 10, 2026</time>
+		<i class="fas fa-edit"></i> <strong>Last modified:</strong> <time datetime="2026-09-11T15:54:48&#43;08:00">September 11, 2026</time>
 	    </div>
 	    
 	</small>
@@ -198,7 +198,7 @@ Github的教學' /><meta name="author" content="Henry Yang">
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e">#掛載</span>
 </span></span><span style="display:flex;"><span>sudo mount -t nfs 192.168.1.21:/DATA   /Users/henryyang/Desktop/NAS_DATA
 </span></span><span style="display:flex;"><span><span style="color:#75715e">#ESXi 掛載</span>
-</span></span><span style="display:flex;"><span>esxcfg-nas -a -o 1192.168.1.21 -s /DATA NAS_DATA
+</span></span><span style="display:flex;"><span>esxcfg-nas -a -o 192.168.1.21 -s /DATA NAS_DATA
 </span></span></code></pre></div><hr>
 <h5 id="用-wget-砍站">用 wget 砍站</h5>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e">#完整指令</span>
